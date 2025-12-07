@@ -34,11 +34,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    flex-direction: column;
-    height: 100dvh;
-    /* Dynamic viewport height for mobile browsers */
-    height: 100vh;
-    /* Fallback */
+    height: 100%;
 }
 
 header {
@@ -83,6 +79,8 @@ main {
     /* Essential for absolute rows */
     overflow-y: auto;
     overflow-x: hidden;
+    min-height: 0;
+    /* Crucial for flex box scrolling */
 }
 
 /* Scrollbar */
