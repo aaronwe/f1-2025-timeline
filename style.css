@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #aaaaaa;
+    --accent: #e10600;
+    --row-height: 50px;
+    --gap: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    /* Prevent scrolling during animation if possible */
+}
+
+.app-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+h1 {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 5px 0 10px 0;
+    font-weight: 300;
+    color: var(--text-secondary);
+}
+
+.session-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: var(--accent);
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main {
+    flex: 1;
+    position: relative;
+    /* Essential for absolute rows */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Scrollbar */
+main::-webkit-scrollbar {
+    width: 6px;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 3px;
+}
+
+.driver-row {
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.label-info {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 2;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.rank {
+    width: 30px;
+    text-align: right;
+    font-weight: 700;
+    margin-right: 10px;
+    color: var(--text-secondary);
+}
+
+.name {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bar-container {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+}
+
+.bar {
+    height: 24px;
+    background-color: #555;
+    border-radius: 0 4px 4px 0;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 2px;
+}
+
+.bar-points {
+    position: absolute;
+    right: -40px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    width: 35px;
+    transition: right 0.3s, color 0.3s;
+}
+
+.bar-points.inside {
+    right: 5px;
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    text-align: right;
+}
+
+/* Team Colors */
+.bar[data-team="Red Bull Racing"] {
+    background-color: #3671C6;
+}
+
+.bar[data-team="Ferrari"] {
+    background-color: #F91536;
+}
+
+.bar[data-team="Mercedes"] {
+    background-color: #6CD3BF;
+}
+
+.bar[data-team="McLaren"] {
+    background-color: #F58020;
+}
+
+.bar[data-team="Aston Martin"] {
+    background-color: #358C75;
+}
+
+.bar[data-team="Alpine"] {
+    background-color: #2293D1;
+}
+
+.bar[data-team="Williams"] {
+    background-color: #37BEDD;
+}
+
+.bar[data-team="Haas F1 Team"] {
+    background-color: #B6BABD;
+}
+
+.bar[data-team="Kick Sauber"] {
+    background-color: #52E252;
+}
+
+.bar[data-team="RB"] {
+    background-color: #6692FF;
+}
+
+footer {
+    margin-top: 15px;
+    flex-shrink: 0;
+}
+
+.progress-container {
+    height: 4px;
+    background-color: #333;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: var(--text-primary);
+    width: 0%;
+    transition: width 0.2s;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+    background: #444;
+}
+
+button:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.step-indicator {
+    font-variant-numeric: tabular-nums;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
