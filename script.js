@@ -113,9 +113,9 @@ document.addEventListener('DOMContentLoaded', () => {
             bar.style.width = `${widthPercent}%`;
 
             // Toggle inside/outside class
-            // Threshold: let's say 8% is enough for the number inside
+            // Threshold: increased to 20% to prevent cramping on mobile
             const pointsEl = row.querySelector('.bar-points');
-            if (widthPercent > 8) {
+            if (widthPercent > 20) {
                 pointsEl.classList.add('inside');
             } else {
                 pointsEl.classList.remove('inside');
