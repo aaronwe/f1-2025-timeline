@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 5px 0;
     font-weight: 700;
 }
@@ -211,15 +211,10 @@ footer {
     padding-bottom: max(10px, env(safe-area-inset-bottom));
 }
 
-.header-controls {
-    margin-top: 15px;
-    width: 100%;
-}
-
 .progress-container {
     height: 6px;
     background-color: #333;
-    margin-top: 0;
+    margin-bottom: 15px;
     border-radius: 3px;
 }
 
