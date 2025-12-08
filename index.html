@@ -11,7 +11,13 @@
 <body>
     <div class="app-container">
         <header>
-            <h1>F1 2025 Season</h1>
+            <h1 class="season-selector">
+                F1
+                <select id="season-select">
+                    <!-- Options populated by JS -->
+                </select>
+                Season
+            </h1>
             <h2 id="event-name">Event Name</h2>
             <h3 id="event-meta">Date | Location</h3>
             <div><span id="session-type" class="session-badge">Session</span></div>
@@ -26,9 +32,11 @@
                 <div class="progress-bar" id="progress-bar"></div>
             </div>
             <div class="controls">
+                <button id="btn-first" disabled>&laquo; First</button>
                 <button id="btn-prev" disabled>Previous</button>
                 <div class="step-indicator" id="step-indicator">0 / 0</div>
                 <button id="btn-next">Next</button>
+                <button id="btn-last">Last &raquo;</button>
             </div>
         </footer>
     </div>

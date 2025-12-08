@@ -105,62 +105,13 @@ def animate(year):
     # 3. Define Colors
     # Fallback Map (for years where API provides no color, or gaps)
     # Includes 2024/2025 teams plus historical ones.
-    fallback_team_colors = {
-        # Modern Era & Recent History
-        "Red Bull Racing": "#3671C6",
-        "Red Bull": "#3671C6",
-        "Ferrari": "#F91536",
-        "Mercedes": "#6CD3BF",
-        "McLaren": "#F58020",
-        "Aston Martin": "#358C75",
-        "Alpine": "#2293D1",
-        "Williams": "#37BEDD",
-        "Haas F1 Team": "#B6BABD",
-        "Kick Sauber": "#52E252",
-        "RB": "#6692FF",
-        "Racing Bulls": "#6692FF", 
-        "Alfa Romeo": "#900000",
-        "Alfa Romeo Racing": "#900000",
-        "AlphaTauri": "#2b4562",
-        "Renault": "#FFF500",
-        "Racing Point": "#F596C8", 
-        "Force India": "#F596C8",
-        "Toro Rosso": "#0000FF",
-        "Sauber": "#9B0000", # Older Sauber
-        "BMW Sauber": "#FFFFFF",
-        "Manor Marussia": "#D32F2F",
-        "Manor": "#D32F2F",
-        "Marussia": "#6E0000",
-        "Caterham": "#006400",
-        "Lotus": "#004225", # 2010-2011 (Green)
-        "Lotus F1": "#FFB800", # 2012-2015 (Black/Gold)
-        "HRT": "#A4660E",
-        "Virgin": "#D91E18", 
-        "Brawn": "#B8FD6E",
-        "Brawn GP": "#B8FD6E",
-        "Toyota": "#E10600",
-        "Super Aguri": "#D63838",
-        "Spyker": "#F27E1C",
-        "Spyker MF1": "#F27E1C",
-        "Midland": "#808080",
-        "BAR": "#E0E0E0",
-        "Honda": "#C5C5C5",
-        "Jordan": "#E7C513",
-        "Minardi": "#000000",
-        "Jaguar": "#005A32",
-        "Prost": "#00009C",
-        "Arrows": "#F27E1C",
-        "Benetton": "#79C5E4",
-        "Stewart": "#FFFFFF",
-        "Tyrrell": "#C0C0C0",
-        "Ligier": "#005FBF", 
-        "Footwork": "#FAFAFA",
-        "Forti": "#FCE205",
-        "Pacific": "#23238E",
-        "Simtek": "#4B0082",
-        "Lola": "#FF4500",
-        "Larrousse": "#008000",
-    }
+    # Load Fallback Colors
+    try:
+        with open('fallback_teams.json', 'r') as f:
+            fallback_team_colors = json.load(f)
+    except FileNotFoundError:
+        print("fallback_teams.json not found. Using empty fallback.")
+        fallback_team_colors = {}
 
     # Build color list aligned with sorted_drivers
     bar_colors = []

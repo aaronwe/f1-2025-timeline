@@ -12,19 +12,62 @@ document.addEventListener('DOMContentLoaded', () => {
     const stepIndicatorEl = document.getElementById('step-indicator');
     const btnPrev = document.getElementById('btn-prev');
     const btnNext = document.getElementById('btn-next');
+    const btnFirst = document.getElementById('btn-first');
+    const btnLast = document.getElementById('btn-last');
 
     const ROW_HEIGHT = 45;
 
-    // Load Data
-    fetch('standings_history.json')
+    const seasonSelect = document.getElementById('season-select');
+
+    // 1. Fetch Available Seasons
+    fetch('data/seasons.json')
         .then(response => response.json())
-        .then(data => {
-            history = data;
-            init();
+        .then(seasons => {
+            populateSeasonSelect(seasons);
+
+            // Load newest season by default
+            if (seasons.length > 0) {
+                loadSeason(seasons[0]);
+            }
         })
         .catch(err => {
-            console.error("Failed to load data", err);
+            console.error("Failed to load seasons manifest", err);
+            // Fallback: Try to load 2025 directly if manifest fails
+            loadSeason(2025);
         });
+
+    function populateSeasonSelect(seasons) {
+        seasonSelect.innerHTML = '';
+        seasons.forEach(year => {
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            seasonSelect.appendChild(option);
+        });
+
+        seasonSelect.addEventListener('change', (e) => {
+            loadSeason(e.target.value);
+        });
+    }
+
+    function loadSeason(year) {
+        console.log(`Loading season ${year}...`);
+        // Reset state
+        currentIndex = -1;
+        chartContainer.innerHTML = '';
+        driverElements = {};
+
+        fetch(`data/standings_history_${year}.json`)
+            .then(response => response.json())
+            .then(data => {
+                history = data;
+                init();
+            })
+            .catch(err => {
+                console.error(`Failed to load data for ${year}`, err);
+                chartContainer.innerHTML = `<div class="error">Failed to load data for ${year}</div>`;
+            });
+    }
 
     function init() {
         if (history.length > 0) {
@@ -55,7 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
         row.innerHTML = `
             <div class="label-info">
                 <div class="rank"></div>
-                <div class="name">${driverData.name}</div>
+                <div class="driver-meta">
+                    <div class="name">${driverData.name}</div>
+                    <div class="team-name">${driverData.team}</div>
+                </div>
             </div>
             <div class="bar-container">
                 <div class="bar" data-team="${driverData.team}">
@@ -88,6 +134,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         btnPrev.disabled = currentIndex === 0;
         btnNext.disabled = currentIndex === history.length - 1;
+        btnFirst.disabled = currentIndex === 0;
+        btnLast.disabled = currentIndex === history.length - 1;
 
         // Render Chart
         const standings = step.standings;
@@ -125,6 +173,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 bar.dataset.team = driver.team;
             }
 
+            // Apply dynamic color from data if available
+            if (driver.color) {
+                bar.style.backgroundColor = driver.color;
+            } else {
+                bar.style.backgroundColor = ''; // Revert to CSS default/rules
+            }
+
             const translateY = index * ROW_HEIGHT;
             row.style.transform = `translateY(${translateY}px)`;
             row.style.opacity = '1';
@@ -151,8 +206,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    btnFirst.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex = 0;
+            render();
+        }
+    });
+
+    btnLast.addEventListener('click', () => {
+        if (currentIndex < history.length - 1) {
+            currentIndex = history.length - 1;
+            render();
+        }
+    });
+
     document.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowLeft') btnPrev.click();
-        if (e.key === 'ArrowRight') btnNext.click();
+        if (e.key === 'ArrowLeft') {
+            if (e.shiftKey) btnFirst.click();
+            else btnPrev.click();
+        }
+        if (e.key === 'ArrowRight') {
+            if (e.shiftKey) btnLast.click();
+            else btnNext.click();
+        }
     });
 });

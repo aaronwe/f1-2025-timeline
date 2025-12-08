@@ -48,6 +48,33 @@ h1 {
     color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.season-selector select {
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid #333;
+    /* Subtle border */
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.season-selector select:hover {
+    border-color: #555;
+}
+
+.season-selector select:focus {
+    outline: none;
+    border-color: var(--accent);
 }
 
 h2 {
@@ -125,6 +152,25 @@ main::-webkit-scrollbar-thumb {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 1.1;
+}
+
+.driver-meta {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.team-name {
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 2px;
 }
 
 .bar-container {

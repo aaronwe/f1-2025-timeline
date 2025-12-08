@@ -4,19 +4,27 @@ import os
 import json
 import argparse
 import sys
+import time
 
 # Enable cache
 if not os.path.exists('f1_cache'):
     os.makedirs('f1_cache')
 fastf1.Cache.enable_cache('f1_cache')
 
+
+class RateLimitExceededError(Exception):
+    pass
+
 def prepare_data(year):
     print(f"Fetching {year} Season Schedule...")
     try:
         schedule = fastf1.get_event_schedule(year)
     except Exception as e:
+        msg = str(e).lower()
+        if "429" in msg or "rate limit" in msg:
+            raise RateLimitExceededError(f"Rate limit hit while fetching schedule for {year}: {e}")
         print(f"Error fetching schedule for {year}: {e}")
-        return
+        return False
 
     # We will build a list of "steps". Each step is a Race or a Sprint.
     # We need to maintain the cumulative points state.
@@ -26,6 +34,8 @@ def prepare_data(year):
     
     # Get all drivers first? No, we can discover them as we go.
     
+    data_downloaded = False
+
     for i, event in schedule.iterrows():
         round_num = event['RoundNumber']
         print(f"Processing Round {round_num}: {event['EventName']}")
@@ -46,6 +56,7 @@ def prepare_data(year):
             try:
                 session = fastf1.get_session(year, round_num, session_code)
                 session.load(telemetry=False, weather=False, messages=False)
+                data_downloaded = True
                 
                 if 'Points' not in session.results.columns:
                     print(f"  No points for {session_name}")
@@ -139,13 +150,39 @@ def prepare_data(year):
                 print(f"  Recorded {session_name} stats")
                 
             except Exception as e:
+                msg = str(e).lower()
+                if "429" in msg or "rate limit" in msg:
+                    raise RateLimitExceededError(f"Rate limit hit during {session_name}: {e}")
                 print(f"  Error processing {session_name}: {e}")
+            
+            # Sleep briefly between sessions
+            time.sleep(1)
 
-    # Save to JSON
-    filename = f'standings_history_{year}.json'
+    # Load Fallback Colors
+    try:
+        with open('fallback_teams.json', 'r') as f:
+            fallback_colors = json.load(f)
+    except FileNotFoundError:
+        print("fallback_teams.json not found. Using empty fallback.")
+        fallback_colors = {}
+
+    for step in history:
+        for driver in step['standings']:
+            if not driver['color']:
+                team = driver['team']
+                # Try fallback
+                if team in fallback_colors:
+                    driver['color'] = fallback_colors[team]
+
+    # Save to JSON in data directory
+    if not os.path.exists('data'):
+        os.makedirs('data')
+        
+    filename = f'data/standings_history_{year}.json'
     with open(filename, 'w') as f:
         json.dump(history, f, indent=2)
     print(f"Saved {filename}")
+    return True
 
 if __name__ == "__main__":
     import datetime
@@ -155,4 +192,8 @@ if __name__ == "__main__":
     parser.add_argument("--year", type=int, default=current_year, help=f"Season year to fetch (default: {current_year})")
     args = parser.parse_args()
     
-    prepare_data(args.year)
+    try:
+        prepare_data(args.year)
+    except RateLimitExceededError as e:
+        print(f"CRITICAL: {e}")
+        sys.exit(1)
