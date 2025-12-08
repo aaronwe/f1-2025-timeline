@@ -2,16 +2,22 @@ import fastf1
 import pandas as pd
 import os
 import json
+import argparse
+import sys
 
 # Enable cache
 if not os.path.exists('f1_cache'):
     os.makedirs('f1_cache')
 fastf1.Cache.enable_cache('f1_cache')
 
-def prepare_data():
-    print("Fetching 2025 Season Schedule...")
-    schedule = fastf1.get_event_schedule(2025)
-    
+def prepare_data(year):
+    print(f"Fetching {year} Season Schedule...")
+    try:
+        schedule = fastf1.get_event_schedule(year)
+    except Exception as e:
+        print(f"Error fetching schedule for {year}: {e}")
+        return
+
     # We will build a list of "steps". Each step is a Race or a Sprint.
     # We need to maintain the cumulative points state.
     
@@ -26,6 +32,7 @@ def prepare_data():
         
         # Check for Sprint
         # 2025 formats like 'sprint_qualifying' indicate a sprint weekend.
+        # Older years might just be 'sprint'. This list covers recent variations.
         has_sprint = (event['EventFormat'] in ['sprint', 'sprint_qualifying', 'sprint_shootout'])
         
         # We need to handle chronological order. Sprints usually happen before Races.
@@ -37,7 +44,7 @@ def prepare_data():
         
         for session_name, session_code in sessions_to_process:
             try:
-                session = fastf1.get_session(2025, round_num, session_code)
+                session = fastf1.get_session(year, round_num, session_code)
                 session.load(telemetry=False, weather=False, messages=False)
                 
                 if 'Points' not in session.results.columns:
@@ -68,13 +75,26 @@ def prepare_data():
                     points = driver['Points']
                     team = driver['TeamName']
                     
-                    # Store team/full name mapping if needed, but simple update is fine
+                    # Extract TeamColor. FastF1 gives hex codes without '#', or empty strings.
+                    # We'll prepend '#' if it's missing and valid.
+                    raw_color = driver.get('TeamColor', '')
+                    color = f"#{raw_color}" if raw_color else None
+
+                    # Store team/full name/color mapping if needed
+                    # We store the LATEST known color for the driver's team
                     if name not in cumulative_points:
-                        cumulative_points[name] = {'points': 0, 'team': team, 'firstName': driver['FirstName']}
-                        
+                        cumulative_points[name] = {
+                            'points': 0, 
+                            'team': team, 
+                            'firstName': driver['FirstName'],
+                            'color': color 
+                        }
+                    
                     cumulative_points[name]['points'] += points
-                    # Update team if it changed (unlikely mid-season but possible)
+                    # Update team and color if it changed (unlikely mid-season but possible)
                     cumulative_points[name]['team'] = team
+                    if color:
+                        cumulative_points[name]['color'] = color
                 
                 # Create sorted standings list
                 current_standings = []
@@ -83,7 +103,8 @@ def prepare_data():
                         'name': name,
                         'firstName': data['firstName'],
                         'points': data['points'],
-                        'team': data['team']
+                        'team': data['team'],
+                        'color': data.get('color', None) # Default to None so animate script handles fallback
                     })
                 
                 # Sort by points descending
@@ -121,9 +142,17 @@ def prepare_data():
                 print(f"  Error processing {session_name}: {e}")
 
     # Save to JSON
-    with open('standings_history.json', 'w') as f:
+    filename = f'standings_history_{year}.json'
+    with open(filename, 'w') as f:
         json.dump(history, f, indent=2)
-    print("Saved standings_history.json")
+    print(f"Saved {filename}")
 
 if __name__ == "__main__":
-    prepare_data()
+    import datetime
+    current_year = datetime.datetime.now().year
+    
+    parser = argparse.ArgumentParser(description="Clean F1 data for web visualization")
+    parser.add_argument("--year", type=int, default=current_year, help=f"Season year to fetch (default: {current_year})")
+    args = parser.parse_args()
+    
+    prepare_data(args.year)
