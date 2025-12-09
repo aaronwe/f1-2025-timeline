@@ -1,8 +1,17 @@
 import argparse
-import datetime
 import os
 import json
 import time
+
+"""
+download_all_seasons.py
+
+Orchestrates the bulk download of historical F1 data.
+- Iterates through a specified range of years (default 1950-2025).
+- Checks `data/download_progress.json` to skip already completed years.
+- Calls `prepare_web_data.py` to fetch and process each season.
+- Implements rate-limiting and pacing strategies to stay within FastF1/ergast API limits.
+"""
 
 from prepare_web_data import prepare_data, RateLimitExceededError
 

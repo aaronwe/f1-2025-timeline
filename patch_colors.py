@@ -2,6 +2,15 @@ import json
 import glob
 import os
 
+"""
+patch_colors.py
+
+Applies the global fallback color map (`fallback_teams.json`) to all existing
+JSON data files in `data/`.
+- Useful for retroactively fixing missing colors in downloaded data without re-fetching from API.
+- Iterates through all driver entries and fills in `color` if missing and a fallback exists.
+"""
+
 def patch_data_colors():
     # 1. Load fallbacks
     try:

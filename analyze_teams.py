@@ -2,6 +2,14 @@ import json
 import glob
 import os
 
+"""
+analyze_teams.py
+
+Audits the `data/standings_history_*.json` files to identify all unique team names
+and check which ones are missing a color assignment in the downloaded data.
+Prints a list of teams that need fallback colors.
+"""
+
 def analyze_teams():
     files = glob.glob('data/standings_history_*.json')
     all_teams = set()

@@ -6,6 +6,17 @@ import argparse
 import sys
 import time
 
+"""
+prepare_web_data.py
+
+Core logic for fetching and processing F1 data.
+- Fetches season schedule and results using `fastf1`.
+- Calculates cumulative standings points race-by-race.
+- Enriches data with colors (from API or fallback).
+- Outputs comprehensive JSON structure to `data/standings_history_{year}.json`.
+- Raises `RateLimitExceededError` to allow upstream scripts to handle API limits.
+"""
+
 # Enable cache
 if not os.path.exists('f1_cache'):
     os.makedirs('f1_cache')

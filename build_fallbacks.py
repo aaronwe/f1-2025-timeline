@@ -2,6 +2,16 @@ import json
 import glob
 import os
 
+"""
+build_fallbacks.py
+
+Constructs the `fallback_teams.json` map.
+- Scans all `data/standings_history_*.json` files for unique team names.
+- Matches names against a hardcoded `HISTORICAL_COLORS` source of truth.
+- Normalizes names to handle variations (e.g., "Lotus-Climax" -> "Lotus").
+- assigns specific colors or defaults to keep the animation script robust for all eras.
+"""
+
 # Base historical colors
 HISTORICAL_COLORS = {
     # Modern & recent
@@ -19,8 +29,8 @@ HISTORICAL_COLORS = {
     # 2000s - 2010s
     "Renault": "#FFF500",
     "Toyota": "#E10600",
-    "BMW": "#FFFFFF",
-    "BMW Sauber": "#FFFFFF",
+    "BMW": "#0066B1", # BMW Blue
+    "BMW Sauber": "#000066", # BMW Dark Blue (Sauber years)
     "Honda": "#C5C5C5",
     "Brawn": "#B8FD6E",
     "Brawn GP": "#B8FD6E",
@@ -36,7 +46,7 @@ HISTORICAL_COLORS = {
     "HRT": "#A4660E",
     "Virgin": "#D91E18",
     "Jaguar": "#005A32",
-    "Stewart": "#FFFFFF",
+    "Stewart": "#0B2161", # Stewart Tartan Blue
     "Prost": "#00009C",
     "Arrows": "#F27E1C",
     "Benetton": "#79C5E4",
@@ -61,9 +71,9 @@ HISTORICAL_COLORS = {
     "Onyx": "#00008B",
     "Rial": "#0000FF",
     "Zakspeed": "#FF0000",
-    "AGS": "#FFFFFF",
+    "AGS": "#153F77", # JH25 Blue
     "Coloni": "#FFFF00",
-    "EuroBrun": "#FFFFFF",
+    "EuroBrun": "#0A0A2A", # Dark Blue/Black
     "Osella": "#00008B",
     "Dallara": "#B71105",
     "Andrea Moda": "#505050",
@@ -88,21 +98,23 @@ HISTORICAL_COLORS = {
     "Honda": "#FFFFFF", # Japanese White with Red sun usually, keeping white
     "Eagle": "#000080", # American Blue
     "Shadow": "#505050",
-    "Wolf": "#505050", # Black/Gold
-    "Hesketh": "#FFFFFF",
-    "Surtees": "#FFFFFF",
-    "Penske": "#FFFFFF",
+    "Wolf": "#C9A004", # Walter Wolf Gold/Black
+    "Hesketh": "#D4AF37", # Hesketh Bear Gold accents
+    "Surtees": "#2955A3", # Surtees Blue
+    "Penske": "#CF102D", # Penske Red
     "Fittipaldi": "#FFFF00", # Brazilian Yellow
     "Copersucar": "#FFFF00",
     "Ensign": "#FF0000",
-    "Theodore": "#FFFFFF",
+    "Theodore": "#CE2029", # Teddy Yip Red
     "ATS": "#FFFF00",
     "Merzario": "#FF0000",
     "Rebaque": "#8B4513",
     "Kaukaser": "#FFFFFF",
     "Tecno": "#D40000",
-    "Politoys": "#FFFFFF",
+    "Politoys": "#0000FF", # Blue
     "Connew": "#FF0000",
+    "Spirit": "#FFFFFF", # Keeping White (Honda/Spirit)
+    "RAM": "#006633", # Skoal Bandit Green
     
     # Indy 500 era (approximate)
     "Kurtis Kraft": "#FFFFFF",
@@ -183,6 +195,10 @@ def build_fallbacks():
     
     # 3. Build new map
     new_fallbacks = current_fallbacks.copy()
+    
+    # Enforce known colors from source of truth
+    for team, color in HISTORICAL_COLORS.items():
+        new_fallbacks[team] = color
     
     count_added = 0
     count_unknown = 0

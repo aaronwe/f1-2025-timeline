@@ -4,6 +4,16 @@ import json
 import matplotlib.pyplot as plt
 import warnings
 
+"""
+animate_standings.py
+
+Generates an MP4 animation of the Formula 1 Championship standings for a given year.
+- Reads JSON data from `data/standings_history_{year}.json`.
+- Uses `bar_chart_race` to visualize points progression.
+- Applies team colors (from data or fallback map) and custom styling.
+- Outputs video to `animations/`.
+"""
+
 # Suppress FutureWarning from bar_chart_race regarding fillna(method='ffill')
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -14,7 +24,7 @@ import sys
 
 def animate(year):
     # 1. Load Data
-    filename = f'standings_history_{year}.json'
+    filename = f'data/standings_history_{year}.json'
     try:
         with open(filename, 'r') as f:
             history = json.load(f)
@@ -168,7 +178,12 @@ def animate(year):
     # Align Title with the Axes Left Edge (x=0.15)
     fig.suptitle(f'F1 {year} Championship Standings', fontsize=36, fontweight='bold', y=0.95, x=0.15, ha='left', fontfamily='Outfit', color='white')
     
-    output_filename = f'f1_{year}_standings.mp4'
+    # Ensure output directory exists
+    import os
+    if not os.path.exists('animations'):
+        os.makedirs('animations')
+    
+    output_filename = f'animations/f1_{year}_standings.mp4'
     
     bcr.bar_chart_race(
         df=df,
