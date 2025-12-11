@@ -37,137 +37,162 @@ def prepare_data(year):
         print(f"Error fetching schedule for {year}: {e}")
         return False
 
-    # We will build a list of "steps". Each step is a Race or a Sprint.
-    # We need to maintain the cumulative points state.
+    # Initialize Ergast
+    from fastf1.ergast import Ergast
+    ergast = Ergast()
     
-    cumulative_points = {} # Dict[DriverName] -> Points
+    # We will build a list of "steps". Each step is after a Round.
+    # We no longer need to track cumulative_points manually.
+    
     history = [] # List of steps
     
-    # Get all drivers first? No, we can discover them as we go.
-    
-    data_downloaded = False
-
     for i, event in schedule.iterrows():
         round_num = event['RoundNumber']
         print(f"Processing Round {round_num}: {event['EventName']}")
         
-        # Check for Sprint
-        # 2025 formats like 'sprint_qualifying' indicate a sprint weekend.
-        # Older years might just be 'sprint'. This list covers recent variations.
-        has_sprint = (event['EventFormat'] in ['sprint', 'sprint_qualifying', 'sprint_shootout'])
+        # 1. Fetch Official Standings from Ergast (with retry)
+        # This handles dropped scores, half points, etc.
+        standings_df = None
+        retries = 0
+        max_retries = 5
         
-        # We need to handle chronological order. Sprints usually happen before Races.
-        
-        sessions_to_process = []
-        if has_sprint:
-            sessions_to_process.append(('Sprint', 'S'))
-        sessions_to_process.append(('Race', 'R'))
-        
-        for session_name, session_code in sessions_to_process:
+        while retries < max_retries:
             try:
-                session = fastf1.get_session(year, round_num, session_code)
-                session.load(telemetry=False, weather=False, messages=False)
-                data_downloaded = True
-                
-                if 'Points' not in session.results.columns:
-                    print(f"  No points for {session_name}")
-                    continue
-                
-                # Update cumulative points
-                # We need columns: FamilyName, TeamName, Points
-                # session.results index is usually driver number or position?
-                # Actually, iterate through results
-                
-                # Create a snapshot of standings *after* this session
-                
-                results_df = session.results.copy()
-                
-                if results_df.empty:
-                     print(f"  Empty results for {session_name}")
-                     continue
-
-                # Points awarded in this session - double check if anyone got points
-                total_session_points = results_df['Points'].sum()
-                if total_session_points == 0:
-                     print(f"  No points awarded in {session_name} yet")
-                     continue
-
-                for _, driver in results_df.iterrows():
-                    name = driver['LastName'] # Use LastName as verified
-                    points = driver['Points']
-                    team = driver['TeamName']
+                standings_resp = ergast.get_driver_standings(season=year, round=round_num)
+                if not standings_resp.content:
+                    print(f"  No standings data available for Round {round_num} yet.")
+                    break
                     
-                    # Extract TeamColor. FastF1 gives hex codes without '#', or empty strings.
-                    # We'll prepend '#' if it's missing and valid.
-                    raw_color = driver.get('TeamColor', '')
-                    color = f"#{raw_color}" if raw_color else None
-
-                    # Store team/full name/color mapping if needed
-                    # We store the LATEST known color for the driver's team
-                    if name not in cumulative_points:
-                        cumulative_points[name] = {
-                            'points': 0, 
-                            'team': team, 
-                            'firstName': driver['FirstName'],
-                            'color': color 
-                        }
-                    
-                    cumulative_points[name]['points'] += points
-                    # Update team and color if it changed (unlikely mid-season but possible)
-                    cumulative_points[name]['team'] = team
-                    if color:
-                        cumulative_points[name]['color'] = color
-                
-                # Create sorted standings list
-                current_standings = []
-                for name, data in cumulative_points.items():
-                    current_standings.append({
-                        'name': name,
-                        'firstName': data['firstName'],
-                        'points': data['points'],
-                        'team': data['team'],
-                        'color': data.get('color', None) # Default to None so animate script handles fallback
-                    })
-                
-                # Sort by points descending
-                current_standings.sort(key=lambda x: x['points'], reverse=True)
-                
-                # Add Rank
-                for rank, driver in enumerate(current_standings, 1):
-                    driver['rank'] = rank
-                
-                # Extract metadata
-                # Format date: 14 Mar 2025 -> 14 Mar
-                event_date = str(event['EventDate'])
-                try:
-                    # Assuming timestamp string or object
-                    dt = pd.to_datetime(event_date)
-                    date_str = dt.strftime("%d %b")
-                except:
-                    date_str = str(event_date)
-
-                location = event['Location']
-
-                # Append to history
-                step_data = {
-                    'round': int(round_num),
-                    'eventName': event['EventName'],
-                    'session': session_name, # "Sprint" or "Race"
-                    'date': date_str,
-                    'location': location,
-                    'standings': current_standings
-                }
-                history.append(step_data)
-                print(f"  Recorded {session_name} stats")
+                standings_df = standings_resp.content[0]
+                break # Success
                 
             except Exception as e:
                 msg = str(e).lower()
-                if "429" in msg or "rate limit" in msg:
-                    raise RateLimitExceededError(f"Rate limit hit during {session_name}: {e}")
-                print(f"  Error processing {session_name}: {e}")
+                if "429" in msg or "rate limit" in msg or "too many requests" in msg:
+                    wait_time = (2 ** retries) * 2 # Exponential backoff: 2, 4, 8, 16, 32
+                    print(f"  Rate limit hit ({e}). Retrying in {wait_time}s...")
+                    time.sleep(wait_time)
+                    retries += 1
+                else:
+                    print(f"  Error fetching standings for Round {round_num}: {e}")
+                    break
+        
+        if standings_df is None and retries >= max_retries:
+             raise RateLimitExceededError(f"Ergast Rate limit exhausted after {max_retries} retries at Round {round_num}")
+        
+        if standings_df is None:
+            continue # specific error logged above
+
+        # 2. Fetch Race Session to get Team Colors (not in Ergast)
+        # We only need the 'Race' session for this metadata.
+        # We can try to be lightweight.
+        
+        color_map = {} # LastName -> {Color, TeamName}
+        
+        color_retries = 0
+        max_color_retries = 3
+        
+        while color_retries < max_color_retries:
+            try:
+                session = fastf1.get_session(year, round_num, 'R')
+                session.load(telemetry=False, weather=False, messages=False)
+                
+                if hasattr(session, 'results') and not session.results.empty:
+                   for _, driver in session.results.iterrows():
+                       # Normalize name for mapping
+                       # Ergast uses 'givenName', 'familyName'. FastF1 uses 'LastName', 'FirstName'
+                       lname = str(driver['LastName']).lower().strip()
+                       
+                       raw_color = driver.get('TeamColor', '')
+                       color = f"#{raw_color}" if raw_color else None
+                       team = driver.get('TeamName', 'Unknown')
+                       
+                       color_map[lname] = {'color': color, 'team': team}
+                break # Success
+                       
+            except Exception as e:
+                # If session load fails (e.g. rate limit), we might proceed without colors 
+                # or raise if it's critical.
+                msg = str(e).lower()
+                if "429" in msg or "rate limit" in msg or "too many requests" in msg:
+                     wait_time = (2 ** color_retries) * 5 
+                     print(f"  FastF1 Rate limit hit ({e}). Retrying in {wait_time}s...")
+                     time.sleep(wait_time)
+                     color_retries += 1
+                else:
+                    print(f"  Warning: Could not fetch session data for colors ({e})")
+                    break
+                    
+        if color_retries >= max_color_retries:
+             print("  Warning: Skipped colors for this round due to rate limits.")
+
+        # 3. Build Standings List
+        current_standings = []
+        
+        for _, row in standings_df.iterrows():
+            # Ergast fields: givenName, familyName, points, wins, constructorNames (list)
+            first = row['givenName']
+            last = row['familyName']
+            points = float(row['points'])
             
-            # Sleep briefly between sessions
-            time.sleep(1)
+            # Team Name from Ergast (list of constructors usually, take last/current)
+            # Row constructorNames is a list.
+            teams = row.get('constructorNames', [])
+            team_name = teams[-1] if len(teams) > 0 else "Unknown"
+            
+            # Lookup Color
+            # Try to match by last name
+            lname_key = str(last).lower().strip()
+            
+            color = None
+            if lname_key in color_map:
+                color = color_map[lname_key]['color']
+                # Prefer FastF1 team name if available as it might be more specific
+                # But Ergast is fine too.
+            
+            # Fallback will be handled later if color is None
+            
+            # Special Exception for Michael Schumacher 1997 (DSQ)
+            if year == 1997 and last == 'Schumacher' and first == 'Michael':
+                 last = "Schumacher (DSQ)"
+            
+            name = f"{last}" # Display name style
+            
+            current_standings.append({
+                'name': last,
+                'firstName': first,
+                'points': points,
+                'team': team_name,
+                'color': color,
+                'rank': int(float(row['position'])) if pd.notna(row['position']) else 999
+            })
+            
+        # Extract metadata
+        event_date = str(event['EventDate'])
+        try:
+            dt = pd.to_datetime(event_date)
+            date_str = dt.strftime("%d %b")
+        except:
+            date_str = str(event_date)
+
+        location = event['Location']
+
+        # Append to history
+        # Note: We are now outputting one "step" per Round (Race), not separate Sprint/Race steps.
+        # This is cleaner for the graph anyway.
+        step_data = {
+            'round': int(round_num),
+            'eventName': event['EventName'],
+            'session': 'Race', # Implies "Post-Race Standings"
+            'date': date_str,
+            'location': location,
+            'standings': current_standings
+        }
+        history.append(step_data)
+        print(f"  Recorded standings for Round {round_num}")
+        
+        # Pacing
+        time.sleep(5.0)
 
     # Load Fallback Colors
     try:

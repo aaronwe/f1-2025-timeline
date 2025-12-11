@@ -11,7 +11,7 @@
         "firstName": "Eddie",
         "points": 10.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -26,8 +26,8 @@
         "name": "Schumacher",
         "firstName": "Ralf",
         "points": 4.0,
-        "team": "Ferrari",
-        "color": "#F91536",
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 3
       },
       {
@@ -43,7 +43,7 @@
         "firstName": "Rubens",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
+        "color": "#0B2161",
         "rank": 5
       },
       {
@@ -60,7 +60,15 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 7
+        "rank": 999
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 0.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
+        "rank": 999
       },
       {
         "name": "Zonta",
@@ -68,15 +76,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 8
+        "rank": 999
       },
       {
         "name": "Badoer",
         "firstName": "Luca",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 9
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Wurz",
@@ -84,23 +92,23 @@
         "points": 0.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 10
+        "rank": 999
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 11
+        "color": "#006EFF",
+        "rank": 999
       },
       {
         "name": "Gen\u00e9",
         "firstName": "Marc",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 12
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Trulli",
@@ -108,7 +116,7 @@
         "points": 0.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 13
+        "rank": 999
       },
       {
         "name": "Panis",
@@ -116,31 +124,31 @@
         "points": 0.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 14
+        "rank": 999
       },
       {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 999
       },
       {
         "name": "Zanardi",
         "firstName": "Alessandro",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 16
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Coulthard",
         "firstName": "David",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
+        "color": "#FF8700",
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -148,7 +156,7 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 18
+        "rank": 999
       },
       {
         "name": "Hill",
@@ -156,23 +164,23 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 19
+        "rank": 999
       },
       {
         "name": "Alesi",
         "firstName": "Jean",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
+        "color": "#006EFF",
+        "rank": 999
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 0.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 21
+        "color": "#0B2161",
+        "rank": 999
       }
     ]
   },
@@ -184,19 +192,19 @@
     "location": "S\u00e3o Paulo",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 13.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 1
-      },
-      {
         "name": "Irvine",
         "firstName": "Eddie",
         "points": 12.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
+        "rank": 1
+      },
+      {
+        "name": "H\u00e4kkinen",
+        "firstName": "Mika",
+        "points": 10.0,
+        "team": "McLaren",
+        "color": "#FF8700",
         "rank": 2
       },
       {
@@ -208,12 +216,20 @@
         "rank": 3
       },
       {
-        "name": "H\u00e4kkinen",
-        "firstName": "Mika",
-        "points": 10.0,
-        "team": "McLaren",
-        "color": "#F58020",
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 7.0,
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 4
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 6.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
+        "rank": 5
       },
       {
         "name": "Fisichella",
@@ -221,15 +237,15 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 6
+        "color": "#0B2161",
+        "rank": 7
       },
       {
         "name": "de la Rosa",
@@ -237,7 +253,7 @@
         "points": 1.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Panis",
@@ -245,7 +261,7 @@
         "points": 1.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Takagi",
@@ -253,23 +269,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 9
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 10
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 11
+        "rank": 999
       },
       {
         "name": "Wurz",
@@ -277,47 +277,31 @@
         "points": 0.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 12
-      },
-      {
-        "name": "Diniz",
-        "firstName": "Pedro",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 13
+        "rank": 999
       },
       {
         "name": "Gen\u00e9",
         "firstName": "Marc",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 14
+        "color": "#505050",
+        "rank": 999
       },
       {
-        "name": "Trulli",
-        "firstName": "Jarno",
+        "name": "Zonta",
+        "firstName": "Ricardo",
         "points": 0.0,
-        "team": "Prost",
-        "color": "#00009C",
-        "rank": 15
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
       },
       {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
+        "name": "Badoer",
+        "firstName": "Luca",
         "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 16
-      },
-      {
-        "name": "Coulthard",
-        "firstName": "David",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -325,7 +309,55 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 18
+        "rank": 999
+      },
+      {
+        "name": "Diniz",
+        "firstName": "Pedro",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Trulli",
+        "firstName": "Jarno",
+        "points": 0.0,
+        "team": "Prost",
+        "color": "#00009C",
+        "rank": 999
+      },
+      {
+        "name": "Sarrazin",
+        "firstName": "St\u00e9phane",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Alesi",
+        "firstName": "Jean",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 999
+      },
+      {
+        "name": "Coulthard",
+        "firstName": "David",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 999
       },
       {
         "name": "Hill",
@@ -333,31 +365,15 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 19
-      },
-      {
-        "name": "Alesi",
-        "firstName": "Jean",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
+        "rank": 999
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 0.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 21
-      },
-      {
-        "name": "Sarrazin",
-        "firstName": "St\u00e9phane",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
+        "color": "#0B2161",
+        "rank": 999
       }
     ]
   },
@@ -370,10 +386,10 @@
     "standings": [
       {
         "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 23.0,
-        "team": "Williams",
-        "color": "#37BEDD",
+        "firstName": "Michael",
+        "points": 16.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -381,8 +397,16 @@
         "firstName": "Eddie",
         "points": 12.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 2
+      },
+      {
+        "name": "H\u00e4kkinen",
+        "firstName": "Mika",
+        "points": 10.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 3
       },
       {
         "name": "Frentzen",
@@ -390,22 +414,14 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 3
-      },
-      {
-        "name": "H\u00e4kkinen",
-        "firstName": "Mika",
-        "points": 10.0,
-        "team": "McLaren",
-        "color": "#F58020",
         "rank": 4
       },
       {
-        "name": "Barrichello",
-        "firstName": "Rubens",
-        "points": 6.0,
-        "team": "Stewart",
-        "color": "#FFFFFF",
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 7.0,
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 5
       },
       {
@@ -413,8 +429,16 @@
         "firstName": "David",
         "points": 6.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 6
+      },
+      {
+        "name": "Barrichello",
+        "firstName": "Rubens",
+        "points": 6.0,
+        "team": "Stewart",
+        "color": "#0B2161",
+        "rank": 7
       },
       {
         "name": "Fisichella",
@@ -422,7 +446,7 @@
         "points": 5.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -430,7 +454,7 @@
         "points": 3.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "de la Rosa",
@@ -438,7 +462,7 @@
         "points": 1.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Panis",
@@ -446,15 +470,15 @@
         "points": 1.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Alesi",
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 11
+        "color": "#006EFF",
+        "rank": 12
       },
       {
         "name": "Takagi",
@@ -462,23 +486,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 12
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 13
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 14
+        "rank": 999
       },
       {
         "name": "Wurz",
@@ -486,63 +494,7 @@
         "points": 0.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 15
-      },
-      {
-        "name": "Diniz",
-        "firstName": "Pedro",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 16
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 17
-      },
-      {
-        "name": "Trulli",
-        "firstName": "Jarno",
-        "points": 0.0,
-        "team": "Prost",
-        "color": "#00009C",
-        "rank": 18
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 19
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 20
-      },
-      {
-        "name": "Herbert",
-        "firstName": "Johnny",
-        "points": 0.0,
-        "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 21
-      },
-      {
-        "name": "Sarrazin",
-        "firstName": "St\u00e9phane",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Salo",
@@ -550,7 +502,79 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 23
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Herbert",
+        "firstName": "Johnny",
+        "points": 0.0,
+        "team": "Stewart",
+        "color": "#0B2161",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Diniz",
+        "firstName": "Pedro",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 999
+      },
+      {
+        "name": "Trulli",
+        "firstName": "Jarno",
+        "points": 0.0,
+        "team": "Prost",
+        "color": "#00009C",
+        "rank": 999
+      },
+      {
+        "name": "Sarrazin",
+        "firstName": "St\u00e9phane",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -563,10 +587,10 @@
     "standings": [
       {
         "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 33.0,
-        "team": "Williams",
-        "color": "#37BEDD",
+        "firstName": "Michael",
+        "points": 26.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -574,7 +598,7 @@
         "firstName": "Eddie",
         "points": 18.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 2
       },
       {
@@ -582,7 +606,7 @@
         "firstName": "Mika",
         "points": 14.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 3
       },
       {
@@ -594,19 +618,19 @@
         "rank": 4
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 7.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 5
+      },
+      {
         "name": "Fisichella",
         "firstName": "Giancarlo",
         "points": 7.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 5
-      },
-      {
-        "name": "Barrichello",
-        "firstName": "Rubens",
-        "points": 6.0,
-        "team": "Stewart",
-        "color": "#FFFFFF",
         "rank": 6
       },
       {
@@ -614,8 +638,16 @@
         "firstName": "David",
         "points": 6.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 7
+      },
+      {
+        "name": "Barrichello",
+        "firstName": "Rubens",
+        "points": 6.0,
+        "team": "Stewart",
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -623,14 +655,6 @@
         "points": 3.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
-      },
-      {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
         "rank": 9
       },
       {
@@ -642,11 +666,11 @@
         "rank": 10
       },
       {
-        "name": "Panis",
-        "firstName": "Olivier",
+        "name": "de la Rosa",
+        "firstName": "Pedro",
         "points": 1.0,
-        "team": "Prost",
-        "color": "#00009C",
+        "team": "Arrows",
+        "color": "#F27E1C",
         "rank": 11
       },
       {
@@ -654,8 +678,16 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 12
+      },
+      {
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 1.0,
+        "team": "Prost",
+        "color": "#00009C",
+        "rank": 13
       },
       {
         "name": "Takagi",
@@ -663,39 +695,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 13
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 14
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 15
-      },
-      {
-        "name": "Diniz",
-        "firstName": "Pedro",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 16
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 17
+        "rank": 999
       },
       {
         "name": "Trulli",
@@ -703,39 +703,7 @@
         "points": 0.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 18
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 19
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 20
-      },
-      {
-        "name": "Herbert",
-        "firstName": "Johnny",
-        "points": 0.0,
-        "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 21
-      },
-      {
-        "name": "Sarrazin",
-        "firstName": "St\u00e9phane",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Salo",
@@ -743,7 +711,71 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 23
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Herbert",
+        "firstName": "Johnny",
+        "points": 0.0,
+        "team": "Stewart",
+        "color": "#0B2161",
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Diniz",
+        "firstName": "Pedro",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 999
+      },
+      {
+        "name": "Sarrazin",
+        "firstName": "St\u00e9phane",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -756,10 +788,10 @@
     "standings": [
       {
         "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 39.0,
-        "team": "Williams",
-        "color": "#37BEDD",
+        "firstName": "Michael",
+        "points": 30.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -767,7 +799,7 @@
         "firstName": "Mika",
         "points": 24.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 2
       },
       {
@@ -775,7 +807,7 @@
         "firstName": "Eddie",
         "points": 21.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 3
       },
       {
@@ -791,8 +823,16 @@
         "firstName": "David",
         "points": 12.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 9.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Fisichella",
@@ -800,15 +840,15 @@
         "points": 7.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 6.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -816,14 +856,6 @@
         "points": 3.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
-      },
-      {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
         "rank": 9
       },
       {
@@ -843,11 +875,11 @@
         "rank": 11
       },
       {
-        "name": "Panis",
-        "firstName": "Olivier",
+        "name": "de la Rosa",
+        "firstName": "Pedro",
         "points": 1.0,
-        "team": "Prost",
-        "color": "#00009C",
+        "team": "Arrows",
+        "color": "#F27E1C",
         "rank": 12
       },
       {
@@ -855,8 +887,16 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 13
+      },
+      {
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 1.0,
+        "team": "Prost",
+        "color": "#00009C",
+        "rank": 14
       },
       {
         "name": "Takagi",
@@ -864,71 +904,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 14
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 15
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 16
-      },
-      {
-        "name": "Diniz",
-        "firstName": "Pedro",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 17
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 18
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 19
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 20
-      },
-      {
-        "name": "Herbert",
-        "firstName": "Johnny",
-        "points": 0.0,
-        "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 21
-      },
-      {
-        "name": "Sarrazin",
-        "firstName": "St\u00e9phane",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Salo",
@@ -936,7 +912,71 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 23
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Herbert",
+        "firstName": "Johnny",
+        "points": 0.0,
+        "team": "Stewart",
+        "color": "#0B2161",
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Diniz",
+        "firstName": "Pedro",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 999
+      },
+      {
+        "name": "Sarrazin",
+        "firstName": "St\u00e9phane",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -948,19 +988,19 @@
     "location": "Montreal",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 42.0,
-        "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
-      },
-      {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 34.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 1
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 30.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 2
       },
       {
@@ -968,7 +1008,7 @@
         "firstName": "Eddie",
         "points": 25.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 3
       },
       {
@@ -992,16 +1032,24 @@
         "firstName": "David",
         "points": 12.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 6
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 12.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 6.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -1009,22 +1057,14 @@
         "points": 3.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 9
-      },
-      {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "color": "#0B2161",
         "rank": 10
       },
       {
@@ -1036,20 +1076,12 @@
         "rank": 11
       },
       {
-        "name": "Diniz",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 12
-      },
-      {
         "name": "Trulli",
         "firstName": "Jarno",
         "points": 1.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 13
+        "rank": 12
       },
       {
         "name": "Panis",
@@ -1057,6 +1089,14 @@
         "points": 1.0,
         "team": "Prost",
         "color": "#00009C",
+        "rank": 13
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
         "rank": 14
       },
       {
@@ -1064,8 +1104,16 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 15
+      },
+      {
+        "name": "Diniz",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 16
       },
       {
         "name": "Takagi",
@@ -1073,55 +1121,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 16
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 17
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 18
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 20
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 21
-      },
-      {
-        "name": "Sarrazin",
-        "firstName": "St\u00e9phane",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Salo",
@@ -1129,7 +1129,55 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 23
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Sarrazin",
+        "firstName": "St\u00e9phane",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -1141,19 +1189,19 @@
     "location": "Magny Cours",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 47.0,
-        "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
-      },
-      {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 40.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 1
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 2
       },
       {
@@ -1161,7 +1209,7 @@
         "firstName": "Eddie",
         "points": 26.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 3
       },
       {
@@ -1173,28 +1221,36 @@
         "rank": 4
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 15.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 5
+      },
+      {
         "name": "Fisichella",
         "firstName": "Giancarlo",
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Coulthard",
         "firstName": "David",
         "points": 12.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 6
+        "color": "#FF8700",
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 10.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -1202,39 +1258,15 @@
         "points": 3.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 9
-      },
-      {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "color": "#0B2161",
         "rank": 10
-      },
-      {
-        "name": "Wurz",
-        "firstName": "Alexander",
-        "points": 1.0,
-        "team": "Benetton",
-        "color": "#79C5E4",
-        "rank": 11
-      },
-      {
-        "name": "Diniz",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 12
       },
       {
         "name": "Trulli",
@@ -1242,7 +1274,15 @@
         "points": 1.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 13
+        "rank": 11
+      },
+      {
+        "name": "Wurz",
+        "firstName": "Alexander",
+        "points": 1.0,
+        "team": "Benetton",
+        "color": "#79C5E4",
+        "rank": 12
       },
       {
         "name": "Panis",
@@ -1250,6 +1290,14 @@
         "points": 1.0,
         "team": "Prost",
         "color": "#00009C",
+        "rank": 13
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
         "rank": 14
       },
       {
@@ -1257,8 +1305,16 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 15
+      },
+      {
+        "name": "Diniz",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 16
       },
       {
         "name": "Takagi",
@@ -1266,55 +1322,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 16
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 17
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 18
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 20
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 21
-      },
-      {
-        "name": "Sarrazin",
-        "firstName": "St\u00e9phane",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Salo",
@@ -1322,7 +1330,55 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 23
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Sarrazin",
+        "firstName": "St\u00e9phane",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -1334,19 +1390,19 @@
     "location": "Silverstone",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 51.0,
-        "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
-      },
-      {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 40.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 1
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 2
       },
       {
@@ -1354,7 +1410,7 @@
         "firstName": "Eddie",
         "points": 32.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 3
       },
       {
@@ -1370,8 +1426,16 @@
         "firstName": "David",
         "points": 22.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 19.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Fisichella",
@@ -1379,15 +1443,15 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 10.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -1395,14 +1459,6 @@
         "points": 5.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
-      },
-      {
-        "name": "Diniz",
-        "firstName": "Pedro",
-        "points": 2.0,
-        "team": "Sauber",
-        "color": "#9B0000",
         "rank": 9
       },
       {
@@ -1410,24 +1466,16 @@
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
+        "color": "#0B2161",
         "rank": 10
       },
       {
-        "name": "de la Rosa",
+        "name": "Diniz",
         "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "points": 2.0,
+        "team": "Sauber",
+        "color": "#006EFF",
         "rank": 11
-      },
-      {
-        "name": "Wurz",
-        "firstName": "Alexander",
-        "points": 1.0,
-        "team": "Benetton",
-        "color": "#79C5E4",
-        "rank": 12
       },
       {
         "name": "Trulli",
@@ -1435,6 +1483,14 @@
         "points": 1.0,
         "team": "Prost",
         "color": "#00009C",
+        "rank": 12
+      },
+      {
+        "name": "Wurz",
+        "firstName": "Alexander",
+        "points": 1.0,
+        "team": "Benetton",
+        "color": "#79C5E4",
         "rank": 13
       },
       {
@@ -1446,12 +1502,20 @@
         "rank": 14
       },
       {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 15
+      },
+      {
         "name": "Alesi",
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "color": "#006EFF",
+        "rank": 16
       },
       {
         "name": "Takagi",
@@ -1459,55 +1523,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 16
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 17
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 18
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 20
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 21
-      },
-      {
-        "name": "Sarrazin",
-        "firstName": "St\u00e9phane",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Salo",
@@ -1515,7 +1531,55 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 23
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Sarrazin",
+        "firstName": "St\u00e9phane",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -1527,27 +1591,27 @@
     "location": "Spielberg",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 51.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 1
-      },
-      {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 44.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 2
+        "color": "#FF8700",
+        "rank": 1
       },
       {
         "name": "Irvine",
         "firstName": "Eddie",
         "points": 42.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
+        "rank": 2
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 3
       },
       {
@@ -1563,8 +1627,16 @@
         "firstName": "David",
         "points": 28.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 19.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Fisichella",
@@ -1572,15 +1644,15 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 10.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -1588,7 +1660,7 @@
         "points": 5.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Wurz",
@@ -1596,30 +1668,22 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 10
+        "color": "#006EFF",
+        "rank": 11
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 11
-      },
-      {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "color": "#0B2161",
         "rank": 12
       },
       {
@@ -1639,12 +1703,28 @@
         "rank": 14
       },
       {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 15
+      },
+      {
         "name": "Alesi",
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "color": "#006EFF",
+        "rank": 16
+      },
+      {
+        "name": "Salo",
+        "firstName": "Mika",
+        "points": 0.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
+        "rank": 999
       },
       {
         "name": "Takagi",
@@ -1652,7 +1732,31 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 16
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Zonta",
@@ -1660,31 +1764,7 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 17
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 18
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 20
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -1692,23 +1772,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 21
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 22
-      },
-      {
-        "name": "Salo",
-        "firstName": "Mika",
-        "points": 0.0,
-        "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -1720,28 +1792,20 @@
     "location": "Hockenheim",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 54.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 1
-      },
-      {
         "name": "Irvine",
         "firstName": "Eddie",
         "points": 52.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 1
       },
       {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 44.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 3
+        "color": "#FF8700",
+        "rank": 2
       },
       {
         "name": "Frentzen",
@@ -1749,6 +1813,14 @@
         "points": 33.0,
         "team": "Jordan",
         "color": "#E7C513",
+        "rank": 3
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 4
       },
       {
@@ -1756,8 +1828,16 @@
         "firstName": "David",
         "points": 30.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 22.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Fisichella",
@@ -1765,23 +1845,23 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 10.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Salo",
         "firstName": "Mika",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 8
+        "color": "#DC0000",
+        "rank": 9
       },
       {
         "name": "Hill",
@@ -1789,7 +1869,7 @@
         "points": 5.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Wurz",
@@ -1797,22 +1877,14 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 11
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 2.0,
-        "team": "Prost",
-        "color": "#00009C",
+        "color": "#006EFF",
         "rank": 12
       },
       {
@@ -1820,15 +1892,15 @@
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
+        "color": "#0B2161",
         "rank": 13
       },
       {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 2.0,
+        "team": "Prost",
+        "color": "#00009C",
         "rank": 14
       },
       {
@@ -1844,8 +1916,16 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 16
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 17
       },
       {
         "name": "Takagi",
@@ -1853,7 +1933,31 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 17
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Zonta",
@@ -1861,31 +1965,7 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 18
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 20
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 21
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -1893,15 +1973,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -1917,23 +1997,23 @@
         "firstName": "Eddie",
         "points": 56.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 1
-      },
-      {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 54.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 2
       },
       {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 54.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 2
+      },
+      {
+        "name": "Coulthard",
+        "firstName": "David",
+        "points": 36.0,
+        "team": "McLaren",
+        "color": "#FF8700",
         "rank": 3
       },
       {
@@ -1945,12 +2025,20 @@
         "rank": 4
       },
       {
-        "name": "Coulthard",
-        "firstName": "David",
-        "points": 36.0,
-        "team": "McLaren",
-        "color": "#F58020",
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 22.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Fisichella",
@@ -1958,22 +2046,14 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 12.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
-      },
-      {
-        "name": "Hill",
-        "firstName": "Damon",
-        "points": 6.0,
-        "team": "Jordan",
-        "color": "#E7C513",
+        "color": "#0B2161",
         "rank": 8
       },
       {
@@ -1981,8 +2061,16 @@
         "firstName": "Mika",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 9
+      },
+      {
+        "name": "Hill",
+        "firstName": "Damon",
+        "points": 6.0,
+        "team": "Jordan",
+        "color": "#E7C513",
+        "rank": 10
       },
       {
         "name": "Wurz",
@@ -1990,22 +2078,14 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 11
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 2.0,
-        "team": "Prost",
-        "color": "#00009C",
+        "color": "#006EFF",
         "rank": 12
       },
       {
@@ -2013,15 +2093,15 @@
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
+        "color": "#0B2161",
         "rank": 13
       },
       {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 2.0,
+        "team": "Prost",
+        "color": "#00009C",
         "rank": 14
       },
       {
@@ -2037,8 +2117,16 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 16
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 17
       },
       {
         "name": "Takagi",
@@ -2046,7 +2134,31 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 17
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Zonta",
@@ -2054,31 +2166,7 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 18
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 20
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 21
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -2086,15 +2174,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -2110,7 +2198,7 @@
         "firstName": "Mika",
         "points": 60.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
         "rank": 1
       },
       {
@@ -2118,24 +2206,16 @@
         "firstName": "Eddie",
         "points": 59.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 2
-      },
-      {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 56.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 3
       },
       {
         "name": "Coulthard",
         "firstName": "David",
         "points": 46.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 4
+        "color": "#FF8700",
+        "rank": 3
       },
       {
         "name": "Frentzen",
@@ -2143,7 +2223,23 @@
         "points": 40.0,
         "team": "Jordan",
         "color": "#E7C513",
+        "rank": 4
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 24.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Fisichella",
@@ -2151,15 +2247,15 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 12.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Hill",
@@ -2167,15 +2263,15 @@
         "points": 7.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Salo",
         "firstName": "Mika",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 9
+        "color": "#DC0000",
+        "rank": 10
       },
       {
         "name": "Wurz",
@@ -2183,22 +2279,14 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 11
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 2.0,
-        "team": "Prost",
-        "color": "#00009C",
+        "color": "#006EFF",
         "rank": 12
       },
       {
@@ -2206,15 +2294,15 @@
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
+        "color": "#0B2161",
         "rank": 13
       },
       {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 2.0,
+        "team": "Prost",
+        "color": "#00009C",
         "rank": 14
       },
       {
@@ -2230,8 +2318,16 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 16
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 17
       },
       {
         "name": "Takagi",
@@ -2239,7 +2335,31 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 17
+        "rank": 999
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Zonta",
@@ -2247,31 +2367,7 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 18
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
-      },
-      {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 20
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 21
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -2279,15 +2375,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -2299,11 +2395,11 @@
     "location": "Monza",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 62.0,
-        "team": "Williams",
-        "color": "#37BEDD",
+        "name": "H\u00e4kkinen",
+        "firstName": "Mika",
+        "points": 60.0,
+        "team": "McLaren",
+        "color": "#FF8700",
         "rank": 1
       },
       {
@@ -2311,16 +2407,8 @@
         "firstName": "Eddie",
         "points": 60.0,
         "team": "Ferrari",
-        "color": "#F91536",
+        "color": "#DC0000",
         "rank": 2
-      },
-      {
-        "name": "H\u00e4kkinen",
-        "firstName": "Mika",
-        "points": 60.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 3
       },
       {
         "name": "Frentzen",
@@ -2328,23 +2416,39 @@
         "points": 50.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 4
+        "rank": 3
       },
       {
         "name": "Coulthard",
         "firstName": "David",
         "points": 48.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 4
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 30.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 15.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 6
+        "color": "#0B2161",
+        "rank": 7
       },
       {
         "name": "Fisichella",
@@ -2352,15 +2456,15 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Salo",
         "firstName": "Mika",
         "points": 10.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 8
+        "color": "#DC0000",
+        "rank": 9
       },
       {
         "name": "Hill",
@@ -2368,7 +2472,7 @@
         "points": 7.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Wurz",
@@ -2376,22 +2480,14 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 11
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 2.0,
-        "team": "Prost",
-        "color": "#00009C",
+        "color": "#006EFF",
         "rank": 12
       },
       {
@@ -2399,15 +2495,15 @@
         "firstName": "Johnny",
         "points": 2.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
+        "color": "#0B2161",
         "rank": 13
       },
       {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 2.0,
+        "team": "Prost",
+        "color": "#00009C",
         "rank": 14
       },
       {
@@ -2423,8 +2519,24 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 16
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 17
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Takagi",
@@ -2432,39 +2544,23 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 17
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 18
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 19
+        "rank": 999
       },
       {
         "name": "Gen\u00e9",
         "firstName": "Marc",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 20
+        "color": "#505050",
+        "rank": 999
       },
       {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
+        "name": "Badoer",
+        "firstName": "Luca",
         "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 21
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -2472,15 +2568,23 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 22
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -2492,28 +2596,20 @@
     "location": "N\u00fcrburg",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 65.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 1
-      },
-      {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 62.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 2
+        "color": "#FF8700",
+        "rank": 1
       },
       {
         "name": "Irvine",
         "firstName": "Eddie",
         "points": 60.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 3
+        "color": "#DC0000",
+        "rank": 2
       },
       {
         "name": "Frentzen",
@@ -2521,23 +2617,39 @@
         "points": 50.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 4
+        "rank": 3
       },
       {
         "name": "Coulthard",
         "firstName": "David",
         "points": 48.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 4
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 33.0,
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 32.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
+        "rank": 6
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 19.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 6
+        "color": "#0B2161",
+        "rank": 7
       },
       {
         "name": "Fisichella",
@@ -2545,23 +2657,23 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 12.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 8
+        "color": "#0B2161",
+        "rank": 9
       },
       {
         "name": "Salo",
         "firstName": "Mika",
         "points": 10.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 9
+        "color": "#DC0000",
+        "rank": 10
       },
       {
         "name": "Trulli",
@@ -2569,7 +2681,7 @@
         "points": 7.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Hill",
@@ -2577,7 +2689,7 @@
         "points": 7.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Wurz",
@@ -2585,15 +2697,15 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 13
+        "color": "#006EFF",
+        "rank": 14
       },
       {
         "name": "Panis",
@@ -2601,14 +2713,6 @@
         "points": 2.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 14
-      },
-      {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
         "rank": 15
       },
       {
@@ -2616,7 +2720,7 @@
         "firstName": "Marc",
         "points": 1.0,
         "team": "Minardi",
-        "color": "#000000",
+        "color": "#505050",
         "rank": 16
       },
       {
@@ -2624,8 +2728,24 @@
         "firstName": "Jean",
         "points": 1.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 17
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 18
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Takagi",
@@ -2633,7 +2753,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 18
+        "rank": 999
       },
       {
         "name": "Zonta",
@@ -2641,23 +2761,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 19
+        "rank": 999
       },
       {
         "name": "Badoer",
         "firstName": "Luca",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 20
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 21
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -2665,15 +2777,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -2685,28 +2797,20 @@
     "location": "Kuala Lumpur",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 71.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 1
-      },
-      {
         "name": "Irvine",
         "firstName": "Eddie",
         "points": 70.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 1
       },
       {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 66.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 3
+        "color": "#FF8700",
+        "rank": 2
       },
       {
         "name": "Frentzen",
@@ -2714,31 +2818,47 @@
         "points": 51.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 4
+        "rank": 3
       },
       {
         "name": "Coulthard",
         "firstName": "David",
         "points": 48.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 4
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 38.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 33.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 21.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 6
+        "color": "#0B2161",
+        "rank": 7
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 15.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Fisichella",
@@ -2746,15 +2866,15 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Salo",
         "firstName": "Mika",
         "points": 10.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 9
+        "color": "#DC0000",
+        "rank": 10
       },
       {
         "name": "Trulli",
@@ -2762,7 +2882,7 @@
         "points": 7.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Hill",
@@ -2770,7 +2890,7 @@
         "points": 7.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Wurz",
@@ -2778,15 +2898,15 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 13
+        "color": "#006EFF",
+        "rank": 14
       },
       {
         "name": "Panis",
@@ -2794,7 +2914,23 @@
         "points": 2.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 14
+        "rank": 15
+      },
+      {
+        "name": "Alesi",
+        "firstName": "Jean",
+        "points": 1.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 16
+      },
+      {
+        "name": "Gen\u00e9",
+        "firstName": "Marc",
+        "points": 1.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 17
       },
       {
         "name": "de la Rosa",
@@ -2802,23 +2938,15 @@
         "points": 1.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 15
+        "rank": 18
       },
       {
-        "name": "Gen\u00e9",
-        "firstName": "Marc",
-        "points": 1.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 16
-      },
-      {
-        "name": "Alesi",
-        "firstName": "Jean",
-        "points": 1.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 17
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Takagi",
@@ -2826,7 +2954,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 18
+        "rank": 999
       },
       {
         "name": "Zonta",
@@ -2834,23 +2962,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 19
+        "rank": 999
       },
       {
         "name": "Badoer",
         "firstName": "Luca",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 20
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 21
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -2858,15 +2978,15 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 22
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -2878,28 +2998,20 @@
     "location": "Suzuka",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Ralf",
-        "points": 79.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 1
-      },
-      {
         "name": "H\u00e4kkinen",
         "firstName": "Mika",
         "points": 76.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 2
+        "color": "#FF8700",
+        "rank": 1
       },
       {
         "name": "Irvine",
         "firstName": "Eddie",
         "points": 74.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 3
+        "color": "#DC0000",
+        "rank": 2
       },
       {
         "name": "Frentzen",
@@ -2907,31 +3019,47 @@
         "points": 54.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 4
+        "rank": 3
       },
       {
         "name": "Coulthard",
         "firstName": "David",
         "points": 48.0,
         "team": "McLaren",
-        "color": "#F58020",
+        "color": "#FF8700",
+        "rank": 4
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 44.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 35.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
       },
       {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 21.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 6
+        "color": "#0B2161",
+        "rank": 7
       },
       {
         "name": "Herbert",
         "firstName": "Johnny",
         "points": 15.0,
         "team": "Stewart",
-        "color": "#FFFFFF",
-        "rank": 7
+        "color": "#0B2161",
+        "rank": 8
       },
       {
         "name": "Fisichella",
@@ -2939,15 +3067,15 @@
         "points": 13.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Salo",
         "firstName": "Mika",
         "points": 10.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 9
+        "color": "#DC0000",
+        "rank": 10
       },
       {
         "name": "Trulli",
@@ -2955,7 +3083,7 @@
         "points": 7.0,
         "team": "Prost",
         "color": "#00009C",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Hill",
@@ -2963,7 +3091,7 @@
         "points": 7.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Wurz",
@@ -2971,22 +3099,14 @@
         "points": 3.0,
         "team": "Benetton",
         "color": "#79C5E4",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "Diniz",
         "firstName": "Pedro",
         "points": 3.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 13
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 2.0,
-        "team": "Prost",
-        "color": "#00009C",
+        "color": "#006EFF",
         "rank": 14
       },
       {
@@ -2994,15 +3114,15 @@
         "firstName": "Jean",
         "points": 2.0,
         "team": "Sauber",
-        "color": "#9B0000",
+        "color": "#006EFF",
         "rank": 15
       },
       {
-        "name": "de la Rosa",
-        "firstName": "Pedro",
-        "points": 1.0,
-        "team": "Arrows",
-        "color": "#F27E1C",
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 2.0,
+        "team": "Prost",
+        "color": "#00009C",
         "rank": 16
       },
       {
@@ -3010,8 +3130,24 @@
         "firstName": "Marc",
         "points": 1.0,
         "team": "Minardi",
-        "color": "#000000",
+        "color": "#505050",
         "rank": 17
+      },
+      {
+        "name": "de la Rosa",
+        "firstName": "Pedro",
+        "points": 1.0,
+        "team": "Arrows",
+        "color": "#F27E1C",
+        "rank": 18
+      },
+      {
+        "name": "Zanardi",
+        "firstName": "Alessandro",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 999
       },
       {
         "name": "Takagi",
@@ -3019,31 +3155,7 @@
         "points": 0.0,
         "team": "Arrows",
         "color": "#F27E1C",
-        "rank": 18
-      },
-      {
-        "name": "Zonta",
-        "firstName": "Ricardo",
-        "points": 0.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 19
-      },
-      {
-        "name": "Badoer",
-        "firstName": "Luca",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#000000",
-        "rank": 20
-      },
-      {
-        "name": "Zanardi",
-        "firstName": "Alessandro",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 21
+        "rank": 999
       },
       {
         "name": "Villeneuve",
@@ -3051,15 +3163,31 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 22
+        "rank": 999
+      },
+      {
+        "name": "Zonta",
+        "firstName": "Ricardo",
+        "points": 0.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 999
+      },
+      {
+        "name": "Badoer",
+        "firstName": "Luca",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       },
       {
         "name": "Sarrazin",
         "firstName": "St\u00e9phane",
         "points": 0.0,
         "team": "Minardi",
-        "color": "#000000",
-        "rank": 23
+        "color": "#505050",
+        "rank": 999
       }
     ]
   }

@@ -2,7 +2,7 @@ import time
 import os
 import subprocess
 import json
-import psutil # Assuming we can install this, or use subprocess to check
+# import psutil removed
 
 """
 finalize_downloads.py

@@ -33,9 +33,9 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 6.0,
-        "team": "Williams",
-        "color": "#005AFF",
+        "points": 5.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 4
       },
       {
@@ -63,12 +63,20 @@
         "rank": 7
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 1.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 8
+      },
+      {
         "name": "Villeneuve",
         "firstName": "Jacques",
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Button",
@@ -76,7 +84,7 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Verstappen",
@@ -84,7 +92,7 @@
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Fisichella",
@@ -92,7 +100,7 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 11
+        "rank": 999
       },
       {
         "name": "Pizzonia",
@@ -100,7 +108,7 @@
         "points": 0.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 12
+        "rank": 999
       },
       {
         "name": "Panis",
@@ -108,7 +116,7 @@
         "points": 0.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 13
+        "rank": 999
       },
       {
         "name": "Heidfeld",
@@ -116,7 +124,7 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 14
+        "rank": 999
       },
       {
         "name": "Wilson",
@@ -124,7 +132,7 @@
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 15
+        "rank": 999
       },
       {
         "name": "Webber",
@@ -132,7 +140,7 @@
         "points": 0.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 16
+        "rank": 999
       },
       {
         "name": "da Matta",
@@ -140,7 +148,7 @@
         "points": 0.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 17
+        "rank": 999
       },
       {
         "name": "Firman",
@@ -148,7 +156,7 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 18
+        "rank": 999
       },
       {
         "name": "Barrichello",
@@ -156,7 +164,7 @@
         "points": 0.0,
         "team": "Ferrari",
         "color": "#DC0000",
-        "rank": 19
+        "rank": 999
       }
     ]
   },
@@ -176,20 +184,12 @@
         "rank": 1
       },
       {
-        "name": "Schumacher",
-        "firstName": "Michael",
-        "points": 14.0,
-        "team": "Ferrari",
-        "color": "#DC0000",
-        "rank": 2
-      },
-      {
         "name": "Coulthard",
         "firstName": "David",
         "points": 10.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 3
+        "rank": 2
       },
       {
         "name": "Pablo Montoya",
@@ -197,23 +197,7 @@
         "points": 8.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 4
-      },
-      {
-        "name": "Trulli",
-        "firstName": "Jarno",
-        "points": 8.0,
-        "team": "Renault",
-        "color": "#FFF500",
-        "rank": 5
-      },
-      {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 8.0,
-        "team": "Renault",
-        "color": "#FFF500",
-        "rank": 6
+        "rank": 3
       },
       {
         "name": "Barrichello",
@@ -221,7 +205,39 @@
         "points": 8.0,
         "team": "Ferrari",
         "color": "#DC0000",
+        "rank": 4
+      },
+      {
+        "name": "Alonso",
+        "firstName": "Fernando",
+        "points": 8.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 5
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 8.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
+        "rank": 6
+      },
+      {
+        "name": "Trulli",
+        "firstName": "Jarno",
+        "points": 8.0,
+        "team": "Renault",
+        "color": "#FFF500",
         "rank": 7
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 6.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 8
       },
       {
         "name": "Frentzen",
@@ -229,7 +245,7 @@
         "points": 3.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Button",
@@ -237,7 +253,7 @@
         "points": 2.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Heidfeld",
@@ -245,7 +261,7 @@
         "points": 1.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Villeneuve",
@@ -253,63 +269,7 @@
         "points": 0.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 11
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 12
-      },
-      {
-        "name": "Fisichella",
-        "firstName": "Giancarlo",
-        "points": 0.0,
-        "team": "Jordan",
-        "color": "#E7C513",
-        "rank": 13
-      },
-      {
-        "name": "Pizzonia",
-        "firstName": "Ant\u00f4nio",
-        "points": 0.0,
-        "team": "Jaguar",
-        "color": "#005A32",
-        "rank": 14
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 0.0,
-        "team": "Toyota",
-        "color": "#E10600",
-        "rank": 15
-      },
-      {
-        "name": "Wilson",
-        "firstName": "Justin",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
-        "rank": 16
-      },
-      {
-        "name": "Webber",
-        "firstName": "Mark",
-        "points": 0.0,
-        "team": "Jaguar",
-        "color": "#005A32",
-        "rank": 17
-      },
-      {
-        "name": "da Matta",
-        "firstName": "Cristiano",
-        "points": 0.0,
-        "team": "Toyota",
-        "color": "#E10600",
-        "rank": 18
       },
       {
         "name": "Firman",
@@ -317,7 +277,63 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 19
+        "rank": 13
+      },
+      {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 14
+      },
+      {
+        "name": "da Matta",
+        "firstName": "Cristiano",
+        "points": 0.0,
+        "team": "Toyota",
+        "color": "#E10600",
+        "rank": 15
+      },
+      {
+        "name": "Fisichella",
+        "firstName": "Giancarlo",
+        "points": 0.0,
+        "team": "Jordan",
+        "color": "#E7C513",
+        "rank": 999
+      },
+      {
+        "name": "Pizzonia",
+        "firstName": "Ant\u00f4nio",
+        "points": 0.0,
+        "team": "Jaguar",
+        "color": "#005A32",
+        "rank": 999
+      },
+      {
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 0.0,
+        "team": "Toyota",
+        "color": "#E10600",
+        "rank": 999
+      },
+      {
+        "name": "Wilson",
+        "firstName": "Justin",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
+      },
+      {
+        "name": "Webber",
+        "firstName": "Mark",
+        "points": 0.0,
+        "team": "Jaguar",
+        "color": "#005A32",
+        "rank": 999
       }
     ]
   },
@@ -337,20 +353,12 @@
         "rank": 1
       },
       {
-        "name": "Schumacher",
-        "firstName": "Michael",
-        "points": 16.0,
-        "team": "Ferrari",
-        "color": "#DC0000",
-        "rank": 2
-      },
-      {
         "name": "Coulthard",
         "firstName": "David",
         "points": 15.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 3
+        "rank": 2
       },
       {
         "name": "Alonso",
@@ -358,7 +366,7 @@
         "points": 14.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 4
+        "rank": 3
       },
       {
         "name": "Fisichella",
@@ -366,7 +374,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 5
+        "rank": 4
       },
       {
         "name": "Trulli",
@@ -374,7 +382,7 @@
         "points": 9.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 6
+        "rank": 5
       },
       {
         "name": "Pablo Montoya",
@@ -382,7 +390,7 @@
         "points": 8.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 7
+        "rank": 6
       },
       {
         "name": "Barrichello",
@@ -390,7 +398,23 @@
         "points": 8.0,
         "team": "Ferrari",
         "color": "#DC0000",
+        "rank": 7
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 8.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 8
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 8.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 9
       },
       {
         "name": "Frentzen",
@@ -398,7 +422,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Villeneuve",
@@ -406,7 +430,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Button",
@@ -414,7 +438,7 @@
         "points": 2.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Heidfeld",
@@ -422,39 +446,7 @@
         "points": 1.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 12
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 13
-      },
-      {
-        "name": "Pizzonia",
-        "firstName": "Ant\u00f4nio",
-        "points": 0.0,
-        "team": "Jaguar",
-        "color": "#005A32",
-        "rank": 14
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 0.0,
-        "team": "Toyota",
-        "color": "#E10600",
-        "rank": 15
-      },
-      {
-        "name": "Wilson",
-        "firstName": "Justin",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
-        "rank": 16
       },
       {
         "name": "Webber",
@@ -462,7 +454,7 @@
         "points": 0.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 17
+        "rank": 14
       },
       {
         "name": "da Matta",
@@ -470,7 +462,7 @@
         "points": 0.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 18
+        "rank": 15
       },
       {
         "name": "Firman",
@@ -478,7 +470,39 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 19
+        "rank": 16
+      },
+      {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 17
+      },
+      {
+        "name": "Pizzonia",
+        "firstName": "Ant\u00f4nio",
+        "points": 0.0,
+        "team": "Jaguar",
+        "color": "#005A32",
+        "rank": 999
+      },
+      {
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 0.0,
+        "team": "Toyota",
+        "color": "#E10600",
+        "rank": 999
+      },
+      {
+        "name": "Wilson",
+        "firstName": "Justin",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -498,19 +522,19 @@
         "rank": 1
       },
       {
-        "name": "Schumacher",
-        "firstName": "Michael",
-        "points": 31.0,
-        "team": "Williams",
-        "color": "#005AFF",
-        "rank": 2
-      },
-      {
         "name": "Coulthard",
         "firstName": "David",
         "points": 19.0,
         "team": "McLaren",
         "color": "#FF8700",
+        "rank": 2
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 18.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 3
       },
       {
@@ -530,9 +554,9 @@
         "rank": 5
       },
       {
-        "name": "Pablo Montoya",
-        "firstName": "Juan",
-        "points": 10.0,
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 13.0,
         "team": "Williams",
         "color": "#005AFF",
         "rank": 6
@@ -546,12 +570,20 @@
         "rank": 7
       },
       {
+        "name": "Pablo Montoya",
+        "firstName": "Juan",
+        "points": 10.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 8
+      },
+      {
         "name": "Trulli",
         "firstName": "Jarno",
         "points": 9.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Frentzen",
@@ -559,7 +591,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Villeneuve",
@@ -567,7 +599,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Button",
@@ -575,7 +607,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Heidfeld",
@@ -583,23 +615,7 @@
         "points": 1.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 12
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 13
-      },
-      {
-        "name": "Pizzonia",
-        "firstName": "Ant\u00f4nio",
-        "points": 0.0,
-        "team": "Jaguar",
-        "color": "#005A32",
-        "rank": 14
       },
       {
         "name": "Panis",
@@ -607,15 +623,7 @@
         "points": 0.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 15
-      },
-      {
-        "name": "Wilson",
-        "firstName": "Justin",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
-        "rank": 16
+        "rank": 14
       },
       {
         "name": "Webber",
@@ -623,7 +631,7 @@
         "points": 0.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 17
+        "rank": 15
       },
       {
         "name": "da Matta",
@@ -631,7 +639,7 @@
         "points": 0.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 18
+        "rank": 16
       },
       {
         "name": "Firman",
@@ -639,7 +647,31 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
+        "rank": 17
+      },
+      {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 18
+      },
+      {
+        "name": "Pizzonia",
+        "firstName": "Ant\u00f4nio",
+        "points": 0.0,
+        "team": "Jaguar",
+        "color": "#005A32",
         "rank": 19
+      },
+      {
+        "name": "Wilson",
+        "firstName": "Justin",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 999
       }
     ]
   },
@@ -651,19 +683,19 @@
     "location": "Montmel\u00f3",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Michael",
-        "points": 45.0,
-        "team": "Williams",
-        "color": "#005AFF",
-        "rank": 1
-      },
-      {
         "name": "R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
         "points": 32.0,
         "team": "McLaren",
         "color": "#FF8700",
+        "rank": 1
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 28.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 2
       },
       {
@@ -691,12 +723,20 @@
         "rank": 5
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 17.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 6
+      },
+      {
         "name": "Pablo Montoya",
         "firstName": "Juan",
         "points": 15.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Fisichella",
@@ -704,7 +744,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Trulli",
@@ -712,7 +752,7 @@
         "points": 9.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Frentzen",
@@ -720,19 +760,11 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Villeneuve",
         "firstName": "Jacques",
-        "points": 3.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
-        "rank": 10
-      },
-      {
-        "name": "Button",
-        "firstName": "Jenson",
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
@@ -747,12 +779,20 @@
         "rank": 12
       },
       {
+        "name": "Button",
+        "firstName": "Jenson",
+        "points": 3.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 13
+      },
+      {
         "name": "Webber",
         "firstName": "Mark",
         "points": 2.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 13
+        "rank": 14
       },
       {
         "name": "Heidfeld",
@@ -760,7 +800,7 @@
         "points": 1.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Firman",
@@ -768,23 +808,7 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 15
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 16
-      },
-      {
-        "name": "Pizzonia",
-        "firstName": "Ant\u00f4nio",
-        "points": 0.0,
-        "team": "Jaguar",
-        "color": "#005A32",
-        "rank": 17
       },
       {
         "name": "Panis",
@@ -792,6 +816,14 @@
         "points": 0.0,
         "team": "Toyota",
         "color": "#E10600",
+        "rank": 17
+      },
+      {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
         "rank": 18
       },
       {
@@ -801,6 +833,14 @@
         "team": "Minardi",
         "color": "#505050",
         "rank": 19
+      },
+      {
+        "name": "Pizzonia",
+        "firstName": "Ant\u00f4nio",
+        "points": 0.0,
+        "team": "Jaguar",
+        "color": "#005A32",
+        "rank": 20
       }
     ]
   },
@@ -812,19 +852,19 @@
     "location": "Spielberg",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Michael",
-        "points": 58.0,
-        "team": "Williams",
-        "color": "#005AFF",
-        "rank": 1
-      },
-      {
         "name": "R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
         "points": 40.0,
         "team": "McLaren",
         "color": "#FF8700",
+        "rank": 1
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 38.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 2
       },
       {
@@ -852,19 +892,19 @@
         "rank": 5
       },
       {
-        "name": "Pablo Montoya",
-        "firstName": "Juan",
-        "points": 15.0,
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 20.0,
         "team": "Williams",
         "color": "#005AFF",
         "rank": 6
       },
       {
-        "name": "Trulli",
-        "firstName": "Jarno",
-        "points": 10.0,
-        "team": "Renault",
-        "color": "#FFF500",
+        "name": "Pablo Montoya",
+        "firstName": "Juan",
+        "points": 15.0,
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 7
       },
       {
@@ -876,12 +916,20 @@
         "rank": 8
       },
       {
+        "name": "Trulli",
+        "firstName": "Jarno",
+        "points": 10.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 9
+      },
+      {
         "name": "Button",
         "firstName": "Jenson",
         "points": 8.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Frentzen",
@@ -889,7 +937,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Webber",
@@ -897,7 +945,7 @@
         "points": 4.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Villeneuve",
@@ -905,7 +953,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "da Matta",
@@ -913,7 +961,7 @@
         "points": 3.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 13
+        "rank": 14
       },
       {
         "name": "Heidfeld",
@@ -921,7 +969,7 @@
         "points": 1.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Firman",
@@ -929,14 +977,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 15
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 16
       },
       {
@@ -956,12 +996,20 @@
         "rank": 18
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 19
+        "rank": 20
       }
     ]
   },
@@ -973,19 +1021,19 @@
     "location": "Monte-Carlo",
     "standings": [
       {
-        "name": "Schumacher",
-        "firstName": "Michael",
-        "points": 69.0,
-        "team": "Williams",
-        "color": "#005AFF",
-        "rank": 1
-      },
-      {
         "name": "R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
         "points": 48.0,
         "team": "McLaren",
         "color": "#FF8700",
+        "rank": 1
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Michael",
+        "points": 44.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 2
       },
       {
@@ -1005,20 +1053,28 @@
         "rank": 4
       },
       {
-        "name": "Coulthard",
-        "firstName": "David",
-        "points": 25.0,
-        "team": "McLaren",
-        "color": "#FF8700",
-        "rank": 5
-      },
-      {
         "name": "Pablo Montoya",
         "firstName": "Juan",
         "points": 25.0,
         "team": "Williams",
         "color": "#005AFF",
+        "rank": 5
+      },
+      {
+        "name": "Coulthard",
+        "firstName": "David",
+        "points": 25.0,
+        "team": "McLaren",
+        "color": "#FF8700",
         "rank": 6
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 25.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -1026,7 +1082,7 @@
         "points": 13.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Fisichella",
@@ -1034,7 +1090,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Button",
@@ -1042,7 +1098,7 @@
         "points": 8.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Frentzen",
@@ -1050,7 +1106,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Webber",
@@ -1058,14 +1114,6 @@
         "points": 4.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 11
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 3.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 12
       },
       {
@@ -1077,12 +1125,20 @@
         "rank": 13
       },
       {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 3.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 14
+      },
+      {
         "name": "Heidfeld",
         "firstName": "Nick",
         "points": 1.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Firman",
@@ -1090,23 +1146,7 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 15
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 16
-      },
-      {
-        "name": "Pizzonia",
-        "firstName": "Ant\u00f4nio",
-        "points": 0.0,
-        "team": "Jaguar",
-        "color": "#005A32",
-        "rank": 17
       },
       {
         "name": "Panis",
@@ -1114,7 +1154,23 @@
         "points": 0.0,
         "team": "Toyota",
         "color": "#E10600",
+        "rank": 17
+      },
+      {
+        "name": "Pizzonia",
+        "firstName": "Ant\u00f4nio",
+        "points": 0.0,
+        "team": "Jaguar",
+        "color": "#005A32",
         "rank": 18
+      },
+      {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
       },
       {
         "name": "Wilson",
@@ -1122,7 +1178,7 @@
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 19
+        "rank": 20
       }
     ]
   },
@@ -1136,9 +1192,9 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 87.0,
-        "team": "Williams",
-        "color": "#005AFF",
+        "points": 54.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -1158,12 +1214,20 @@
         "rank": 3
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 33.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 4
+      },
+      {
         "name": "Pablo Montoya",
         "firstName": "Juan",
         "points": 31.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Barrichello",
@@ -1171,7 +1235,7 @@
         "points": 31.0,
         "team": "Ferrari",
         "color": "#DC0000",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Coulthard",
@@ -1179,7 +1243,7 @@
         "points": 25.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -1187,7 +1251,7 @@
         "points": 13.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Fisichella",
@@ -1195,7 +1259,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Button",
@@ -1203,7 +1267,7 @@
         "points": 8.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Frentzen",
@@ -1211,7 +1275,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Webber",
@@ -1219,14 +1283,6 @@
         "points": 6.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 11
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 3.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 12
       },
       {
@@ -1238,12 +1294,20 @@
         "rank": 13
       },
       {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 3.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 14
+      },
+      {
         "name": "Panis",
         "firstName": "Olivier",
         "points": 1.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Heidfeld",
@@ -1251,7 +1315,7 @@
         "points": 1.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Firman",
@@ -1259,14 +1323,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 16
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 17
       },
       {
@@ -1278,12 +1334,20 @@
         "rank": 18
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 19
+        "rank": 20
       }
     ]
   },
@@ -1297,7 +1361,7 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 101.0,
+        "points": 58.0,
         "team": "Ferrari",
         "color": "#DC0000",
         "rank": 1
@@ -1311,12 +1375,20 @@
         "rank": 2
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 43.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 3
+      },
+      {
         "name": "Pablo Montoya",
         "firstName": "Juan",
         "points": 39.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 3
+        "rank": 4
       },
       {
         "name": "Alonso",
@@ -1324,7 +1396,7 @@
         "points": 39.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Barrichello",
@@ -1332,7 +1404,7 @@
         "points": 37.0,
         "team": "Ferrari",
         "color": "#DC0000",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Coulthard",
@@ -1340,7 +1412,7 @@
         "points": 25.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -1348,14 +1420,6 @@
         "points": 13.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
-      },
-      {
-        "name": "Button",
-        "firstName": "Jenson",
-        "points": 10.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 8
       },
       {
@@ -1367,12 +1431,20 @@
         "rank": 9
       },
       {
+        "name": "Button",
+        "firstName": "Jenson",
+        "points": 10.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 10
+      },
+      {
         "name": "Webber",
         "firstName": "Mark",
         "points": 9.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Frentzen",
@@ -1380,14 +1452,6 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 11
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 3.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 12
       },
       {
@@ -1399,12 +1463,20 @@
         "rank": 13
       },
       {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 3.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 14
+      },
+      {
         "name": "Heidfeld",
         "firstName": "Nick",
         "points": 2.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Panis",
@@ -1412,7 +1484,7 @@
         "points": 1.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Firman",
@@ -1420,14 +1492,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 16
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 17
       },
       {
@@ -1439,12 +1503,20 @@
         "rank": 18
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 19
+        "rank": 20
       }
     ]
   },
@@ -1458,7 +1530,7 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 117.0,
+        "points": 64.0,
         "team": "Ferrari",
         "color": "#DC0000",
         "rank": 1
@@ -1472,19 +1544,19 @@
         "rank": 2
       },
       {
-        "name": "Pablo Montoya",
-        "firstName": "Juan",
-        "points": 47.0,
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 53.0,
         "team": "Williams",
         "color": "#005AFF",
         "rank": 3
       },
       {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 39.0,
-        "team": "Renault",
-        "color": "#FFF500",
+        "name": "Pablo Montoya",
+        "firstName": "Juan",
+        "points": 47.0,
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 4
       },
       {
@@ -1496,12 +1568,20 @@
         "rank": 5
       },
       {
+        "name": "Alonso",
+        "firstName": "Fernando",
+        "points": 39.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 6
+      },
+      {
         "name": "Coulthard",
         "firstName": "David",
         "points": 29.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -1509,7 +1589,7 @@
         "points": 13.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Webber",
@@ -1517,14 +1597,6 @@
         "points": 12.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 8
-      },
-      {
-        "name": "Button",
-        "firstName": "Jenson",
-        "points": 10.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 9
       },
       {
@@ -1536,12 +1608,20 @@
         "rank": 10
       },
       {
+        "name": "Button",
+        "firstName": "Jenson",
+        "points": 10.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 11
+      },
+      {
         "name": "Frentzen",
         "firstName": "Heinz-Harald",
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Villeneuve",
@@ -1549,7 +1629,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "da Matta",
@@ -1557,7 +1637,7 @@
         "points": 3.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 13
+        "rank": 14
       },
       {
         "name": "Panis",
@@ -1565,7 +1645,7 @@
         "points": 2.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Heidfeld",
@@ -1573,7 +1653,7 @@
         "points": 2.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Firman",
@@ -1581,14 +1661,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 16
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 17
       },
       {
@@ -1600,12 +1672,20 @@
         "rank": 18
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 19
+        "rank": 20
       }
     ]
   },
@@ -1619,9 +1699,9 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 122.0,
-        "team": "Williams",
-        "color": "#005AFF",
+        "points": 69.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -1641,12 +1721,20 @@
         "rank": 3
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 53.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 4
+      },
+      {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 49.0,
         "team": "Ferrari",
         "color": "#DC0000",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Alonso",
@@ -1654,7 +1742,7 @@
         "points": 39.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Coulthard",
@@ -1662,7 +1750,7 @@
         "points": 33.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -1670,7 +1758,7 @@
         "points": 16.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Webber",
@@ -1678,7 +1766,7 @@
         "points": 12.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Button",
@@ -1686,7 +1774,7 @@
         "points": 11.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Fisichella",
@@ -1694,7 +1782,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Frentzen",
@@ -1702,7 +1790,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "da Matta",
@@ -1710,7 +1798,7 @@
         "points": 5.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "Villeneuve",
@@ -1718,7 +1806,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 13
+        "rank": 14
       },
       {
         "name": "Panis",
@@ -1726,7 +1814,7 @@
         "points": 2.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Heidfeld",
@@ -1734,7 +1822,7 @@
         "points": 2.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Firman",
@@ -1742,14 +1830,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 16
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 17
       },
       {
@@ -1761,12 +1841,20 @@
         "rank": 18
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 19
+        "rank": 20
       }
     ]
   },
@@ -1780,9 +1868,9 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 124.0,
-        "team": "Williams",
-        "color": "#005AFF",
+        "points": 71.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -1802,12 +1890,20 @@
         "rank": 3
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 53.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 4
+      },
+      {
         "name": "Barrichello",
         "firstName": "Rubens",
         "points": 49.0,
         "team": "Ferrari",
         "color": "#DC0000",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Alonso",
@@ -1815,7 +1911,7 @@
         "points": 44.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Coulthard",
@@ -1823,7 +1919,7 @@
         "points": 41.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -1831,7 +1927,7 @@
         "points": 22.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Button",
@@ -1839,7 +1935,7 @@
         "points": 12.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Webber",
@@ -1847,7 +1943,7 @@
         "points": 12.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Fisichella",
@@ -1855,7 +1951,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "da Matta",
@@ -1863,7 +1959,7 @@
         "points": 8.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Frentzen",
@@ -1871,7 +1967,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "Panis",
@@ -1879,7 +1975,7 @@
         "points": 6.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 13
+        "rank": 14
       },
       {
         "name": "Villeneuve",
@@ -1887,7 +1983,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Heidfeld",
@@ -1895,7 +1991,7 @@
         "points": 2.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Firman",
@@ -1903,14 +1999,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 16
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 17
       },
       {
@@ -1922,12 +2010,20 @@
         "rank": 18
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 19
+        "rank": 20
       },
       {
         "name": "Kiesa",
@@ -1935,7 +2031,7 @@
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 20
+        "rank": 21
       }
     ]
   },
@@ -1949,7 +2045,7 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 130.0,
+        "points": 72.0,
         "team": "Ferrari",
         "color": "#DC0000",
         "rank": 1
@@ -1971,12 +2067,20 @@
         "rank": 3
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 58.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 4
+      },
+      {
         "name": "Alonso",
         "firstName": "Fernando",
         "points": 54.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 4
+        "rank": 5
       },
       {
         "name": "Barrichello",
@@ -1984,7 +2088,7 @@
         "points": 49.0,
         "team": "Ferrari",
         "color": "#DC0000",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Coulthard",
@@ -1992,7 +2096,7 @@
         "points": 45.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -2000,7 +2104,7 @@
         "points": 24.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Webber",
@@ -2008,7 +2112,7 @@
         "points": 15.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Button",
@@ -2016,7 +2120,7 @@
         "points": 12.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Fisichella",
@@ -2024,7 +2128,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "da Matta",
@@ -2032,7 +2136,7 @@
         "points": 8.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Frentzen",
@@ -2040,7 +2144,7 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 12
+        "rank": 13
       },
       {
         "name": "Panis",
@@ -2048,7 +2152,7 @@
         "points": 6.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 13
+        "rank": 14
       },
       {
         "name": "Villeneuve",
@@ -2056,7 +2160,7 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 14
+        "rank": 15
       },
       {
         "name": "Heidfeld",
@@ -2064,7 +2168,7 @@
         "points": 2.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Firman",
@@ -2072,14 +2176,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 16
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 17
       },
       {
@@ -2091,12 +2187,20 @@
         "rank": 18
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 19
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 19
+        "rank": 20
       },
       {
         "name": "Kiesa",
@@ -2104,7 +2208,7 @@
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 20
+        "rank": 21
       },
       {
         "name": "Baumgartner",
@@ -2112,7 +2216,7 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 21
+        "rank": 999
       }
     ]
   },
@@ -2126,7 +2230,7 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 140.0,
+        "points": 82.0,
         "team": "Ferrari",
         "color": "#DC0000",
         "rank": 1
@@ -2148,11 +2252,11 @@
         "rank": 3
       },
       {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 55.0,
-        "team": "Renault",
-        "color": "#FFF500",
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 58.0,
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 4
       },
       {
@@ -2164,12 +2268,20 @@
         "rank": 5
       },
       {
+        "name": "Alonso",
+        "firstName": "Fernando",
+        "points": 55.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 6
+      },
+      {
         "name": "Coulthard",
         "firstName": "David",
         "points": 45.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -2177,7 +2289,7 @@
         "points": 24.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Webber",
@@ -2185,7 +2297,7 @@
         "points": 17.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Button",
@@ -2193,7 +2305,7 @@
         "points": 12.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Fisichella",
@@ -2201,7 +2313,7 @@
         "points": 10.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "da Matta",
@@ -2209,7 +2321,7 @@
         "points": 8.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "Frentzen",
@@ -2217,14 +2329,6 @@
         "points": 7.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 12
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 6.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 13
       },
       {
@@ -2236,12 +2340,20 @@
         "rank": 14
       },
       {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 6.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 15
+      },
+      {
         "name": "Gen\u00e9",
         "firstName": "Marc",
         "points": 4.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Heidfeld",
@@ -2249,7 +2361,7 @@
         "points": 2.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 16
+        "rank": 17
       },
       {
         "name": "Firman",
@@ -2257,14 +2369,6 @@
         "points": 1.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 17
-      },
-      {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 18
       },
       {
@@ -2276,19 +2380,19 @@
         "rank": 19
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 20
+      },
+      {
         "name": "Wilson",
         "firstName": "Justin",
         "points": 0.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 20
-      },
-      {
-        "name": "Kiesa",
-        "firstName": "Nicolas",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
         "rank": 21
       },
       {
@@ -2298,6 +2402,14 @@
         "team": "Jordan",
         "color": "#E7C513",
         "rank": 22
+      },
+      {
+        "name": "Kiesa",
+        "firstName": "Nicolas",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 23
       }
     ]
   },
@@ -2311,9 +2423,9 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 150.0,
-        "team": "Williams",
-        "color": "#005AFF",
+        "points": 92.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -2333,11 +2445,11 @@
         "rank": 3
       },
       {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 55.0,
-        "team": "Renault",
-        "color": "#FFF500",
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 58.0,
+        "team": "Williams",
+        "color": "#005AFF",
         "rank": 4
       },
       {
@@ -2349,12 +2461,20 @@
         "rank": 5
       },
       {
+        "name": "Alonso",
+        "firstName": "Fernando",
+        "points": 55.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 6
+      },
+      {
         "name": "Coulthard",
         "firstName": "David",
         "points": 45.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -2362,7 +2482,7 @@
         "points": 29.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Webber",
@@ -2370,7 +2490,7 @@
         "points": 17.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Frentzen",
@@ -2378,14 +2498,6 @@
         "points": 13.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 9
-      },
-      {
-        "name": "Button",
-        "firstName": "Jenson",
-        "points": 12.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 10
       },
       {
@@ -2397,28 +2509,20 @@
         "rank": 11
       },
       {
+        "name": "Button",
+        "firstName": "Jenson",
+        "points": 12.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 12
+      },
+      {
         "name": "da Matta",
         "firstName": "Cristiano",
         "points": 8.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 12
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 6.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 13
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 6.0,
-        "team": "Toyota",
-        "color": "#E10600",
-        "rank": 14
       },
       {
         "name": "Heidfeld",
@@ -2426,7 +2530,23 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#006EFF",
+        "rank": 14
+      },
+      {
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 6.0,
+        "team": "Toyota",
+        "color": "#E10600",
         "rank": 15
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 6.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 16
       },
       {
         "name": "Gen\u00e9",
@@ -2434,14 +2554,6 @@
         "points": 4.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 16
-      },
-      {
-        "name": "Wilson",
-        "firstName": "Justin",
-        "points": 1.0,
-        "team": "Jaguar",
-        "color": "#005A32",
         "rank": 17
       },
       {
@@ -2453,11 +2565,11 @@
         "rank": 18
       },
       {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
+        "name": "Wilson",
+        "firstName": "Justin",
+        "points": 1.0,
+        "team": "Jaguar",
+        "color": "#005A32",
         "rank": 19
       },
       {
@@ -2469,12 +2581,20 @@
         "rank": 20
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 21
+      },
+      {
         "name": "Kiesa",
         "firstName": "Nicolas",
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 21
+        "rank": 22
       },
       {
         "name": "Baumgartner",
@@ -2482,7 +2602,7 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 22
+        "rank": 23
       }
     ]
   },
@@ -2496,9 +2616,9 @@
       {
         "name": "Schumacher",
         "firstName": "Michael",
-        "points": 151.0,
-        "team": "Williams",
-        "color": "#005AFF",
+        "points": 93.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
         "rank": 1
       },
       {
@@ -2526,12 +2646,20 @@
         "rank": 4
       },
       {
+        "name": "Schumacher",
+        "firstName": "Ralf",
+        "points": 58.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 5
+      },
+      {
         "name": "Alonso",
         "firstName": "Fernando",
         "points": 55.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 5
+        "rank": 6
       },
       {
         "name": "Coulthard",
@@ -2539,7 +2667,7 @@
         "points": 51.0,
         "team": "McLaren",
         "color": "#FF8700",
-        "rank": 6
+        "rank": 7
       },
       {
         "name": "Trulli",
@@ -2547,7 +2675,7 @@
         "points": 33.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 7
+        "rank": 8
       },
       {
         "name": "Button",
@@ -2555,7 +2683,7 @@
         "points": 17.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 8
+        "rank": 9
       },
       {
         "name": "Webber",
@@ -2563,7 +2691,7 @@
         "points": 17.0,
         "team": "Jaguar",
         "color": "#005A32",
-        "rank": 9
+        "rank": 10
       },
       {
         "name": "Frentzen",
@@ -2571,7 +2699,7 @@
         "points": 13.0,
         "team": "Sauber",
         "color": "#006EFF",
-        "rank": 10
+        "rank": 11
       },
       {
         "name": "Fisichella",
@@ -2579,7 +2707,7 @@
         "points": 12.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 11
+        "rank": 12
       },
       {
         "name": "da Matta",
@@ -2587,23 +2715,7 @@
         "points": 10.0,
         "team": "Toyota",
         "color": "#E10600",
-        "rank": 12
-      },
-      {
-        "name": "Villeneuve",
-        "firstName": "Jacques",
-        "points": 6.0,
-        "team": "BAR",
-        "color": "#E0E0E0",
         "rank": 13
-      },
-      {
-        "name": "Panis",
-        "firstName": "Olivier",
-        "points": 6.0,
-        "team": "Toyota",
-        "color": "#E10600",
-        "rank": 14
       },
       {
         "name": "Heidfeld",
@@ -2611,7 +2723,23 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#006EFF",
+        "rank": 14
+      },
+      {
+        "name": "Panis",
+        "firstName": "Olivier",
+        "points": 6.0,
+        "team": "Toyota",
+        "color": "#E10600",
         "rank": 15
+      },
+      {
+        "name": "Villeneuve",
+        "firstName": "Jacques",
+        "points": 6.0,
+        "team": "BAR",
+        "color": "#E0E0E0",
+        "rank": 16
       },
       {
         "name": "Gen\u00e9",
@@ -2619,7 +2747,7 @@
         "points": 4.0,
         "team": "Williams",
         "color": "#005AFF",
-        "rank": 16
+        "rank": 17
       },
       {
         "name": "Sato",
@@ -2627,14 +2755,6 @@
         "points": 3.0,
         "team": "BAR",
         "color": "#E0E0E0",
-        "rank": 17
-      },
-      {
-        "name": "Wilson",
-        "firstName": "Justin",
-        "points": 1.0,
-        "team": "Jaguar",
-        "color": "#005A32",
         "rank": 18
       },
       {
@@ -2646,11 +2766,11 @@
         "rank": 19
       },
       {
-        "name": "Verstappen",
-        "firstName": "Jos",
-        "points": 0.0,
-        "team": "Minardi",
-        "color": "#505050",
+        "name": "Wilson",
+        "firstName": "Justin",
+        "points": 1.0,
+        "team": "Jaguar",
+        "color": "#005A32",
         "rank": 20
       },
       {
@@ -2662,12 +2782,20 @@
         "rank": 21
       },
       {
+        "name": "Verstappen",
+        "firstName": "Jos",
+        "points": 0.0,
+        "team": "Minardi",
+        "color": "#505050",
+        "rank": 22
+      },
+      {
         "name": "Kiesa",
         "firstName": "Nicolas",
         "points": 0.0,
         "team": "Minardi",
         "color": "#505050",
-        "rank": 22
+        "rank": 23
       },
       {
         "name": "Baumgartner",
@@ -2675,7 +2803,7 @@
         "points": 0.0,
         "team": "Jordan",
         "color": "#E7C513",
-        "rank": 23
+        "rank": 24
       }
     ]
   }

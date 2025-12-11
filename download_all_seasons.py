@@ -2,6 +2,7 @@ import argparse
 import os
 import json
 import time
+import datetime
 
 """
 download_all_seasons.py
@@ -34,8 +35,10 @@ def download_seasons(start_year, end_year, force=False):
         except:
              print("Could not load download_progress.json, starting fresh.")
 
-    # Target: ~7 seasons per hour => 1 season every ~514 seconds (approx 8.5 mins)
-    # Let's say 600 seconds (10 mins) to be ultra safe.
+    # Target: Limit to < 500 calls / hour.
+    # ~40 calls per season.
+    # 12 seasons per hour = 480 calls.
+    # 60 mins / 12 = 5 mins per season.
     TARGET_CYCLE_TIME = 600 
     
     for year in range(start_year, end_year + 1):
@@ -129,7 +132,7 @@ if __name__ == '__main__':
     current_year = datetime.datetime.now().year
     
     parser = argparse.ArgumentParser(description="Download F1 data for multiple seasons")
-    parser.add_argument("--start", type=int, default=1950, help="Start year (default: 1950)")
+    parser.add_argument("--start", type=int, default=1991, help="Start year (default: 1991)")
     parser.add_argument("--end", type=int, default=current_year, help=f"End year (default: {current_year})")
     
     parser.add_argument("--force", action="store_true", help="Force download even if file exists")
