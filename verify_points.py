@@ -84,6 +84,10 @@ def get_wiki_standings(year):
         try:
             driver = row.get('driver', '')
             driver = re.sub(r'\[.*?\]', '', str(driver)).strip()
+
+            # 1997 Exception: Michael Schumacher was disqualified
+            if year == 1997 and 'michael' in driver.lower() and 'schumacher' in driver.lower():
+                continue
             
             # Points might be in 'points', 'pts', or 'total'
             points = row.get('points', row.get('pts', row.get('total', 0)))
@@ -129,13 +133,19 @@ def get_local_top3(year):
     sorted_standings = sorted(standings, key=lambda x: float(x['points']), reverse=True)
     
     local_top3 = []
-    for i in range(min(3, len(sorted_standings))):
-        s = sorted_standings[i]
-        
+    
+    for s in sorted_standings:
+        if len(local_top3) >= 3:
+            break
+            
         # Flattened structure: name (Last), firstName
         first = s.get('firstName', '')
         last = s.get('name', '')
         name = f"{first} {last}".strip()
+        
+        # 1997 Exception: Michael Schumacher was disqualified
+        if year == 1997 and 'michael' in first.lower() and 'schumacher' in last.lower():
+            continue
             
         local_top3.append({
             'driver': name,
