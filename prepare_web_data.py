@@ -147,13 +147,21 @@ def prepare_data(year):
                 for rank, d in enumerate(sprint_standings_list, 1):
                     d['rank'] = rank
                     
+                # Format Date
+                sprint_date = str(event['EventDate'])
+                try:
+                    s_dt = pd.to_datetime(sprint_date)
+                    s_date_str = s_dt.strftime("%d %b")
+                except:
+                    s_date_str = str(sprint_date)
+
                 # Create the Step
                 if sprint_points_map:
                      sprint_step_data = {
                         'round': int(round_num),
                         'eventName': event['EventName'],
                         'session': 'Sprint',
-                        'date': str(event['EventDate']), # Close enough
+                        'date': s_date_str, 
                         'location': event['Location'],
                         'standings': sprint_standings_list
                     }
