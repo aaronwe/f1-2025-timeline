@@ -5,6 +5,7 @@ import json
 import argparse
 import sys
 import time
+import copy
 
 """
 prepare_web_data.py
@@ -82,6 +83,85 @@ def prepare_data(year):
         
         if standings_df is None:
             continue # specific error logged above
+
+        if standings_df is None:
+            continue # specific error logged above
+
+        # [NEW] SPRINT LOGIC
+        # CHECK FOR SPRINT RESULTS
+        sprint_step_data = None
+        sprint_points_map = {} # Driver FamilyName -> Points earned in sprint
+
+        try:
+            sprint_resp = ergast.get_sprint_results(season=year, round=round_num)
+            if sprint_resp.content and not sprint_resp.content[0].empty:
+                sprint_df = sprint_resp.content[0]
+                print(f"  Found Sprint results for Round {round_num}")
+                
+                # Build map of sprint points
+                for _, row in sprint_df.iterrows():
+                    # Ergast: givenName, familyName, points
+                    last = row['familyName']
+                    pts = float(row['points'])
+                    if pts > 0:
+                        sprint_points_map[last] = pts
+                        
+                # If we have valid sprint points, we need to generate an intermediate step.
+                # We need the "Previous Standings" to add these points to.
+                # if i == 0 (Round 1), previous points are 0.
+                
+                previous_standings_list = []
+                if history:
+                    previous_standings_list = history[-1]['standings']
+                
+                # We need a comprehensive list of drivers. 
+                # The best proxy for "current grid" is the standings_df we just fetched for the Main Race.
+                # However, we need to subtract the Race points to get "Pre-Race" points?
+                # A safer bet: Take the 'previous_standings_list'. 
+                # Clone it. Update points for those in 'sprint_points_map'.
+                # Add any new drivers appearing in sprint but not in previous standings (rare).
+                
+                # Let's clone the previous state
+                sprint_standings_state = copy.deepcopy(previous_standings_list)
+                
+                # Map for easy update
+                sprint_driver_map = {d['name']: d for d in sprint_standings_state}
+                
+                # Update with sprint points
+                for drv_name, pts in sprint_points_map.items():
+                    if drv_name in sprint_driver_map:
+                        sprint_driver_map[drv_name]['points'] += pts
+                    else:
+                        # Driver not in previous standings (e.g. first race or substitute)
+                        # We should create an entry. 
+                        # We might lack color/first name here if we rely solely on previous.
+                        # For now, let's try to grab metadata from the sprint_df if possible, 
+                        # or just defer to the robust logic below.
+                        pass 
+
+                # Re-convert to list and Sort
+                sprint_standings_list = list(sprint_driver_map.values())
+                sprint_standings_list.sort(key=lambda x: x['points'], reverse=True)
+                
+                # Re-assign ranks
+                for rank, d in enumerate(sprint_standings_list, 1):
+                    d['rank'] = rank
+                    
+                # Create the Step
+                if sprint_points_map:
+                     sprint_step_data = {
+                        'round': int(round_num),
+                        'eventName': event['EventName'],
+                        'session': 'Sprint',
+                        'date': str(event['EventDate']), # Close enough
+                        'location': event['Location'],
+                        'standings': sprint_standings_list
+                    }
+
+        except Exception as e:
+            # Sprint fetch failed or clean - ignore
+            # print(f"  Debug: Check sprint failed: {e}")
+            pass
 
         # 2. Fetch Race Session to get Team Colors (not in Ergast)
         # We only need the 'Race' session for this metadata.
@@ -178,8 +258,18 @@ def prepare_data(year):
         location = event['Location']
 
         # Append to history
-        # Note: We are now outputting one "step" per Round (Race), not separate Sprint/Race steps.
-        # This is cleaner for the graph anyway.
+        # 1. Sprint Step (if available)
+        if sprint_step_data:
+            # Propagate colors from the main race lookup if missed
+            for d in sprint_step_data['standings']:
+                lname_key = str(d['name']).lower().strip()
+                if not d.get('color') and lname_key in color_map:
+                    d['color'] = color_map[lname_key]['color']
+            
+            history.append(sprint_step_data)
+            print(f"  Recorded SPRINT standings for Round {round_num}")
+
+        # 2. Race Step
         step_data = {
             'round': int(round_num),
             'eventName': event['EventName'],

@@ -1523,6 +1523,175 @@
   {
     "round": 10,
     "eventName": "British Grand Prix",
+    "session": "Sprint",
+    "date": "2021-07-18 00:00:00",
+    "location": "Silverstone",
+    "standings": [
+      {
+        "name": "Verstappen",
+        "firstName": "Max",
+        "points": 185.0,
+        "team": "Red Bull",
+        "color": "#0600EF",
+        "rank": 1
+      },
+      {
+        "name": "Hamilton",
+        "firstName": "Lewis",
+        "points": 152.0,
+        "team": "Mercedes",
+        "color": "#00D2BE",
+        "rank": 2
+      },
+      {
+        "name": "P\u00e9rez",
+        "firstName": "Sergio",
+        "points": 104.0,
+        "team": "Red Bull",
+        "color": "#0600EF",
+        "rank": 3
+      },
+      {
+        "name": "Norris",
+        "firstName": "Lando",
+        "points": 101.0,
+        "team": "McLaren",
+        "color": "#FF9800",
+        "rank": 4
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 93.0,
+        "team": "Mercedes",
+        "color": "#00D2BE",
+        "rank": 5
+      },
+      {
+        "name": "Leclerc",
+        "firstName": "Charles",
+        "points": 62.0,
+        "team": "Ferrari",
+        "color": "#DC0004",
+        "rank": 6
+      },
+      {
+        "name": "Sainz",
+        "firstName": "Carlos",
+        "points": 60.0,
+        "team": "Ferrari",
+        "color": "#DC0004",
+        "rank": 7
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 40.0,
+        "team": "McLaren",
+        "color": "#FF9800",
+        "rank": 8
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 39.0,
+        "team": "AlphaTauri",
+        "color": "#2B4562",
+        "rank": 9
+      },
+      {
+        "name": "Vettel",
+        "firstName": "Sebastian",
+        "points": 30.0,
+        "team": "Aston Martin",
+        "color": "#006F62",
+        "rank": 10
+      },
+      {
+        "name": "Alonso",
+        "firstName": "Fernando",
+        "points": 20.0,
+        "team": "Alpine F1 Team",
+        "color": "#0090FF",
+        "rank": 11
+      },
+      {
+        "name": "Stroll",
+        "firstName": "Lance",
+        "points": 14.0,
+        "team": "Aston Martin",
+        "color": "#006F62",
+        "rank": 12
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 12.0,
+        "team": "Alpine F1 Team",
+        "color": "#0090FF",
+        "rank": 13
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 9.0,
+        "team": "AlphaTauri",
+        "color": "#2B4562",
+        "rank": 14
+      },
+      {
+        "name": "R\u00e4ikk\u00f6nen",
+        "firstName": "Kimi",
+        "points": 1.0,
+        "team": "Alfa Romeo",
+        "color": "#900000",
+        "rank": 15
+      },
+      {
+        "name": "Giovinazzi",
+        "firstName": "Antonio",
+        "points": 1.0,
+        "team": "Alfa Romeo",
+        "color": "#900000",
+        "rank": 16
+      },
+      {
+        "name": "Russell",
+        "firstName": "George",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 17
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Mick",
+        "points": 0.0,
+        "team": "Haas F1 Team",
+        "color": "#FFFFFF",
+        "rank": 18
+      },
+      {
+        "name": "Mazepin",
+        "firstName": "Nikita",
+        "points": 0.0,
+        "team": "Haas F1 Team",
+        "color": "#FFFFFF",
+        "rank": 19
+      },
+      {
+        "name": "Latifi",
+        "firstName": "Nicholas",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 20
+      }
+    ]
+  },
+  {
+    "round": 10,
+    "eventName": "British Grand Prix",
     "session": "Race",
     "date": "18 Jul",
     "location": "Silverstone",
@@ -2102,6 +2271,183 @@
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 56.0,
+        "team": "McLaren",
+        "color": "#FF9800",
+        "rank": 9
+      },
+      {
+        "name": "Alonso",
+        "firstName": "Fernando",
+        "points": 46.0,
+        "team": "Alpine F1 Team",
+        "color": "#0090FF",
+        "rank": 10
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 44.0,
+        "team": "Alpine F1 Team",
+        "color": "#0090FF",
+        "rank": 11
+      },
+      {
+        "name": "Vettel",
+        "firstName": "Sebastian",
+        "points": 35.0,
+        "team": "Aston Martin",
+        "color": "#006F62",
+        "rank": 12
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 18.0,
+        "team": "AlphaTauri",
+        "color": "#2B4562",
+        "rank": 13
+      },
+      {
+        "name": "Stroll",
+        "firstName": "Lance",
+        "points": 18.0,
+        "team": "Aston Martin",
+        "color": "#006F62",
+        "rank": 14
+      },
+      {
+        "name": "Russell",
+        "firstName": "George",
+        "points": 13.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 15
+      },
+      {
+        "name": "Latifi",
+        "firstName": "Nicholas",
+        "points": 7.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 16
+      },
+      {
+        "name": "R\u00e4ikk\u00f6nen",
+        "firstName": "Kimi",
+        "points": 2.0,
+        "team": "Alfa Romeo",
+        "color": "#9B0000",
+        "rank": 17
+      },
+      {
+        "name": "Giovinazzi",
+        "firstName": "Antonio",
+        "points": 1.0,
+        "team": "Alfa Romeo",
+        "color": "#900000",
+        "rank": 18
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Mick",
+        "points": 0.0,
+        "team": "Haas F1 Team",
+        "color": "#FFFFFF",
+        "rank": 19
+      },
+      {
+        "name": "Mazepin",
+        "firstName": "Nikita",
+        "points": 0.0,
+        "team": "Haas F1 Team",
+        "color": "#FFFFFF",
+        "rank": 20
+      },
+      {
+        "name": "Kubica",
+        "firstName": "Robert",
+        "points": 0.0,
+        "team": "Alfa Romeo",
+        "color": "#900000",
+        "rank": 21
+      }
+    ]
+  },
+  {
+    "round": 14,
+    "eventName": "Italian Grand Prix",
+    "session": "Sprint",
+    "date": "2021-09-12 00:00:00",
+    "location": "Monza",
+    "standings": [
+      {
+        "name": "Verstappen",
+        "firstName": "Max",
+        "points": 226.5,
+        "team": "Red Bull",
+        "color": "#0600EF",
+        "rank": 1
+      },
+      {
+        "name": "Hamilton",
+        "firstName": "Lewis",
+        "points": 221.5,
+        "team": "Mercedes",
+        "color": "#00D2BE",
+        "rank": 2
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 126.0,
+        "team": "Mercedes",
+        "color": "#00D2BE",
+        "rank": 3
+      },
+      {
+        "name": "Norris",
+        "firstName": "Lando",
+        "points": 114.0,
+        "team": "McLaren",
+        "color": "#FF9800",
+        "rank": 4
+      },
+      {
+        "name": "P\u00e9rez",
+        "firstName": "Sergio",
+        "points": 108.0,
+        "team": "Red Bull",
+        "color": "#0600EF",
+        "rank": 5
+      },
+      {
+        "name": "Leclerc",
+        "firstName": "Charles",
+        "points": 92.0,
+        "team": "Ferrari",
+        "color": "#DC0004",
+        "rank": 6
+      },
+      {
+        "name": "Sainz",
+        "firstName": "Carlos",
+        "points": 89.5,
+        "team": "Ferrari",
+        "color": "#DC0004",
+        "rank": 7
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 66.0,
+        "team": "AlphaTauri",
+        "color": "#2B4562",
+        "rank": 8
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 57.0,
         "team": "McLaren",
         "color": "#FF9800",
         "rank": 9
@@ -2971,6 +3317,183 @@
         "name": "Sainz",
         "firstName": "Carlos",
         "points": 130.5,
+        "team": "Ferrari",
+        "color": "#DC0004",
+        "rank": 7
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 105.0,
+        "team": "McLaren",
+        "color": "#FF9800",
+        "rank": 8
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 86.0,
+        "team": "AlphaTauri",
+        "color": "#2B4562",
+        "rank": 9
+      },
+      {
+        "name": "Alonso",
+        "firstName": "Fernando",
+        "points": 60.0,
+        "team": "Alpine F1 Team",
+        "color": "#0090FF",
+        "rank": 10
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 46.0,
+        "team": "Alpine F1 Team",
+        "color": "#0090FF",
+        "rank": 11
+      },
+      {
+        "name": "Vettel",
+        "firstName": "Sebastian",
+        "points": 42.0,
+        "team": "Aston Martin",
+        "color": "#006F62",
+        "rank": 12
+      },
+      {
+        "name": "Stroll",
+        "firstName": "Lance",
+        "points": 26.0,
+        "team": "Aston Martin",
+        "color": "#006F62",
+        "rank": 13
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 20.0,
+        "team": "AlphaTauri",
+        "color": "#2B4562",
+        "rank": 14
+      },
+      {
+        "name": "Russell",
+        "firstName": "George",
+        "points": 16.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 15
+      },
+      {
+        "name": "R\u00e4ikk\u00f6nen",
+        "firstName": "Kimi",
+        "points": 10.0,
+        "team": "Alfa Romeo",
+        "color": "#900000",
+        "rank": 16
+      },
+      {
+        "name": "Latifi",
+        "firstName": "Nicholas",
+        "points": 7.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 17
+      },
+      {
+        "name": "Giovinazzi",
+        "firstName": "Antonio",
+        "points": 1.0,
+        "team": "Alfa Romeo",
+        "color": "#900000",
+        "rank": 18
+      },
+      {
+        "name": "Schumacher",
+        "firstName": "Mick",
+        "points": 0.0,
+        "team": "Haas F1 Team",
+        "color": "#FFFFFF",
+        "rank": 19
+      },
+      {
+        "name": "Kubica",
+        "firstName": "Robert",
+        "points": 0.0,
+        "team": "Alfa Romeo",
+        "color": "#9B0000",
+        "rank": 20
+      },
+      {
+        "name": "Mazepin",
+        "firstName": "Nikita",
+        "points": 0.0,
+        "team": "Haas F1 Team",
+        "color": "#FFFFFF",
+        "rank": 21
+      }
+    ]
+  },
+  {
+    "round": 19,
+    "eventName": "S\u00e3o Paulo Grand Prix",
+    "session": "Sprint",
+    "date": "2021-11-14 00:00:00",
+    "location": "S\u00e3o Paulo",
+    "standings": [
+      {
+        "name": "Verstappen",
+        "firstName": "Max",
+        "points": 314.5,
+        "team": "Red Bull",
+        "color": "#0600EF",
+        "rank": 1
+      },
+      {
+        "name": "Hamilton",
+        "firstName": "Lewis",
+        "points": 293.5,
+        "team": "Mercedes",
+        "color": "#00D2BE",
+        "rank": 2
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 188.0,
+        "team": "Mercedes",
+        "color": "#00D2BE",
+        "rank": 3
+      },
+      {
+        "name": "P\u00e9rez",
+        "firstName": "Sergio",
+        "points": 165.0,
+        "team": "Red Bull",
+        "color": "#0600EF",
+        "rank": 4
+      },
+      {
+        "name": "Norris",
+        "firstName": "Lando",
+        "points": 150.0,
+        "team": "McLaren",
+        "color": "#FF9800",
+        "rank": 5
+      },
+      {
+        "name": "Leclerc",
+        "firstName": "Charles",
+        "points": 138.0,
+        "team": "Ferrari",
+        "color": "#DC0004",
+        "rank": 6
+      },
+      {
+        "name": "Sainz",
+        "firstName": "Carlos",
+        "points": 131.5,
         "team": "Ferrari",
         "color": "#DC0004",
         "rank": 7

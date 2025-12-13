@@ -10,16 +10,16 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 26.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671c6",
         "rank": 1
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 18.0,
-        "team": "Red Bull Racing",
-        "color": "#3671c6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 2
       },
       {
@@ -90,7 +90,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 11
       },
@@ -106,7 +106,7 @@
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 0.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692ff",
         "rank": 13
       },
@@ -114,7 +114,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 0.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692ff",
         "rank": 14
       },
@@ -127,18 +127,18 @@
         "rank": 15
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 0.0,
         "team": "Haas F1 Team",
-        "color": "#b6babd",
+        "color": "#B6BABD",
         "rank": 16
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#ff87bc",
         "rank": 17
       },
@@ -146,7 +146,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#ff87bc",
         "rank": 18
       },
@@ -154,7 +154,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
       },
@@ -179,16 +179,16 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 51.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671c6",
         "rank": 1
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 36.0,
-        "team": "Red Bull Racing",
-        "color": "#3671c6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 2
       },
       {
@@ -220,16 +220,8 @@
         "firstName": "Carlos",
         "points": 15.0,
         "team": "Ferrari",
-        "color": "#e8002d",
+        "color": "#DC0000",
         "rank": 6
-      },
-      {
-        "name": "Norris",
-        "firstName": "Lando",
-        "points": 12.0,
-        "team": "McLaren",
-        "color": "#ff8000",
-        "rank": 7
       },
       {
         "name": "Alonso",
@@ -237,6 +229,14 @@
         "points": 12.0,
         "team": "Aston Martin",
         "color": "#229971",
+        "rank": 7
+      },
+      {
+        "name": "Norris",
+        "firstName": "Lando",
+        "points": 12.0,
+        "team": "McLaren",
+        "color": "#ff8000",
         "rank": 8
       },
       {
@@ -256,52 +256,20 @@
         "rank": 10
       },
       {
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
+        "points": 1.0,
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 11
+      },
+      {
         "name": "Stroll",
         "firstName": "Lance",
         "points": 1.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
-      },
-      {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
-        "points": 1.0,
-        "team": "Haas F1 Team",
-        "color": "#b6babd",
         "rank": 12
-      },
-      {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 13
-      },
-      {
-        "name": "Magnussen",
-        "firstName": "Kevin",
-        "points": 0.0,
-        "team": "Haas F1 Team",
-        "color": "#b6babd",
-        "rank": 14
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 0.0,
-        "team": "RB",
-        "color": "#6692ff",
-        "rank": 15
-      },
-      {
-        "name": "Tsunoda",
-        "firstName": "Yuki",
-        "points": 0.0,
-        "team": "RB",
-        "color": "#6692ff",
-        "rank": 16
       },
       {
         "name": "Albon",
@@ -309,31 +277,47 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64c4ff",
-        "rank": 17
+        "rank": 13
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
+        "rank": 14
+      },
+      {
+        "name": "Magnussen",
+        "firstName": "Kevin",
+        "points": 0.0,
+        "team": "Haas F1 Team",
+        "color": "#b6babd",
+        "rank": 15
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 0.0,
+        "team": "RB F1 Team",
+        "color": "#6692ff",
+        "rank": 16
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#ff87bc",
+        "rank": 17
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 0.0,
+        "team": "RB F1 Team",
+        "color": "#6692ff",
         "rank": 18
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 0.0,
-        "team": "Alpine",
-        "color": "#ff87bc",
-        "rank": 19
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 20
       },
       {
         "name": "Sargeant",
@@ -341,6 +325,22 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64c4ff",
+        "rank": 19
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
+        "rank": 20
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 0.0,
+        "team": "Alpine F1 Team",
+        "color": "#ff87bc",
         "rank": 21
       }
     ]
@@ -356,7 +356,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 51.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -369,11 +369,11 @@
         "rank": 2
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 46.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 3
       },
       {
@@ -436,7 +436,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 6.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
       },
@@ -445,11 +445,11 @@
         "firstName": "Oliver",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#e8002d",
+        "color": "#DC0000",
         "rank": 12
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 3.0,
         "team": "Haas F1 Team",
@@ -465,34 +465,34 @@
         "rank": 14
       },
       {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 15
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 0.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 15
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 0.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 17
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -500,7 +500,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 19
       },
@@ -508,7 +508,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -517,7 +517,7 @@
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64c4ff",
+        "color": "#005AFF",
         "rank": 21
       }
     ]
@@ -533,16 +533,16 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 77.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 64.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 2
       },
       {
@@ -613,7 +613,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 7.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
       },
@@ -622,11 +622,11 @@
         "firstName": "Oliver",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#e8002d",
+        "color": "#DC0000",
         "rank": 12
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 3.0,
         "team": "Haas F1 Team",
@@ -642,34 +642,34 @@
         "rank": 14
       },
       {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 15
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 0.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 15
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 0.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 17
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -677,7 +677,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 19
       },
@@ -685,7 +685,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -703,23 +703,23 @@
     "round": 5,
     "eventName": "Chinese Grand Prix",
     "session": "Sprint",
-    "date": "21 Apr",
+    "date": "2024-04-21 00:00:00",
     "location": "Shanghai",
     "standings": [
       {
         "name": "Verstappen",
         "firstName": "Max",
         "points": 85.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 70.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 2
       },
       {
@@ -790,7 +790,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 7.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
       },
@@ -799,11 +799,11 @@
         "firstName": "Oliver",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#e8002d",
+        "color": "#DC0000",
         "rank": 12
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 3.0,
         "team": "Haas F1 Team",
@@ -819,34 +819,34 @@
         "rank": 14
       },
       {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 15
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 0.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 15
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 0.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 17
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -854,7 +854,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 19
       },
@@ -862,7 +862,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -887,16 +887,16 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 110.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 85.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 2
       },
       {
@@ -967,7 +967,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 7.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
       },
@@ -976,11 +976,11 @@
         "firstName": "Oliver",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#e8002d",
+        "color": "#DC0000",
         "rank": 12
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 4.0,
         "team": "Haas F1 Team",
@@ -996,42 +996,42 @@
         "rank": 14
       },
       {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 15
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 0.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 17
+        "rank": 15
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
+        "rank": 16
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
+        "rank": 17
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 0.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 18
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 19
       },
@@ -1039,7 +1039,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -1057,23 +1057,23 @@
     "round": 6,
     "eventName": "Miami Grand Prix",
     "session": "Sprint",
-    "date": "05 May",
+    "date": "2024-05-05 00:00:00",
     "location": "Miami",
     "standings": [
       {
         "name": "Verstappen",
         "firstName": "Max",
         "points": 118.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 91.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 2
       },
       {
@@ -1144,31 +1144,31 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 8.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
-      },
-      {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
-        "points": 6.0,
-        "team": "Haas F1 Team",
-        "color": "#B6BABD",
-        "rank": 12
       },
       {
         "name": "Bearman",
         "firstName": "Oliver",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#e8002d",
+        "color": "#DC0000",
+        "rank": 12
+      },
+      {
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
+        "points": 6.0,
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 13
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 5.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 14
       },
@@ -1181,34 +1181,34 @@
         "rank": 15
       },
       {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 17
+        "rank": 16
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
+        "rank": 17
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 18
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 19
       },
@@ -1216,7 +1216,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -1241,16 +1241,16 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 136.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 103.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 2
       },
       {
@@ -1262,19 +1262,19 @@
         "rank": 3
       },
       {
-        "name": "Sainz",
-        "firstName": "Carlos",
-        "points": 83.0,
-        "team": "Ferrari",
-        "color": "#E80020",
-        "rank": 4
-      },
-      {
         "name": "Norris",
         "firstName": "Lando",
         "points": 83.0,
         "team": "McLaren",
         "color": "#FF8000",
+        "rank": 4
+      },
+      {
+        "name": "Sainz",
+        "firstName": "Carlos",
+        "points": 83.0,
+        "team": "Ferrari",
+        "color": "#E80020",
         "rank": 5
       },
       {
@@ -1313,7 +1313,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 14.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 10
       },
@@ -1326,28 +1326,36 @@
         "rank": 11
       },
       {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
-        "points": 6.0,
-        "team": "Haas F1 Team",
-        "color": "#B6BABD",
-        "rank": 12
-      },
-      {
         "name": "Bearman",
         "firstName": "Oliver",
         "points": 6.0,
         "team": "Ferrari",
-        "color": "#e8002d",
+        "color": "#DC0000",
+        "rank": 12
+      },
+      {
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
+        "points": 6.0,
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 13
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 5.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 14
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 1.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
+        "rank": 15
       },
       {
         "name": "Magnussen",
@@ -1355,23 +1363,7 @@
         "points": 1.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 15
-      },
-      {
-        "name": "Ocon",
-        "firstName": "Esteban",
-        "points": 1.0,
-        "team": "Alpine",
-        "color": "#0093cc",
         "rank": 16
-      },
-      {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 17
       },
       {
         "name": "Albon",
@@ -1379,13 +1371,21 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 17
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 18
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 19
       },
@@ -1393,7 +1393,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -1418,7 +1418,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 161.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -1431,11 +1431,11 @@
         "rank": 2
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 107.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 3
       },
       {
@@ -1490,7 +1490,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 15.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 10
       },
@@ -1503,28 +1503,36 @@
         "rank": 11
       },
       {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
+        "name": "Bearman",
+        "firstName": "Oliver",
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
         "rank": 12
       },
       {
-        "name": "Bearman",
-        "firstName": "Oliver",
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 13
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 5.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 14
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 1.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
+        "rank": 15
       },
       {
         "name": "Magnussen",
@@ -1532,23 +1540,7 @@
         "points": 1.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 15
-      },
-      {
-        "name": "Ocon",
-        "firstName": "Esteban",
-        "points": 1.0,
-        "team": "Alpine",
-        "color": "#0093cc",
         "rank": 16
-      },
-      {
-        "name": "Zhou",
-        "firstName": "Guanyu",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 17
       },
       {
         "name": "Albon",
@@ -1556,13 +1548,21 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 17
+      },
+      {
+        "name": "Zhou",
+        "firstName": "Guanyu",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 18
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 19
       },
@@ -1570,7 +1570,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -1595,7 +1595,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 169.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -1624,11 +1624,11 @@
         "rank": 4
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 107.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 5
       },
       {
@@ -1667,7 +1667,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 19.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 10
       },
@@ -1680,26 +1680,26 @@
         "rank": 11
       },
       {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
+        "name": "Bearman",
+        "firstName": "Oliver",
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
         "rank": 12
       },
       {
-        "name": "Bearman",
-        "firstName": "Oliver",
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 13
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 5.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 14
       },
@@ -1712,26 +1712,26 @@
         "rank": 15
       },
       {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 1.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
+        "rank": 16
+      },
+      {
         "name": "Magnussen",
         "firstName": "Kevin",
         "points": 1.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 16
-      },
-      {
-        "name": "Ocon",
-        "firstName": "Esteban",
-        "points": 1.0,
-        "team": "Alpine",
-        "color": "#0093cc",
         "rank": 17
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 1.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -1739,7 +1739,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
       },
@@ -1747,7 +1747,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -1772,7 +1772,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 194.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -1801,11 +1801,11 @@
         "rank": 4
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 107.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 5
       },
       {
@@ -1844,7 +1844,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 19.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 10
       },
@@ -1860,31 +1860,31 @@
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 9.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
       {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
+        "name": "Bearman",
+        "firstName": "Oliver",
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
         "rank": 13
       },
       {
-        "name": "Bearman",
-        "firstName": "Oliver",
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 14
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 3.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093CC",
         "rank": 15
       },
@@ -1900,7 +1900,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 2.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093CC",
         "rank": 17
       },
@@ -1916,7 +1916,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
       },
@@ -1924,7 +1924,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -1949,7 +1949,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 219.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -1978,11 +1978,11 @@
         "rank": 4
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 111.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 5
       },
       {
@@ -2021,7 +2021,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 19.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 10
       },
@@ -2037,31 +2037,31 @@
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 9.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
       {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
+        "name": "Bearman",
+        "firstName": "Oliver",
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
         "rank": 13
       },
       {
-        "name": "Bearman",
-        "firstName": "Oliver",
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 14
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 15
       },
@@ -2069,7 +2069,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 3.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 16
       },
@@ -2093,7 +2093,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
       },
@@ -2101,7 +2101,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -2119,14 +2119,14 @@
     "round": 11,
     "eventName": "Austrian Grand Prix",
     "session": "Sprint",
-    "date": "30 Jun",
+    "date": "2024-06-30 00:00:00",
     "location": "Spielberg",
     "standings": [
       {
         "name": "Verstappen",
         "firstName": "Max",
         "points": 227.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -2155,11 +2155,11 @@
         "rank": 4
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 112.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 5
       },
       {
@@ -2198,7 +2198,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 19.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 10
       },
@@ -2214,31 +2214,31 @@
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 9.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
       {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
+        "name": "Bearman",
+        "firstName": "Oliver",
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
         "rank": 13
       },
       {
-        "name": "Bearman",
-        "firstName": "Oliver",
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 14
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 15
       },
@@ -2246,7 +2246,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 3.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 16
       },
@@ -2270,7 +2270,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
       },
@@ -2278,7 +2278,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -2303,7 +2303,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 237.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -2332,11 +2332,11 @@
         "rank": 4
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 118.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 5
       },
       {
@@ -2375,7 +2375,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 19.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 10
       },
@@ -2388,7 +2388,7 @@
         "rank": 11
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 14.0,
         "team": "Haas F1 Team",
@@ -2399,24 +2399,24 @@
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 11.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 13
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 6.0,
-        "team": "Alpine",
-        "color": "#0093cc",
-        "rank": 14
       },
       {
         "name": "Bearman",
         "firstName": "Oliver",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 14
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 6.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
         "rank": 15
       },
       {
@@ -2431,7 +2431,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 3.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 17
       },
@@ -2447,7 +2447,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
       },
@@ -2455,7 +2455,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -2480,7 +2480,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 255.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -2517,11 +2517,11 @@
         "rank": 5
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 118.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 6
       },
       {
@@ -2557,7 +2557,7 @@
         "rank": 10
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 22.0,
         "team": "Haas F1 Team",
@@ -2568,7 +2568,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 20.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
@@ -2576,24 +2576,24 @@
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 11.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 13
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 6.0,
-        "team": "Alpine",
-        "color": "#0093cc",
-        "rank": 14
       },
       {
         "name": "Bearman",
         "firstName": "Oliver",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 14
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 6.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
         "rank": 15
       },
       {
@@ -2616,7 +2616,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 3.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -2624,17 +2624,9 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 20
       },
       {
         "name": "Sargeant",
@@ -2642,6 +2634,14 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 20
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 21
       }
     ]
@@ -2657,7 +2657,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 265.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -2702,11 +2702,11 @@
         "rank": 6
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 124.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 7
       },
       {
@@ -2734,43 +2734,43 @@
         "rank": 10
       },
       {
-        "name": "Tsunoda",
-        "firstName": "Yuki",
-        "points": 22.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 11
-      },
-      {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 22.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
+        "rank": 11
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 22.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 12
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 11.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 13
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 6.0,
-        "team": "Alpine",
-        "color": "#0093cc",
-        "rank": 14
       },
       {
         "name": "Bearman",
         "firstName": "Oliver",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 14
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 6.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
         "rank": 15
       },
       {
@@ -2793,7 +2793,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 3.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -2801,17 +2801,9 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 20
       },
       {
         "name": "Sargeant",
@@ -2819,6 +2811,14 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 20
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 21
       }
     ]
@@ -2834,7 +2834,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 277.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -2879,11 +2879,11 @@
         "rank": 6
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 131.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 7
       },
       {
@@ -2911,43 +2911,43 @@
         "rank": 10
       },
       {
-        "name": "Tsunoda",
-        "firstName": "Yuki",
-        "points": 22.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 11
-      },
-      {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 22.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
+        "rank": 11
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 22.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 12
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 12.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 13
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 6.0,
-        "team": "Alpine",
-        "color": "#0093cc",
-        "rank": 14
       },
       {
         "name": "Bearman",
         "firstName": "Oliver",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 14
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 6.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
         "rank": 15
       },
       {
@@ -2962,7 +2962,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 17
       },
@@ -2978,17 +2978,9 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 20
       },
       {
         "name": "Sargeant",
@@ -2996,6 +2988,14 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 20
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 21
       }
     ]
@@ -3011,7 +3011,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 295.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -3056,11 +3056,11 @@
         "rank": 6
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 139.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 7
       },
       {
@@ -3088,26 +3088,26 @@
         "rank": 10
       },
       {
-        "name": "Tsunoda",
-        "firstName": "Yuki",
-        "points": 22.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 11
-      },
-      {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 22.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
+        "rank": 11
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 22.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 12
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 12.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 13
       },
@@ -3115,7 +3115,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 8.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 14
       },
@@ -3123,8 +3123,8 @@
         "name": "Bearman",
         "firstName": "Oliver",
         "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
         "rank": 15
       },
       {
@@ -3139,7 +3139,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 17
       },
@@ -3155,17 +3155,9 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 20
       },
       {
         "name": "Sargeant",
@@ -3173,6 +3165,14 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 20
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 21
       }
     ]
@@ -3188,7 +3188,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 303.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -3233,11 +3233,11 @@
         "rank": 6
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 143.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 7
       },
       {
@@ -3265,26 +3265,26 @@
         "rank": 10
       },
       {
-        "name": "Tsunoda",
-        "firstName": "Yuki",
-        "points": 22.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 11
-      },
-      {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 22.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
+        "rank": 11
+      },
+      {
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 22.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 12
       },
       {
         "name": "Ricciardo",
         "firstName": "Daniel",
         "points": 12.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 13
       },
@@ -3292,9 +3292,17 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 8.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 14
+      },
+      {
+        "name": "Bearman",
+        "firstName": "Oliver",
+        "points": 6.0,
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 15
       },
       {
         "name": "Magnussen",
@@ -3302,7 +3310,7 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 15
+        "rank": 16
       },
       {
         "name": "Albon",
@@ -3310,21 +3318,13 @@
         "points": 6.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 16
-      },
-      {
-        "name": "Bearman",
-        "firstName": "Oliver",
-        "points": 6.0,
-        "team": "Ferrari",
-        "color": "#e8002d",
         "rank": 17
       },
       {
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -3332,25 +3332,17 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 19
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 20
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
-        "rank": 21
+        "color": "#005AFF",
+        "rank": 20
       },
       {
         "name": "Colapinto",
@@ -3358,6 +3350,14 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 21
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 22
       }
     ]
@@ -3373,7 +3373,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 313.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -3418,19 +3418,19 @@
         "rank": 6
       },
       {
-        "name": "Perez",
-        "firstName": "Sergio",
-        "points": 143.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
-        "rank": 7
-      },
-      {
         "name": "Russell",
         "firstName": "George",
         "points": 143.0,
         "team": "Mercedes",
         "color": "#27F4D2",
+        "rank": 7
+      },
+      {
+        "name": "P\u00e9rez",
+        "firstName": "Sergio",
+        "points": 143.0,
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -3450,28 +3450,20 @@
         "rank": 10
       },
       {
-        "name": "Tsunoda",
-        "firstName": "Yuki",
-        "points": 22.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 11
-      },
-      {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 22.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 12
+        "rank": 11
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
+        "name": "Tsunoda",
+        "firstName": "Yuki",
+        "points": 22.0,
+        "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 13
+        "rank": 12
       },
       {
         "name": "Albon",
@@ -3479,13 +3471,21 @@
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 13
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 14
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 8.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 15
       },
@@ -3509,7 +3509,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -3525,24 +3525,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 21
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 21
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 22
       }
     ]
@@ -3558,7 +3558,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 331.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -3611,11 +3611,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 144.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -3627,36 +3627,28 @@
         "rank": 9
       },
       {
+        "name": "H\u00fclkenberg",
+        "firstName": "Nico",
+        "points": 24.0,
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 10
+      },
+      {
         "name": "Stroll",
         "firstName": "Lance",
         "points": 24.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
-      },
-      {
-        "name": "Hulkenberg",
-        "firstName": "Nico",
-        "points": 24.0,
-        "team": "Haas F1 Team",
-        "color": "#B6BABD",
         "rank": 11
       },
       {
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 22.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 13
       },
       {
         "name": "Albon",
@@ -3664,13 +3656,21 @@
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 13
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 14
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 8.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 15
       },
@@ -3694,7 +3694,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -3710,24 +3710,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 21
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 21
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 22
       }
     ]
@@ -3736,14 +3736,14 @@
     "round": 19,
     "eventName": "United States Grand Prix",
     "session": "Sprint",
-    "date": "20 Oct",
+    "date": "2024-10-20 00:00:00",
     "location": "Austin",
     "standings": [
       {
         "name": "Verstappen",
         "firstName": "Max",
         "points": 339.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -3796,11 +3796,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 144.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -3812,7 +3812,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 25.0,
         "team": "Haas F1 Team",
@@ -3831,17 +3831,9 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 22.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 13
       },
       {
         "name": "Albon",
@@ -3849,7 +3841,23 @@
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 13
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
         "rank": 14
+      },
+      {
+        "name": "Gasly",
+        "firstName": "Pierre",
+        "points": 8.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
+        "rank": 15
       },
       {
         "name": "Magnussen",
@@ -3857,14 +3865,6 @@
         "points": 8.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 15
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 8.0,
-        "team": "Alpine",
-        "color": "#0093cc",
         "rank": 16
       },
       {
@@ -3879,7 +3879,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 5.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 18
       },
@@ -3895,33 +3895,25 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 21
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
-        "rank": 22
+        "color": "#005AFF",
+        "rank": 21
       },
       {
-        "name": "Lawson",
-        "firstName": "Liam",
+        "name": "Bottas",
+        "firstName": "Valtteri",
         "points": 0.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 23
+        "team": "Sauber",
+        "color": "#52e252",
+        "rank": 22
       }
     ]
   },
@@ -3936,7 +3928,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 354.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -3989,11 +3981,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 150.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -4005,7 +3997,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 29.0,
         "team": "Haas F1 Team",
@@ -4024,17 +4016,9 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 22.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
-      },
-      {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 13
       },
       {
         "name": "Albon",
@@ -4042,6 +4026,14 @@
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 13
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 14
       },
       {
@@ -4056,7 +4048,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 8.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 16
       },
@@ -4069,26 +4061,26 @@
         "rank": 17
       },
       {
-        "name": "Ocon",
-        "firstName": "Esteban",
-        "points": 5.0,
-        "team": "Alpine",
-        "color": "#0093cc",
-        "rank": 18
-      },
-      {
         "name": "Colapinto",
         "firstName": "Franco",
         "points": 5.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 18
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 5.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
         "rank": 19
       },
       {
         "name": "Lawson",
         "firstName": "Liam",
         "points": 2.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 20
       },
@@ -4096,24 +4088,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 21
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 22
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 22
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 23
       }
     ]
@@ -4129,7 +4121,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 362.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -4182,11 +4174,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 150.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -4198,7 +4190,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 31.0,
         "team": "Haas F1 Team",
@@ -4217,7 +4209,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 22.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
@@ -4230,26 +4222,26 @@
         "rank": 13
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 14
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 14
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 15
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 9.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 16
       },
@@ -4262,26 +4254,26 @@
         "rank": 17
       },
       {
-        "name": "Ocon",
-        "firstName": "Esteban",
-        "points": 5.0,
-        "team": "Alpine",
-        "color": "#0093cc",
-        "rank": 18
-      },
-      {
         "name": "Colapinto",
         "firstName": "Franco",
         "points": 5.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 18
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 5.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
         "rank": 19
       },
       {
         "name": "Lawson",
         "firstName": "Liam",
         "points": 2.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 20
       },
@@ -4289,24 +4281,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 21
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 22
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 22
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 23
       }
     ]
@@ -4315,14 +4307,14 @@
     "round": 21,
     "eventName": "S\u00e3o Paulo Grand Prix",
     "session": "Sprint",
-    "date": "03 Nov",
+    "date": "2024-11-03 00:00:00",
     "location": "S\u00e3o Paulo",
     "standings": [
       {
         "name": "Verstappen",
         "firstName": "Max",
         "points": 367.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -4375,11 +4367,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 151.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -4391,7 +4383,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 31.0,
         "team": "Haas F1 Team",
@@ -4410,7 +4402,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 22.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
@@ -4423,26 +4415,26 @@
         "rank": 13
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 14
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 14
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 15
       },
       {
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 11.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 16
       },
@@ -4455,26 +4447,26 @@
         "rank": 17
       },
       {
-        "name": "Ocon",
-        "firstName": "Esteban",
-        "points": 5.0,
-        "team": "Alpine",
-        "color": "#0093cc",
-        "rank": 18
-      },
-      {
         "name": "Colapinto",
         "firstName": "Franco",
         "points": 5.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 18
+      },
+      {
+        "name": "Ocon",
+        "firstName": "Esteban",
+        "points": 5.0,
+        "team": "Alpine F1 Team",
+        "color": "#0093cc",
         "rank": 19
       },
       {
         "name": "Lawson",
         "firstName": "Liam",
         "points": 2.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 20
       },
@@ -4482,24 +4474,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 21
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 22
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 22
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 23
       }
     ]
@@ -4515,7 +4507,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 393.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -4568,11 +4560,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 151.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -4584,7 +4576,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 31.0,
         "team": "Haas F1 Team",
@@ -4595,7 +4587,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 28.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
       },
@@ -4603,7 +4595,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 26.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 12
       },
@@ -4619,7 +4611,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 23.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 14
       },
@@ -4632,19 +4624,19 @@
         "rank": 15
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 17
       },
       {
@@ -4667,7 +4659,7 @@
         "name": "Lawson",
         "firstName": "Liam",
         "points": 4.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 20
       },
@@ -4675,24 +4667,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 21
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 22
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 22
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 23
       }
     ]
@@ -4708,7 +4700,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 403.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -4761,11 +4753,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 152.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -4777,7 +4769,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 35.0,
         "team": "Haas F1 Team",
@@ -4788,7 +4780,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 30.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
       },
@@ -4796,7 +4788,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 26.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 12
       },
@@ -4812,7 +4804,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 23.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 14
       },
@@ -4825,19 +4817,19 @@
         "rank": 15
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 17
       },
       {
@@ -4860,7 +4852,7 @@
         "name": "Lawson",
         "firstName": "Liam",
         "points": 4.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 20
       },
@@ -4868,24 +4860,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 21
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 22
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 22
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 23
       }
     ]
@@ -4894,14 +4886,14 @@
     "round": 23,
     "eventName": "Qatar Grand Prix",
     "session": "Sprint",
-    "date": "01 Dec",
+    "date": "2024-12-01 00:00:00",
     "location": "Lusail",
     "standings": [
       {
         "name": "Verstappen",
         "firstName": "Max",
         "points": 404.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -4954,11 +4946,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 152.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -4970,7 +4962,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 37.0,
         "team": "Haas F1 Team",
@@ -4981,7 +4973,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 30.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 11
       },
@@ -4989,7 +4981,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 26.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 12
       },
@@ -5005,7 +4997,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 23.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 14
       },
@@ -5018,19 +5010,19 @@
         "rank": 15
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 17
       },
       {
@@ -5053,7 +5045,7 @@
         "name": "Lawson",
         "firstName": "Liam",
         "points": 4.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 20
       },
@@ -5061,24 +5053,24 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 21
-      },
-      {
-        "name": "Bottas",
-        "firstName": "Valtteri",
-        "points": 0.0,
-        "team": "Kick Sauber",
-        "color": "#52e252",
-        "rank": 22
       },
       {
         "name": "Sargeant",
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
+        "rank": 22
+      },
+      {
+        "name": "Bottas",
+        "firstName": "Valtteri",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#52e252",
         "rank": 23
       }
     ]
@@ -5094,7 +5086,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 429.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -5147,11 +5139,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 152.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -5163,7 +5155,7 @@
         "rank": 9
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 37.0,
         "team": "Haas F1 Team",
@@ -5174,7 +5166,7 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 36.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 11
       },
@@ -5182,7 +5174,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 30.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
@@ -5198,7 +5190,7 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 23.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 14
       },
@@ -5211,19 +5203,19 @@
         "rank": 15
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 17
       },
       {
@@ -5246,7 +5238,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 4.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -5254,7 +5246,7 @@
         "name": "Lawson",
         "firstName": "Liam",
         "points": 4.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 21
       },
@@ -5262,7 +5254,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 22
       },
@@ -5271,7 +5263,7 @@
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
         "rank": 23
       }
     ]
@@ -5287,7 +5279,7 @@
         "name": "Verstappen",
         "firstName": "Max",
         "points": 437.0,
-        "team": "Red Bull Racing",
+        "team": "Red Bull",
         "color": "#3671C6",
         "rank": 1
       },
@@ -5340,11 +5332,11 @@
         "rank": 7
       },
       {
-        "name": "Perez",
+        "name": "P\u00e9rez",
         "firstName": "Sergio",
         "points": 152.0,
-        "team": "Red Bull Racing",
-        "color": "#3671C6",
+        "team": "Red Bull",
+        "color": "#0600EF",
         "rank": 8
       },
       {
@@ -5359,12 +5351,12 @@
         "name": "Gasly",
         "firstName": "Pierre",
         "points": 42.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 10
       },
       {
-        "name": "Hulkenberg",
+        "name": "H\u00fclkenberg",
         "firstName": "Nico",
         "points": 41.0,
         "team": "Haas F1 Team",
@@ -5375,7 +5367,7 @@
         "name": "Tsunoda",
         "firstName": "Yuki",
         "points": 30.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 12
       },
@@ -5391,8 +5383,8 @@
         "name": "Ocon",
         "firstName": "Esteban",
         "points": 23.0,
-        "team": "Alpine",
-        "color": "#0093cc",
+        "team": "Alpine F1 Team",
+        "color": null,
         "rank": 14
       },
       {
@@ -5404,19 +5396,19 @@
         "rank": 15
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 12.0,
-        "team": "RB",
-        "color": "#6692FF",
-        "rank": 16
-      },
-      {
         "name": "Albon",
         "firstName": "Alexander",
         "points": 12.0,
         "team": "Williams",
         "color": "#64C4FF",
+        "rank": 16
+      },
+      {
+        "name": "Ricciardo",
+        "firstName": "Daniel",
+        "points": 12.0,
+        "team": "RB F1 Team",
+        "color": null,
         "rank": 17
       },
       {
@@ -5439,7 +5431,7 @@
         "name": "Zhou",
         "firstName": "Guanyu",
         "points": 4.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 20
       },
@@ -5447,7 +5439,7 @@
         "name": "Lawson",
         "firstName": "Liam",
         "points": 4.0,
-        "team": "RB",
+        "team": "RB F1 Team",
         "color": "#6692FF",
         "rank": 21
       },
@@ -5455,7 +5447,7 @@
         "name": "Bottas",
         "firstName": "Valtteri",
         "points": 0.0,
-        "team": "Kick Sauber",
+        "team": "Sauber",
         "color": "#52e252",
         "rank": 22
       },
@@ -5464,14 +5456,14 @@
         "firstName": "Logan",
         "points": 0.0,
         "team": "Williams",
-        "color": "#64C4FF",
+        "color": "#005AFF",
         "rank": 23
       },
       {
         "name": "Doohan",
         "firstName": "Jack",
         "points": 0.0,
-        "team": "Alpine",
+        "team": "Alpine F1 Team",
         "color": "#0093cc",
         "rank": 24
       }
