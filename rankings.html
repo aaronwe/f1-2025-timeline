@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Rankings History</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="app-container full-width">
+        <header>
+            <h1 class="season-selector">
+                F1
+                <select id="season-select">
+                    <!-- Options populated by JS -->
+                </select>
+                Rankings
+            </h1>
+            <nav class="main-nav">
+                <a href="index.html">Standings</a>
+                <a href="rankings.html" class="active">Rankings Graph</a>
+            </nav>
+        </header>
+
+        <main id="rankings-container">
+            <div class="chart-wrapper">
+                <div class="chart-scroll-area">
+                    <canvas id="rankingsChart"></canvas>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="rankings.js"></script>
+</body>
+
+</html>

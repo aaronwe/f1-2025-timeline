@@ -7,166 +7,228 @@
     "location": "Melbourne",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 25.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 18.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 15.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 12.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 4
+        "color": "#DC0000",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 10.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 5
+        "color": "#0600EF",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 8.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 6
+        "color": "#005AFF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 6.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 2.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 1.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Giovinazzi",
+        "name": "Antonio Giovinazzi",
         "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 12
+        "color": "#006EFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 13
+        "color": "#FF8700",
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 14
+        "color": "#FF8700",
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 0.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 16
+        "color": "#005AFF",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 0.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 17
+        "color": "#0600EF",
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 0.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
-    ]
+    ],
+    "raceResults": {
+      "vettel_sebastian": "1",
+      "hamilton_lewis": "2",
+      "bottas_valtteri": "3",
+      "raikkonen_kimi": "4",
+      "verstappen_max": "5",
+      "massa_felipe": "6",
+      "perez_sergio": "7",
+      "sainz_carlos": "8",
+      "kvyat_daniil": "9",
+      "ocon_esteban": "10",
+      "hulkenberg_nico": "11",
+      "giovinazzi_antonio": "12",
+      "vandoorne_stoffel": "13",
+      "alonso_fernando": "DNF",
+      "magnussen_kevin": "DNF",
+      "stroll_lance": "DNF",
+      "ricciardo_daniel": "DNF",
+      "ericsson_marcus": "DNF",
+      "palmer_jolyon": "DNF",
+      "grosjean_romain": "DNF"
+    }
   },
   {
     "round": 2,
@@ -176,166 +238,228 @@
     "location": "Shanghai",
     "standings": [
       {
-        "name": "Vettel",
-        "firstName": "Sebastian",
-        "points": 43.0,
-        "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
-      },
-      {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 43.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Verstappen",
+        "name": "Sebastian Vettel",
+        "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
+        "points": 43.0,
+        "team": "Ferrari",
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
+      },
+      {
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 25.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 3
+        "color": "#0600EF",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 23.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 4
+        "color": "#00D2BE",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 22.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 12.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 10.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 8.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 8
+        "color": "#005AFF",
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 8.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 4.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 2.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 2.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 14
-      },
-      {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
-      },
-      {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
-      },
-      {
-        "name": "Stroll",
-        "firstName": "Lance",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 17
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
-      },
-      {
-        "name": "Palmer",
-        "firstName": "Jolyon",
-        "points": 0.0,
-        "team": "Renault",
-        "color": "#FFF500",
-        "rank": 19
-      },
-      {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 0.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 20
+        "rank": 14,
+        "rankDisplay": "14"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 15,
+        "rankDisplay": "15"
+      },
+      {
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 16,
+        "rankDisplay": "16"
+      },
+      {
+        "name": "Jolyon Palmer",
+        "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
+        "points": 0.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 17,
+        "rankDisplay": "17"
+      },
+      {
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Fernando Alonso",
+        "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 19,
+        "rankDisplay": "19"
+      },
+      {
+        "name": "Lance Stroll",
+        "firstName": "Lance",
+        "lookupKey": "stroll_lance",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 20,
+        "rankDisplay": "20"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "vettel_sebastian": "2",
+      "verstappen_max": "3",
+      "ricciardo_daniel": "4",
+      "raikkonen_kimi": "5",
+      "bottas_valtteri": "6",
+      "sainz_carlos": "7",
+      "magnussen_kevin": "8",
+      "perez_sergio": "9",
+      "ocon_esteban": "10",
+      "grosjean_romain": "11",
+      "hulkenberg_nico": "12",
+      "palmer_jolyon": "13",
+      "massa_felipe": "14",
+      "ericsson_marcus": "15",
+      "alonso_fernando": "DNF",
+      "kvyat_daniil": "DNF",
+      "vandoorne_stoffel": "DNF",
+      "giovinazzi_antonio": "DNF",
+      "stroll_lance": "DNF"
+    }
   },
   {
     "round": 3,
@@ -345,174 +469,238 @@
     "location": "Sakhir",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 68.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 61.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 38.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 34.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 4
+        "color": "#DC0000",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 25.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 5
+        "color": "#0600EF",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 22.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 16.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 7
+        "color": "#005AFF",
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 14.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 10.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Magnussen",
-        "firstName": "Kevin",
-        "points": 4.0,
-        "team": "Haas F1 Team",
-        "color": "#B6BABD",
-        "rank": 10
-      },
-      {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 4.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 11
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Ocon",
+        "name": "Kevin Magnussen",
+        "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
+        "points": 4.0,
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 11,
+        "rankDisplay": "11"
+      },
+      {
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 3.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Kvyat",
+        "name": "Nico H\u00fclkenberg",
+        "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
+        "points": 2.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 13,
+        "rankDisplay": "13"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 2.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 13
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "H\u00fclkenberg",
-        "firstName": "Nico",
-        "points": 2.0,
-        "team": "Renault",
-        "color": "#FFF500",
-        "rank": 14
-      },
-      {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "color": "#006EFF",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Vandoorne",
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 16,
+        "rankDisplay": "16"
+      },
+      {
+        "name": "Jolyon Palmer",
+        "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
+        "points": 0.0,
+        "team": "Renault",
+        "color": "#FFF500",
+        "rank": 17,
+        "rankDisplay": "17"
+      },
+      {
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
+        "color": "#FF8700",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
+        "color": "#FF8700",
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Stroll",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 18
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Palmer",
-        "firstName": "Jolyon",
-        "points": 0.0,
-        "team": "Renault",
-        "color": "#FFF500",
-        "rank": 20
-      },
-      {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#005AFF",
+        "rank": 21,
+        "rankDisplay": "21"
       }
-    ]
+    ],
+    "raceResults": {
+      "vettel_sebastian": "1",
+      "hamilton_lewis": "2",
+      "bottas_valtteri": "3",
+      "raikkonen_kimi": "4",
+      "ricciardo_daniel": "5",
+      "massa_felipe": "6",
+      "perez_sergio": "7",
+      "grosjean_romain": "8",
+      "hulkenberg_nico": "9",
+      "ocon_esteban": "10",
+      "wehrlein_pascal": "11",
+      "kvyat_daniil": "12",
+      "palmer_jolyon": "13",
+      "alonso_fernando": "14",
+      "ericsson_marcus": "DNF",
+      "sainz_carlos": "DNF",
+      "stroll_lance": "DNF",
+      "verstappen_max": "DNF",
+      "magnussen_kevin": "DNF",
+      "vandoorne_stoffel": "DNF"
+    }
   },
   {
     "round": 4,
@@ -522,536 +710,730 @@
     "location": "Sochi",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 86.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 73.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 63.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 49.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 4
+        "color": "#DC0000",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 35.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 5
+        "color": "#0600EF",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Daniel Ricciardo",
+        "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
+        "points": 22.0,
+        "team": "Red Bull",
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
+      },
+      {
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 22.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 6
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ricciardo",
-        "firstName": "Daniel",
-        "points": 22.0,
-        "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 7
-      },
-      {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 18.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 8
+        "color": "#005AFF",
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 11.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 9.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 6.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Magnussen",
-        "firstName": "Kevin",
-        "points": 4.0,
-        "team": "Haas F1 Team",
-        "color": "#B6BABD",
-        "rank": 12
-      },
-      {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 4.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Kvyat",
+        "name": "Kevin Magnussen",
+        "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
+        "points": 4.0,
+        "team": "Haas F1 Team",
+        "color": "#B6BABD",
+        "rank": 13,
+        "rankDisplay": "13"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 2.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "color": "#006EFF",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
-      },
-      {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
-      },
-      {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 18
+        "color": "#005AFF",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Ericsson",
-        "firstName": "Marcus",
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
+        "color": "#006EFF",
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 20
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 19,
+        "rankDisplay": "19"
+      },
+      {
+        "name": "Fernando Alonso",
+        "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
       }
-    ]
+    ],
+    "raceResults": {
+      "bottas_valtteri": "1",
+      "vettel_sebastian": "2",
+      "raikkonen_kimi": "3",
+      "hamilton_lewis": "4",
+      "verstappen_max": "5",
+      "perez_sergio": "6",
+      "ocon_esteban": "7",
+      "hulkenberg_nico": "8",
+      "massa_felipe": "9",
+      "sainz_carlos": "10",
+      "stroll_lance": "11",
+      "kvyat_daniil": "12",
+      "magnussen_kevin": "13",
+      "vandoorne_stoffel": "14",
+      "ericsson_marcus": "15",
+      "wehrlein_pascal": "16",
+      "ricciardo_daniel": "DNF",
+      "palmer_jolyon": "DNF",
+      "grosjean_romain": "DNF",
+      "alonso_fernando": "DNF"
+    }
   },
   {
     "round": 5,
     "eventName": "Spanish Grand Prix",
     "session": "Race",
     "date": "14 May",
-    "location": "Montmel\u00f3",
+    "location": "Barcelona",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 104.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 98.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 63.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 49.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 4
+        "color": "#DC0000",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 37.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 5
+        "color": "#0600EF",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 35.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 34.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 19.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 18.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 9
+        "color": "#005AFF",
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 17.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 14.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 5.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Kvyat",
-        "firstName": "Daniil",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 4.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 13
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 4.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
+        "name": "Daniil Kvyat",
+        "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 16
+        "color": "#006EFF",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
-      },
-      {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 18
-      },
-      {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 19
+        "color": "#005AFF",
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Ericsson",
-        "firstName": "Marcus",
+        "name": "Fernando Alonso",
+        "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
+        "color": "#006EFF",
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 21,
+        "rankDisplay": "21"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "vettel_sebastian": "2",
+      "ricciardo_daniel": "3",
+      "perez_sergio": "4",
+      "ocon_esteban": "5",
+      "hulkenberg_nico": "6",
+      "sainz_carlos": "7",
+      "wehrlein_pascal": "8",
+      "kvyat_daniil": "9",
+      "grosjean_romain": "10",
+      "ericsson_marcus": "11",
+      "alonso_fernando": "12",
+      "massa_felipe": "13",
+      "magnussen_kevin": "14",
+      "palmer_jolyon": "15",
+      "stroll_lance": "16",
+      "bottas_valtteri": "DNF",
+      "vandoorne_stoffel": "DNF",
+      "verstappen_max": "DNF",
+      "raikkonen_kimi": "DNF"
+    }
   },
   {
     "round": 6,
     "eventName": "Monaco Grand Prix",
     "session": "Race",
     "date": "28 May",
-    "location": "Monte-Carlo",
+    "location": "Monte Carlo",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 129.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 104.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 75.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 67.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 4
+        "color": "#DC0000",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 52.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 5
+        "color": "#0600EF",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 45.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 34.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 25.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 20.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 9
+        "color": "#005AFF",
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 19.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 14.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 9.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 5.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Kvyat",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
+        "points": 4.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 14,
+        "rankDisplay": "14"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 14
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
-        "points": 4.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
-      },
-      {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 16
-      },
-      {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
-      },
-      {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 18
-      },
-      {
-        "name": "Stroll",
-        "firstName": "Lance",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Button",
-        "firstName": "Jenson",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 17,
+        "rankDisplay": "17"
+      },
+      {
+        "name": "Lance Stroll",
+        "firstName": "Lance",
+        "lookupKey": "stroll_lance",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Fernando Alonso",
+        "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 19,
+        "rankDisplay": "19"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
+        "firstName": "Jenson",
+        "lookupKey": "button_jenson",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       }
-    ]
+    ],
+    "raceResults": {
+      "vettel_sebastian": "1",
+      "raikkonen_kimi": "2",
+      "ricciardo_daniel": "3",
+      "bottas_valtteri": "4",
+      "verstappen_max": "5",
+      "sainz_carlos": "6",
+      "hamilton_lewis": "7",
+      "grosjean_romain": "8",
+      "massa_felipe": "9",
+      "magnussen_kevin": "10",
+      "palmer_jolyon": "11",
+      "ocon_esteban": "12",
+      "perez_sergio": "13",
+      "kvyat_daniil": "14",
+      "stroll_lance": "15",
+      "vandoorne_stoffel": "DNF",
+      "ericsson_marcus": "DNF",
+      "button_jenson": "DNF",
+      "wehrlein_pascal": "DNF",
+      "hulkenberg_nico": "DNF"
+    }
   },
   {
     "round": 7,
@@ -1061,182 +1443,248 @@
     "location": "Montreal",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 141.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 129.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 93.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 73.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 4
+        "color": "#DC0000",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 67.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 5
+        "color": "#0600EF",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 45.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 44.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 27.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 25.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 20.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
+        "color": "#005AFF",
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 18.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 10.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 5.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Kvyat",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
+        "points": 4.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 14,
+        "rankDisplay": "14"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 14
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
-        "points": 4.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
-      },
-      {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 2.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 16
+        "color": "#005AFF",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 17
-      },
-      {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 18
-      },
-      {
-        "name": "Alonso",
-        "firstName": "Fernando",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Button",
-        "firstName": "Jenson",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Fernando Alonso",
+        "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 19,
+        "rankDisplay": "19"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
+        "firstName": "Jenson",
+        "lookupKey": "button_jenson",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "bottas_valtteri": "2",
+      "ricciardo_daniel": "3",
+      "vettel_sebastian": "4",
+      "perez_sergio": "5",
+      "ocon_esteban": "6",
+      "raikkonen_kimi": "7",
+      "hulkenberg_nico": "8",
+      "stroll_lance": "9",
+      "grosjean_romain": "10",
+      "palmer_jolyon": "11",
+      "magnussen_kevin": "12",
+      "ericsson_marcus": "13",
+      "vandoorne_stoffel": "14",
+      "wehrlein_pascal": "15",
+      "alonso_fernando": "16",
+      "kvyat_daniil": "DNF",
+      "verstappen_max": "DNF",
+      "massa_felipe": "DNF",
+      "sainz_carlos": "DNF"
+    }
   },
   {
     "round": 8,
@@ -1246,182 +1694,248 @@
     "location": "Baku",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 153.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 139.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 111.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 92.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 73.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 45.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 44.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 35.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 29.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 20.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
+        "color": "#005AFF",
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 18.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 17.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 10.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "color": "#006EFF",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 2.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
+        "color": "#FF8700",
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
-      },
-      {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Button",
-        "firstName": "Jenson",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 19,
+        "rankDisplay": "19"
+      },
+      {
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
+        "firstName": "Jenson",
+        "lookupKey": "button_jenson",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       }
-    ]
+    ],
+    "raceResults": {
+      "ricciardo_daniel": "1",
+      "bottas_valtteri": "2",
+      "stroll_lance": "3",
+      "vettel_sebastian": "4",
+      "hamilton_lewis": "5",
+      "ocon_esteban": "6",
+      "magnussen_kevin": "7",
+      "sainz_carlos": "8",
+      "alonso_fernando": "9",
+      "wehrlein_pascal": "10",
+      "ericsson_marcus": "11",
+      "vandoorne_stoffel": "12",
+      "grosjean_romain": "13",
+      "raikkonen_kimi": "14",
+      "perez_sergio": "DNF",
+      "massa_felipe": "DNF",
+      "hulkenberg_nico": "DNF",
+      "verstappen_max": "DNF",
+      "kvyat_daniil": "DNF",
+      "palmer_jolyon": "DNF"
+    }
   },
   {
     "round": 9,
@@ -1431,182 +1945,248 @@
     "location": "Spielberg",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 171.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 151.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 136.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 107.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 83.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 50.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 45.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 7
+        "color": "#0600EF",
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 39.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 29.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 22.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
+        "color": "#005AFF",
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Lance Stroll",
+        "firstName": "Lance",
+        "lookupKey": "stroll_lance",
+        "points": 18.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
+      },
+      {
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 18.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Stroll",
-        "firstName": "Lance",
-        "points": 18.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
-      },
-      {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 18.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "color": "#006EFF",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 2.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
+        "color": "#FF8700",
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
-      },
-      {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Button",
-        "firstName": "Jenson",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 19,
+        "rankDisplay": "19"
+      },
+      {
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
+        "firstName": "Jenson",
+        "lookupKey": "button_jenson",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       }
-    ]
+    ],
+    "raceResults": {
+      "bottas_valtteri": "1",
+      "vettel_sebastian": "2",
+      "ricciardo_daniel": "3",
+      "hamilton_lewis": "4",
+      "raikkonen_kimi": "5",
+      "grosjean_romain": "6",
+      "perez_sergio": "7",
+      "ocon_esteban": "8",
+      "massa_felipe": "9",
+      "stroll_lance": "10",
+      "palmer_jolyon": "11",
+      "vandoorne_stoffel": "12",
+      "hulkenberg_nico": "13",
+      "wehrlein_pascal": "14",
+      "ericsson_marcus": "15",
+      "kvyat_daniil": "16",
+      "sainz_carlos": "DNF",
+      "magnussen_kevin": "DNF",
+      "alonso_fernando": "DNF",
+      "verstappen_max": "DNF"
+    }
   },
   {
     "round": 10,
@@ -1616,182 +2196,248 @@
     "location": "Silverstone",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 177.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 176.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 154.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 117.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 98.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 57.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 52.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 43.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 29.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 26.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 23.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 18.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 18.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 15
+        "color": "#006EFF",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 2.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
+        "color": "#FF8700",
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
-      },
-      {
-        "name": "Vandoorne",
-        "firstName": "Stoffel",
-        "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Button",
-        "firstName": "Jenson",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 19,
+        "rankDisplay": "19"
+      },
+      {
+        "name": "Stoffel Vandoorne",
+        "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
+        "firstName": "Jenson",
+        "lookupKey": "button_jenson",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "bottas_valtteri": "2",
+      "raikkonen_kimi": "3",
+      "verstappen_max": "4",
+      "ricciardo_daniel": "5",
+      "hulkenberg_nico": "6",
+      "vettel_sebastian": "7",
+      "ocon_esteban": "8",
+      "perez_sergio": "9",
+      "massa_felipe": "10",
+      "vandoorne_stoffel": "11",
+      "magnussen_kevin": "12",
+      "grosjean_romain": "13",
+      "ericsson_marcus": "14",
+      "kvyat_daniil": "15",
+      "stroll_lance": "16",
+      "wehrlein_pascal": "17",
+      "alonso_fernando": "DNF",
+      "sainz_carlos": "DNF",
+      "palmer_jolyon": "DNF"
+    }
   },
   {
     "round": 11,
@@ -1801,190 +2447,258 @@
     "location": "Budapest",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 202.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 188.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 169.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 117.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 116.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 67.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 56.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 45.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 35.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 26.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 23.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 18.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 18.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 10.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 16
+        "color": "#006EFF",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 1.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 18
+        "color": "#FF8700",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Button",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
+        "color": "#005AFF",
+        "rank": 23,
+        "rankDisplay": "23"
       }
-    ]
+    ],
+    "raceResults": {
+      "vettel_sebastian": "1",
+      "raikkonen_kimi": "2",
+      "bottas_valtteri": "3",
+      "hamilton_lewis": "4",
+      "verstappen_max": "5",
+      "alonso_fernando": "6",
+      "sainz_carlos": "7",
+      "perez_sergio": "8",
+      "ocon_esteban": "9",
+      "vandoorne_stoffel": "10",
+      "kvyat_daniil": "11",
+      "palmer_jolyon": "12",
+      "magnussen_kevin": "13",
+      "stroll_lance": "14",
+      "wehrlein_pascal": "15",
+      "ericsson_marcus": "16",
+      "hulkenberg_nico": "17",
+      "di resta_paul": "DNF",
+      "grosjean_romain": "DNF",
+      "ricciardo_daniel": "DNF"
+    }
   },
   {
     "round": 12,
@@ -1994,190 +2708,258 @@
     "location": "Spa",
     "standings": [
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 220.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 1
+        "color": "#DC0000",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 213.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 2
+        "color": "#00D2BE",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 179.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 132.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 128.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 67.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 56.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 47.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 36.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 34.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 27.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 24.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 18.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 13
+        "color": "#005AFF",
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 10.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 16
+        "color": "#006EFF",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 1.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 18
+        "color": "#FF8700",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Button",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
+        "color": "#005AFF",
+        "rank": 23,
+        "rankDisplay": "23"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "vettel_sebastian": "2",
+      "ricciardo_daniel": "3",
+      "raikkonen_kimi": "4",
+      "bottas_valtteri": "5",
+      "hulkenberg_nico": "6",
+      "grosjean_romain": "7",
+      "massa_felipe": "8",
+      "ocon_esteban": "9",
+      "sainz_carlos": "10",
+      "stroll_lance": "11",
+      "kvyat_daniil": "12",
+      "palmer_jolyon": "13",
+      "vandoorne_stoffel": "14",
+      "magnussen_kevin": "15",
+      "ericsson_marcus": "16",
+      "perez_sergio": "17",
+      "alonso_fernando": "DNF",
+      "verstappen_max": "DNF",
+      "wehrlein_pascal": "DNF"
+    }
   },
   {
     "round": 13,
@@ -2187,190 +2969,258 @@
     "location": "Monza",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 238.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 235.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 197.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 144.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 138.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 68.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 58.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 55.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 36.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 34.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 31.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 24.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 24.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 10.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 16
+        "color": "#006EFF",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 1.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 18
+        "color": "#FF8700",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Ericsson",
-        "firstName": "Marcus",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 0.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 21
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Button",
+        "name": "Marcus Ericsson",
+        "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
+        "color": "#005AFF",
+        "rank": 23,
+        "rankDisplay": "23"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "bottas_valtteri": "2",
+      "vettel_sebastian": "3",
+      "ricciardo_daniel": "4",
+      "raikkonen_kimi": "5",
+      "ocon_esteban": "6",
+      "stroll_lance": "7",
+      "massa_felipe": "8",
+      "perez_sergio": "9",
+      "verstappen_max": "10",
+      "magnussen_kevin": "11",
+      "kvyat_daniil": "12",
+      "hulkenberg_nico": "13",
+      "sainz_carlos": "14",
+      "grosjean_romain": "15",
+      "wehrlein_pascal": "16",
+      "alonso_fernando": "17",
+      "ericsson_marcus": "18",
+      "vandoorne_stoffel": "DNF",
+      "palmer_jolyon": "DNF"
+    }
   },
   {
     "round": 14,
@@ -2380,190 +3230,258 @@
     "location": "Marina Bay",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 263.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 235.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 212.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 162.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 138.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 68.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 68.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 56.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 48.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 34.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 31.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 28.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 26.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 10.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 8.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 7.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 17
+        "color": "#FF8700",
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
-        "name": "Button",
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 22,
+        "rankDisplay": "22"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
+        "color": "#005AFF",
+        "rank": 23,
+        "rankDisplay": "23"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "ricciardo_daniel": "2",
+      "bottas_valtteri": "3",
+      "sainz_carlos": "4",
+      "perez_sergio": "5",
+      "palmer_jolyon": "6",
+      "vandoorne_stoffel": "7",
+      "stroll_lance": "8",
+      "grosjean_romain": "9",
+      "ocon_esteban": "10",
+      "massa_felipe": "11",
+      "wehrlein_pascal": "12",
+      "magnussen_kevin": "DNF",
+      "hulkenberg_nico": "DNF",
+      "ericsson_marcus": "DNF",
+      "kvyat_daniil": "DNF",
+      "alonso_fernando": "DNF",
+      "vettel_sebastian": "DNF",
+      "verstappen_max": "DNF",
+      "raikkonen_kimi": "DNF"
+    }
   },
   {
     "round": 15,
@@ -2573,198 +3491,268 @@
     "location": "Kuala Lumpur",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 281.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 247.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 222.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 177.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 138.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 93.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 76.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 57.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 48.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 34.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 33.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 32.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 26.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 13.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 14
+        "color": "#FF8700",
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 11.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 10.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
+        "color": "#FF8700",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 8.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
-        "name": "Button",
-        "firstName": "Jenson",
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
         "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
       },
       {
-        "name": "di Resta",
-        "firstName": "Paul",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
-      },
-      {
-        "name": "Gasly",
+        "name": "Pierre Gasly",
         "firstName": "Pierre",
+        "lookupKey": "gasly_pierre",
         "points": 0.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 24
+        "rank": 22,
+        "rankDisplay": "22"
+      },
+      {
+        "name": "Jenson Button",
+        "firstName": "Jenson",
+        "lookupKey": "button_jenson",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 23,
+        "rankDisplay": "23"
+      },
+      {
+        "name": "Paul di Resta",
+        "firstName": "Paul",
+        "lookupKey": "di resta_paul",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 24,
+        "rankDisplay": "24"
       }
-    ]
+    ],
+    "raceResults": {
+      "verstappen_max": "1",
+      "hamilton_lewis": "2",
+      "ricciardo_daniel": "3",
+      "vettel_sebastian": "4",
+      "bottas_valtteri": "5",
+      "perez_sergio": "6",
+      "vandoorne_stoffel": "7",
+      "stroll_lance": "8",
+      "massa_felipe": "9",
+      "ocon_esteban": "10",
+      "alonso_fernando": "11",
+      "magnussen_kevin": "12",
+      "grosjean_romain": "13",
+      "gasly_pierre": "14",
+      "palmer_jolyon": "15",
+      "hulkenberg_nico": "16",
+      "wehrlein_pascal": "17",
+      "ericsson_marcus": "18",
+      "sainz_carlos": "DNF",
+      "raikkonen_kimi": "DNF"
+    }
   },
   {
     "round": 16,
@@ -2774,198 +3762,268 @@
     "location": "Suzuka",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 306.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 247.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 234.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 192.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 148.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 111.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 82.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 65.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 48.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Massa",
-        "firstName": "Felipe",
-        "points": 34.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
-      },
-      {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 34.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Stroll",
+        "name": "Felipe Massa",
+        "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
+        "points": 34.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
+      },
+      {
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 32.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 15.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 13.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 10.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
+        "color": "#FF8700",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 8.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Wehrlein",
+        "name": "Pascal Wehrlein",
         "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
         "points": 5.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 18
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
-        "name": "Kvyat",
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 4.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
-        "name": "Button",
-        "firstName": "Jenson",
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
         "points": 0.0,
-        "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
       },
       {
-        "name": "di Resta",
-        "firstName": "Paul",
-        "points": 0.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
-      },
-      {
-        "name": "Gasly",
+        "name": "Pierre Gasly",
         "firstName": "Pierre",
+        "lookupKey": "gasly_pierre",
         "points": 0.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 24
+        "rank": 22,
+        "rankDisplay": "22"
+      },
+      {
+        "name": "Jenson Button",
+        "firstName": "Jenson",
+        "lookupKey": "button_jenson",
+        "points": 0.0,
+        "team": "McLaren",
+        "color": "#FF8700",
+        "rank": 23,
+        "rankDisplay": "23"
+      },
+      {
+        "name": "Paul di Resta",
+        "firstName": "Paul",
+        "lookupKey": "di resta_paul",
+        "points": 0.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 24,
+        "rankDisplay": "24"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "verstappen_max": "2",
+      "ricciardo_daniel": "3",
+      "bottas_valtteri": "4",
+      "raikkonen_kimi": "5",
+      "ocon_esteban": "6",
+      "perez_sergio": "7",
+      "magnussen_kevin": "8",
+      "grosjean_romain": "9",
+      "massa_felipe": "10",
+      "alonso_fernando": "11",
+      "palmer_jolyon": "12",
+      "gasly_pierre": "13",
+      "vandoorne_stoffel": "14",
+      "wehrlein_pascal": "15",
+      "stroll_lance": "DNF",
+      "hulkenberg_nico": "DNF",
+      "ericsson_marcus": "DNF",
+      "vettel_sebastian": "DNF",
+      "sainz_carlos": "DNF"
+    }
   },
   {
     "round": 17,
@@ -2975,206 +4033,278 @@
     "location": "Austin",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 331.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 265.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 244.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 192.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 163.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 123.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 86.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 73.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 54.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 36.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
+        "color": "#005AFF",
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 34.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 32.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 15.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 13.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 10.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
+        "color": "#FF8700",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 8.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Kvyat",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
+        "points": 5.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 5.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 18
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
-        "points": 5.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
-        "name": "Button",
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Pierre Gasly",
+        "firstName": "Pierre",
+        "lookupKey": "gasly_pierre",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 22,
+        "rankDisplay": "22"
+      },
+      {
+        "name": "Brendon Hartley",
+        "firstName": "Brendon",
+        "lookupKey": "hartley_brendon",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 23,
+        "rankDisplay": "23"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 24,
+        "rankDisplay": "24"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 24
-      },
-      {
-        "name": "Hartley",
-        "firstName": "Brendon",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 25
+        "color": "#005AFF",
+        "rank": 25,
+        "rankDisplay": "25"
       }
-    ]
+    ],
+    "raceResults": {
+      "hamilton_lewis": "1",
+      "vettel_sebastian": "2",
+      "raikkonen_kimi": "3",
+      "verstappen_max": "4",
+      "bottas_valtteri": "5",
+      "ocon_esteban": "6",
+      "sainz_carlos": "7",
+      "perez_sergio": "8",
+      "massa_felipe": "9",
+      "kvyat_daniil": "10",
+      "stroll_lance": "11",
+      "vandoorne_stoffel": "12",
+      "hartley_brendon": "13",
+      "grosjean_romain": "14",
+      "ericsson_marcus": "15",
+      "magnussen_kevin": "16",
+      "alonso_fernando": "DNF",
+      "ricciardo_daniel": "DNF",
+      "wehrlein_pascal": "DNF",
+      "hulkenberg_nico": "DNF"
+    }
   },
   {
     "round": 18,
@@ -3184,206 +4314,278 @@
     "location": "Mexico City",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 333.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 277.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 262.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 192.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 178.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 148.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 92.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 83.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 54.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 40.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
+        "color": "#005AFF",
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 36.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 34.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 19.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 13.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 11.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
+        "color": "#FF8700",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 8.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Kvyat",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
+        "points": 5.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 5.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 18
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
-        "points": 5.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
-        "name": "Button",
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Pierre Gasly",
+        "firstName": "Pierre",
+        "lookupKey": "gasly_pierre",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 22,
+        "rankDisplay": "22"
+      },
+      {
+        "name": "Brendon Hartley",
+        "firstName": "Brendon",
+        "lookupKey": "hartley_brendon",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 23,
+        "rankDisplay": "23"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 24,
+        "rankDisplay": "24"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 24
-      },
-      {
-        "name": "Hartley",
-        "firstName": "Brendon",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 25
+        "color": "#005AFF",
+        "rank": 25,
+        "rankDisplay": "25"
       }
-    ]
+    ],
+    "raceResults": {
+      "verstappen_max": "1",
+      "bottas_valtteri": "2",
+      "raikkonen_kimi": "3",
+      "vettel_sebastian": "4",
+      "ocon_esteban": "5",
+      "stroll_lance": "6",
+      "perez_sergio": "7",
+      "magnussen_kevin": "8",
+      "hamilton_lewis": "9",
+      "alonso_fernando": "10",
+      "massa_felipe": "11",
+      "vandoorne_stoffel": "12",
+      "gasly_pierre": "13",
+      "wehrlein_pascal": "14",
+      "grosjean_romain": "15",
+      "sainz_carlos": "DNF",
+      "ericsson_marcus": "DNF",
+      "hartley_brendon": "DNF",
+      "hulkenberg_nico": "DNF",
+      "ricciardo_daniel": "DNF"
+    }
   },
   {
     "round": 19,
@@ -3393,206 +4595,278 @@
     "location": "S\u00e3o Paulo",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 345.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 302.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 280.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 200.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 4
+        "color": "#0600EF",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 193.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 5
+        "color": "#DC0000",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 158.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 94.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 83.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 54.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Massa",
+        "name": "Felipe Massa",
         "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
         "points": 42.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
+        "color": "#005AFF",
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Stroll",
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 40.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 11
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 35.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 19.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 15.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 13.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
+        "color": "#FF8700",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 8.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Kvyat",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
+        "points": 5.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 5.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 18
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
-        "points": 5.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
-        "name": "Button",
+        "name": "Pierre Gasly",
+        "firstName": "Pierre",
+        "lookupKey": "gasly_pierre",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 22,
+        "rankDisplay": "22"
+      },
+      {
+        "name": "Brendon Hartley",
+        "firstName": "Brendon",
+        "lookupKey": "hartley_brendon",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 23,
+        "rankDisplay": "23"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 24,
+        "rankDisplay": "24"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 24
-      },
-      {
-        "name": "Hartley",
-        "firstName": "Brendon",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 25
+        "color": "#005AFF",
+        "rank": 25,
+        "rankDisplay": "25"
       }
-    ]
+    ],
+    "raceResults": {
+      "vettel_sebastian": "1",
+      "bottas_valtteri": "2",
+      "raikkonen_kimi": "3",
+      "hamilton_lewis": "4",
+      "verstappen_max": "5",
+      "ricciardo_daniel": "6",
+      "massa_felipe": "7",
+      "alonso_fernando": "8",
+      "perez_sergio": "9",
+      "hulkenberg_nico": "10",
+      "sainz_carlos": "11",
+      "gasly_pierre": "12",
+      "ericsson_marcus": "13",
+      "wehrlein_pascal": "14",
+      "grosjean_romain": "15",
+      "stroll_lance": "16",
+      "hartley_brendon": "DNF",
+      "ocon_esteban": "DNF",
+      "vandoorne_stoffel": "DNF",
+      "magnussen_kevin": "DNF"
+    }
   },
   {
     "round": 20,
@@ -3602,205 +4876,277 @@
     "location": "Abu Dhabi",
     "standings": [
       {
-        "name": "Hamilton",
+        "name": "Lewis Hamilton",
         "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
         "points": 363.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 1
+        "color": "#00D2BE",
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
-        "name": "Vettel",
+        "name": "Sebastian Vettel",
         "firstName": "Sebastian",
+        "lookupKey": "vettel_sebastian",
         "points": 317.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 2
+        "color": "#DC0000",
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
-        "name": "Bottas",
+        "name": "Valtteri Bottas",
         "firstName": "Valtteri",
+        "lookupKey": "bottas_valtteri",
         "points": 305.0,
         "team": "Mercedes",
-        "color": "#6CD3BF",
-        "rank": 3
+        "color": "#00D2BE",
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
-        "name": "R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
         "firstName": "Kimi",
+        "lookupKey": "raikkonen_kimi",
         "points": 205.0,
         "team": "Ferrari",
-        "color": "#F91536",
-        "rank": 4
+        "color": "#DC0000",
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
-        "name": "Ricciardo",
+        "name": "Daniel Ricciardo",
         "firstName": "Daniel",
+        "lookupKey": "ricciardo_daniel",
         "points": 200.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 5
+        "color": "#0600EF",
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
-        "name": "Verstappen",
+        "name": "Max Verstappen",
         "firstName": "Max",
+        "lookupKey": "verstappen_max",
         "points": 168.0,
         "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 6
+        "color": "#0600EF",
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
-        "name": "P\u00e9rez",
+        "name": "Sergio P\u00e9rez",
         "firstName": "Sergio",
+        "lookupKey": "perez_sergio",
         "points": 100.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
-        "name": "Ocon",
+        "name": "Esteban Ocon",
         "firstName": "Esteban",
+        "lookupKey": "ocon_esteban",
         "points": 87.0,
         "team": "Force India",
         "color": "#F596C8",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
-        "name": "Sainz",
+        "name": "Carlos Sainz",
         "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
         "points": 54.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
-        "name": "Massa",
-        "firstName": "Felipe",
-        "points": 43.0,
-        "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 10
-      },
-      {
-        "name": "H\u00fclkenberg",
+        "name": "Nico H\u00fclkenberg",
         "firstName": "Nico",
+        "lookupKey": "hulkenberg_nico",
         "points": 43.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 11
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
-        "name": "Stroll",
+        "name": "Felipe Massa",
+        "firstName": "Felipe",
+        "lookupKey": "massa_felipe",
+        "points": 43.0,
+        "team": "Williams",
+        "color": "#005AFF",
+        "rank": 11,
+        "rankDisplay": "11"
+      },
+      {
+        "name": "Lance Stroll",
         "firstName": "Lance",
+        "lookupKey": "stroll_lance",
         "points": 40.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 12
+        "color": "#005AFF",
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
-        "name": "Grosjean",
+        "name": "Romain Grosjean",
         "firstName": "Romain",
+        "lookupKey": "grosjean_romain",
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
-        "name": "Magnussen",
+        "name": "Kevin Magnussen",
         "firstName": "Kevin",
+        "lookupKey": "magnussen_kevin",
         "points": 19.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
-        "name": "Alonso",
+        "name": "Fernando Alonso",
         "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
         "points": 17.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 15
+        "color": "#FF8700",
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
-        "name": "Vandoorne",
+        "name": "Stoffel Vandoorne",
         "firstName": "Stoffel",
+        "lookupKey": "vandoorne_stoffel",
         "points": 13.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 16
+        "color": "#FF8700",
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
-        "name": "Palmer",
+        "name": "Jolyon Palmer",
         "firstName": "Jolyon",
+        "lookupKey": "palmer_jolyon",
         "points": 8.0,
         "team": "Renault",
         "color": "#FFF500",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
-        "name": "Kvyat",
+        "name": "Pascal Wehrlein",
+        "firstName": "Pascal",
+        "lookupKey": "wehrlein_pascal",
+        "points": 5.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 18,
+        "rankDisplay": "18"
+      },
+      {
+        "name": "Daniil Kvyat",
         "firstName": "Daniil",
+        "lookupKey": "kvyat_daniil",
         "points": 5.0,
         "team": "Toro Rosso",
         "color": "#0000FF",
-        "rank": 18
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
-        "name": "Wehrlein",
-        "firstName": "Pascal",
-        "points": 5.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 19
-      },
-      {
-        "name": "Giovinazzi",
-        "firstName": "Antonio",
-        "points": 0.0,
-        "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 20
-      },
-      {
-        "name": "Ericsson",
+        "name": "Marcus Ericsson",
         "firstName": "Marcus",
+        "lookupKey": "ericsson_marcus",
         "points": 0.0,
         "team": "Sauber",
-        "color": "#9B0000",
-        "rank": 21
+        "color": "#006EFF",
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
-        "name": "Button",
+        "name": "Pierre Gasly",
+        "firstName": "Pierre",
+        "lookupKey": "gasly_pierre",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 21,
+        "rankDisplay": "21"
+      },
+      {
+        "name": "Antonio Giovinazzi",
+        "firstName": "Antonio",
+        "lookupKey": "giovinazzi_antonio",
+        "points": 0.0,
+        "team": "Sauber",
+        "color": "#006EFF",
+        "rank": 22,
+        "rankDisplay": "22"
+      },
+      {
+        "name": "Brendon Hartley",
+        "firstName": "Brendon",
+        "lookupKey": "hartley_brendon",
+        "points": 0.0,
+        "team": "Toro Rosso",
+        "color": "#0000FF",
+        "rank": 23,
+        "rankDisplay": "23"
+      },
+      {
+        "name": "Jenson Button",
         "firstName": "Jenson",
+        "lookupKey": "button_jenson",
         "points": 0.0,
         "team": "McLaren",
-        "color": "#F58020",
-        "rank": 22
+        "color": "#FF8700",
+        "rank": 24,
+        "rankDisplay": "24"
       },
       {
-        "name": "di Resta",
+        "name": "Paul di Resta",
         "firstName": "Paul",
+        "lookupKey": "di resta_paul",
         "points": 0.0,
         "team": "Williams",
-        "color": "#37BEDD",
-        "rank": 23
-      },
-      {
-        "name": "Gasly",
-        "firstName": "Pierre",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 24
-      },
-      {
-        "name": "Hartley",
-        "firstName": "Brendon",
-        "points": 0.0,
-        "team": "Toro Rosso",
-        "color": "#0000FF",
-        "rank": 25
+        "color": "#005AFF",
+        "rank": 25,
+        "rankDisplay": "25"
       }
-    ]
+    ],
+    "raceResults": {
+      "bottas_valtteri": "1",
+      "hamilton_lewis": "2",
+      "vettel_sebastian": "3",
+      "raikkonen_kimi": "4",
+      "verstappen_max": "5",
+      "hulkenberg_nico": "6",
+      "perez_sergio": "7",
+      "ocon_esteban": "8",
+      "alonso_fernando": "9",
+      "massa_felipe": "10",
+      "grosjean_romain": "11",
+      "vandoorne_stoffel": "12",
+      "magnussen_kevin": "13",
+      "wehrlein_pascal": "14",
+      "hartley_brendon": "15",
+      "gasly_pierre": "16",
+      "ericsson_marcus": "17",
+      "stroll_lance": "18",
+      "sainz_carlos": "DNF",
+      "ricciardo_daniel": "DNF"
+    }
   }
 ]

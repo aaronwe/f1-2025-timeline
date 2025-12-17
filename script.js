@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let history = [];
     let currentIndex = -1;
     let driverElements = {}; // Map<DriverName, HTMLElement>
+    let displayNameMap = {}; // Map<FullName, DisplayName>
     let seasonMaxPoints = 100; // Default, overrides after load
 
     const eventNameEl = document.getElementById('event-name');
@@ -25,8 +26,15 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(seasons => {
             populateSeasonSelect(seasons);
 
-            // Load newest season by default
-            if (seasons.length > 0) {
+            // Check URL param first
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlYear = urlParams.get('year');
+
+            // Load newest season by default or URL year
+            if (urlYear && seasons.includes(parseInt(urlYear))) {
+                seasonSelect.value = urlYear;
+                loadSeason(urlYear);
+            } else if (seasons.length > 0) {
                 loadSeason(seasons[0]);
             }
         })
@@ -52,6 +60,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function loadSeason(year) {
         console.log(`Loading season ${year}...`);
+
+        // Update URL
+        const url = new URL(window.location);
+        url.searchParams.set('year', year);
+        window.history.pushState({}, '', url);
+
+        // Update Navigation Links
+        // Use attribute contains selector as href might already have params
+        const rankingsLink = document.querySelector('a[href*="rankings.html"]');
+        if (rankingsLink) {
+            rankingsLink.href = `rankings.html?year=${year}`;
+        }
+
         // Reset state
         currentIndex = -1;
         chartContainer.innerHTML = '';
@@ -77,8 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (lastStep.standings.length > 0) {
                 // Assuming standings are sorted, index 0 is max
                 const winnerPoints = lastStep.standings[0].points;
-                // Add room for 25 more points as requested
-                seasonMaxPoints = winnerPoints + 25;
+                // [FIX] Scale so winner is exactly 95% of width
+                seasonMaxPoints = winnerPoints / 0.95;
             }
 
             currentIndex = 0;
@@ -87,19 +108,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getOrCreateDriverRow(driverData) {
-        const id = driverData.name;
+        // [FIX] Use unique key (Full Name) to prevent collisions
+        const id = `${driverData.firstName} ${driverData.name}`;
         if (driverElements[id]) {
             return driverElements[id];
         }
 
         const row = document.createElement('div');
         row.className = 'driver-row';
-        // Updated: Only show Last Name (driverData.name)
+
+        // Determine Display Name
+        let displayLabel = driverData.name;
+        if (displayNameMap[id]) {
+            displayLabel = displayNameMap[id];
+        }
+
+        // Updated: Show Name (potentially disambiguated)
         row.innerHTML = `
             <div class="label-info">
                 <div class="rank"></div>
                 <div class="driver-meta">
-                    <div class="name">${driverData.name}</div>
+                    <div class="name">${displayLabel}</div>
                     <div class="team-name">${driverData.team}</div>
                 </div>
             </div>
@@ -138,17 +167,19 @@ document.addEventListener('DOMContentLoaded', () => {
         btnLast.disabled = currentIndex === history.length - 1;
 
         // Render Chart
-        const standings = step.standings;
-        // Use seasonMaxPoints for globally consistent scaling
-        const maxPoints = seasonMaxPoints;
-
+        // Render Chart
+        // [FIX] Sort by rank to ensure forced ranks (like 1997 DSQ) are respected visually
+        const standings = [...step.standings].sort((a, b) => a.rank - b.rank);
         const presentDriverNames = new Set();
+        const maxPoints = seasonMaxPoints;
 
         standings.forEach((driver, index) => {
             const row = getOrCreateDriverRow(driver);
-            presentDriverNames.add(driver.name);
+            // Track by unique ID
+            presentDriverNames.add(`${driver.firstName} ${driver.name}`);
 
-            row.querySelector('.rank').textContent = driver.rank;
+            // [FIX] Use rankDisplay (e.g. "DSQ") if provided, otherwise standard rank
+            row.querySelector('.rank').textContent = driver.rankDisplay || driver.rank;
             row.querySelector('.bar-points').textContent = driver.points;
 
             let widthPercent = 0;

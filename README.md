@@ -1,75 +1,85 @@
-# Formula 1 Standings Visualization (1950-2025)
+# F1 Championship History Visualizer
 
-An interactive, animated bar chart visualization of the Formula 1 Championship standings. This project has been expanded to support **every season in F1 history** (1950–Present), allowing users to explore the evolution of the championship across decades.
+An interactive dashboard for exploring Formula 1 World Championship history. This project provides two distinct ways to visualize the evolution of a season: a **Standings Animation** (bar chart race) and a **Rankings Graph** (bump chart view).
 
-**[Live Demo](https://aaronwe.github.io/f1-2025-timeline/)**
+It currently supports **1991–Present**, handling scoring quirks, disqualifications, and team changes with (what I believe to be) high accuracy.
 
-## Features
-- **Historical Support**: Explore detailed standings for any season from 1950 to today.
-- **Accurate Team Colors**: 
-    - Includes a comprehensive database of historical team colors (e.g., Maserati Red, Vanwall Green, Shadow Black/Gray).
-    - Automatically maps merged or renamed teams (e.g., "Lotus-Climax" uses Lotus colors).
-- **Interactive Timeline**: Step forward and backward through every race and sprint session.
-- **Sprint Support**: Correctly handles Sprint weekends, treating the Sprint and Grand Prix as separate scoring events.
-- **Responsive Design**: Validated for mobile and desktop, with touch-friendly controls.
+> **[Live Demo](https://aaronwe.github.io/f1-2025-timeline/)**
 
-## Data Pipeline (Python)
+## ✨ Features
 
-The project uses a robust Python pipeline to fetch, clean, and format data using the [FastF1](https://github.com/theOehrly/Fast-F1) library.
+-   **Dual Visualizations**:
+    -   **Standings Animation**: Watch the season unfold race-by-race with an animated leaderboard.
+    -   **Rankings Graph**: A full-season "bump chart" (Rankings view) that lets you trace every driver's rise and fall throughout the year.
 
-### 1. `download_all_seasons.py`
-The master script for fetching data.
-- **Usage**: `python download_all_seasons.py --start 1950 --end 2025`
-- **Features**:
-    - Rate-limit aware (pauses to respect API limits).
-    - Resumable (maintains a progress log).
-    - Caches data locally to `f1_cache`.
+-   **Deep Historical Accuracy**:
+    -   Handles complex edge cases like **Michael Schumacher's 1997 Disqualification** (showing him as DSQ in the final standings but tracking his points accurately during the season).
+    -   **Dynamic Team Colors**: A massive database of historical liveries ensures every team looks right, from the iconic Ferrari Red to the 90s Jordan Gold and Benetton Blue.
+    -   **Driver Disambiguation**: Robust handling of namesakes (e.g., Michael vs. Ralf Schumacher) to ensure data integrity.
 
-### 2. `prepare_web_data.py`
-Processes a single season into the JSON format used by the frontend.
-- **Usage**: `python prepare_web_data.py --year 1999`
-- **Output**: `data/standings_history_1999.json`
+-   **Mobile-First Design**:
+    -   Fully responsive layouts for both charts.
+    -   **Vertical Scrolling**: The rankings graph automatically expands for dense seasons (like 1992's 30+ drivers), preventing overcrowding.
+    -   **High-Contrast UI**: Dark mode optimized with smart text coloring (white/black context-aware labels) and clear data outlines.
 
-### 3. Team Color Management
-We maintain a custom database of team colors to ensure charts look great even for defunct teams.
-- **`fallback_teams.json`**: The master map of "Team Name" -> "Hex Color".
-- **`build_fallbacks.py`**: Scans your downloaded data and automatically adds missing teams to the fallback list (assigning defaults if unknown).
-- **`patch_colors.py`**: Directly updates existing JSON data files with the latest colors from the fallback list (no API calls required).
-- **`update_colors.sh`**: A helper script that runs the build and patch steps in sequence. Run this if you see missing colors!
+## 🛠️ Tech Stack
 
-## Running Locally
+-   **Frontend**: Vanilla JavaScript, [Chart.js](https://www.chartjs.org/) (for the rankings graph), and CSS3 Variables for easy theming.
+-   **Backend**: Python pipeline using [FastF1](https://github.com/theOehrly/Fast-F1) and [Ergast API](http://ergast.com/mrd/) via Pandas for data fetching and normalization.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/aaronwe/f1-2025-timeline.git
-   cd f1-2025-timeline
-   ```
+## 🚀 Getting Started
 
-2. **Install Dependencies**:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install fastf1 pandas
-   ```
+### 1. Installation
 
-3. **Fetch Data**:
-   To download the current season:
-   ```bash
-   python prepare_web_data.py
-   ```
-   To download history (this takes time!):
-   ```bash
-   python download_all_seasons.py --start 1950 --end 2025
-   ```
+Clone the repository and install the Python dependencies:
 
-4. **Start the server**:
-   ```bash
-   python3 -m http.server 8080
-   ```
+```bash
+git clone https://github.com/aaronwe/f1-2025-timeline.git
+cd f1-2025-timeline
 
-5. **View**: Open `http://localhost:8080` in your browser.
+python3 -m venv venv
+source venv/bin/activate
+pip install fastf1 pandas requests
+```
+
+### 2. Generate Data
+
+The project comes with a set of scripts to fetch and process F1 data.
+
+**Fetch a single season:**
+```bash
+# Downloads data for 1997 and generates 'data/standings_history_1997.json'
+python generate_season.py --year 1997
+```
+
+**Bulk download history:**
+```bash
+# Downloads a range of seasons (Rate-limit aware)
+python download_all_seasons.py --start 1991 --end 2024
+```
+
+> **Note**: Historical data download can take some time as it respects API rate limits.
+
+### 3. Run Locally
+
+Start a simple HTTP server to view the dashboard:
+
+```bash
+python3 -m http.server 8000
+```
+
+Open **http://localhost:8000** in your browser.
+
+## 📂 Project Structure
+
+-   `rankings.html` / `rankings.js`: The Bump Chart visualization.
+-   `index.html` / `script.js`: The Standings Animation visualization.
+-   `prepare_web_data.py`: The core logic for processing raw F1 data into frontend-ready JSON.
+-   `generate_season.py`: Wrapper script for easy season generation.
+-   `data/`: Storage for the generated JSON files (fed into the frontend).
+-   `style.css`: Shared styling for the dark/premium UI.
 
 ## Credits
-This project was designed and built in collaboration with **Antigravity**, an AI coding assistant.
-- **Concept & Direction**: Aaron Weiss
-- **Implementation & Documentation**: Antigravity
+
+Designed by **Aaron Weiss**, coded by **Antigravity**, Google's AI-powered IDE.
+Data courtesy of the [FastF1 Library](https://github.com/theOehrly/Fast-F1) and [Ergast](http://ergast.com/mrd/).

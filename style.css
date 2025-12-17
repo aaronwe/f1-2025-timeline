@@ -31,10 +31,15 @@ body {
 .app-container {
     width: 100%;
     max-width: 800px;
-    padding: 20px;
+    padding: 2px;
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.app-container.full-width {
+    max-width: 100%;
+    padding: 20px;
 }
 
 header {
@@ -131,12 +136,77 @@ main::-webkit-scrollbar-thumb {
 }
 
 .label-info {
-    width: 140px;
+    width: 220px;
+    /* [FIX] Even more space for names */
     display: flex;
     align-items: center;
     flex-shrink: 0;
     z-index: 2;
+    padding-right: 5px;
+    /* Spacing before bar */
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation */
+.main-nav {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.main-nav a {
+    color: #888;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: white;
+    border-bottom-color: #ff1801;
+}
+
+/* Rankings Chart Layout */
+#rankings-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* Hide outer scroll */
+    padding: 0;
+    background-color: #000;
+}
+
+.chart-wrapper {
+    flex: 1;
+    overflow: auto;
+    /* Enable both scroll directions */
+    background-color: #111;
+    border-radius: 0;
+    padding: 0;
+}
+
+/* Main Layout */
+.container {
+    max-width: 1400px;
+    /* [FIX] Widen container */
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 5px;
+    /* [FIX] Minimized padding for mobile */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-scroll-area {
+    /* Height and Width set dynamically by JS */
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .rank {
@@ -153,6 +223,8 @@ main::-webkit-scrollbar-thumb {
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 1.1;
+    text-align: right;
+    /* [FIX] Right align */
 }
 
 .driver-meta {
@@ -160,6 +232,10 @@ main::-webkit-scrollbar-thumb {
     flex-direction: column;
     overflow: hidden;
     justify-content: center;
+    flex: 1;
+    /* Take remaining space in label-info */
+    align-items: flex-end;
+    /* [FIX] Right align flex items */
 }
 
 .team-name {
@@ -171,6 +247,8 @@ main::-webkit-scrollbar-thumb {
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 2px;
+    text-align: right;
+    /* [FIX] Right align */
 }
 
 .bar-container {
@@ -179,7 +257,7 @@ main::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     position: relative;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .bar {

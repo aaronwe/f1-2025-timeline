@@ -80,7 +80,7 @@ def animate(year):
     # Track last row for the "pause/label switch" step
     last_row = step0_row
 
-    for step in history:
+    for i, step in enumerate(history):
         # Create a label for this step: "Event Name - Session\nDate | Location"
         label = f"{step['eventName']} | {step['session']}\n{step['date']} | {step['location']}"
         
@@ -98,6 +98,12 @@ def animate(year):
         for driver_data in step['standings']:
             name = driver_data['name']
             points = driver_data['points']
+            
+            # [FIX] 1997 Exception: Michael Schumacher DSQ
+            # Force points to 0 in the final step so he strictly "falls off" the chart
+            if year == 1997 and name == "Michael Schumacher" and i == len(history) - 1:
+                points = 0
+            
             row[name] = points
             
             # Update maps
@@ -111,6 +117,15 @@ def animate(year):
 
     # Explicitly set columns to ensure order matches color list
     df = pd.DataFrame(data_rows, index=period_labels, columns=sorted_drivers)
+
+    # [NEW] Rename columns to include Team Name (e.g. "Name\nTEAM")
+    # This displays the team under the driver name on the Y-axis
+    rename_map = {}
+    for driver in sorted_drivers:
+        team = driver_team_map.get(driver, "").upper()
+        rename_map[driver] = f"{driver}\n{team}"
+    
+    df.rename(columns=rename_map, inplace=True)
     
     # 3. Define Colors
     # Fallback Map (for years where API provides no color, or gaps)
@@ -138,9 +153,7 @@ def animate(year):
             team = driver_team_map.get(driver, "Unknown")
             color = fallback_team_colors.get(team)
             if color:
-                 print(f"Using fallback color {color} for {driver} ({team})")
-        
-        # Priority 3: Grey
+                 pass # print(f"Using fallback color {color} for {driver} ({team})")
         
         # Priority 3: Grey
         if not color:
@@ -148,17 +161,20 @@ def animate(year):
             
         bar_colors.append(color)
 
-    print("Generating animation (1080x1080)... this will take a moment.")
-
+    print("Generating animation (1920x1080)... this will take a moment.")
+    
     # 4. Generate Animation
     # Set global dark mode style (handles ticks, spines, etc.)
     plt.style.use('dark_background')
-
-    # Manually create figure to control layout margins (prevent title overlap)
-    fig = plt.figure(figsize=(10.8, 10.8), dpi=100, facecolor='black')
     
-    # Add axes with explicit margins
-    ax = fig.add_axes([0.15, 0.05, 0.80, 0.77], facecolor='black')
+    # [FIX] Full HD 1920x1080
+    fig = plt.figure(figsize=(19.2, 10.8), dpi=100, facecolor='black')
+    
+    # Add axes with explicit margins (Adjusted for 16:9)
+    # Add axes with explicit margins (Adjusted for 16:9)
+    # Left margin needs to be wide enough for "Long Name + Team"
+    # [FIX] Reduced height from 0.83 to 0.78 to make room at the top
+    ax = fig.add_axes([0.15, 0.05, 0.80, 0.78], facecolor='black')
     
     # Hide X-axis ticks and labels (clean look)
     ax.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)
@@ -176,6 +192,7 @@ def animate(year):
     # Add Static Title manually
     # Switched to Outfit Bold (Loaded from fonts/)
     # Align Title with the Axes Left Edge (x=0.15)
+    # [FIX] Moved up to 0.95 and aligned right to 0.15 to match chart margin
     fig.suptitle(f'F1 {year} Championship Standings', fontsize=36, fontweight='bold', y=0.95, x=0.15, ha='left', fontfamily='Outfit', color='white')
     
     # Ensure output directory exists
@@ -199,7 +216,8 @@ def animate(year):
         interpolate_period=False, 
         bar_size=.70, # Thinner bars (0.7)
         # Position metadata (Race Name)
-        period_label={'x': 0.0, 'y': 1.02, 'ha': 'left', 'va': 'bottom', 'size': 18, 'weight': 'bold', 'family': 'Outfit', 'color': 'white'}, 
+        # [FIX] Position label lower (1.00 instead of 1.02)
+        period_label={'x': 0.0, 'y': 1.00, 'ha': 'left', 'va': 'bottom', 'size': 18, 'weight': 'bold', 'family': 'Outfit', 'color': 'white'}, 
         period_template='{x}', 
         colors=bar_colors, 
         filter_column_colors=False, 
