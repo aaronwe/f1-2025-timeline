@@ -2,8 +2,8 @@ import subprocess
 import sys
 
 def main():
-    start_year = 2014
-    end_year = 2017
+    start_year = 2021
+    end_year = 2025
     
     print(f"Starting bulk animation generation from {start_year} to {end_year}...")
     

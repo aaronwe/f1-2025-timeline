@@ -142,7 +142,8 @@ def prepare_data(year):
                     
                     pts = float(row['points'])
                     if pts > 0:
-                        sprint_points_map[last] = pts
+                        # [FIX] Use Full Name as key to match 'primary' driver map in history
+                        sprint_points_map[f"{first} {last}"] = pts
                         
                     # Capture result text (e.g. "1", "R")
                     # We store it keyed by normalized name to match frontend usage

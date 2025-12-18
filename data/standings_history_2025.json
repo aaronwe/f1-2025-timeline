@@ -13,7 +13,8 @@
         "points": 25.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Max Verstappen",
@@ -22,7 +23,8 @@
         "points": 18.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "George Russell",
@@ -31,7 +33,8 @@
         "points": 15.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -40,7 +43,8 @@
         "points": 12.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Alexander Albon",
@@ -49,7 +53,8 @@
         "points": 10.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lance Stroll",
@@ -58,7 +63,8 @@
         "points": 8.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -67,7 +73,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Charles Leclerc",
@@ -76,7 +83,8 @@
         "points": 4.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Oscar Piastri",
@@ -85,7 +93,8 @@
         "points": 2.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Lewis Hamilton",
@@ -94,7 +103,8 @@
         "points": 1.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Pierre Gasly",
@@ -103,7 +113,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Yuki Tsunoda",
@@ -112,7 +123,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Esteban Ocon",
@@ -121,7 +133,8 @@
         "points": 0.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Oliver Bearman",
@@ -130,7 +143,8 @@
         "points": 0.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -139,7 +153,8 @@
         "points": 0.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -148,7 +163,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Fernando Alonso",
@@ -157,7 +173,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Carlos Sainz",
@@ -166,7 +183,8 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -175,7 +193,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Isack Hadjar",
@@ -184,7 +203,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -221,37 +241,41 @@
         "name": "Lando Norris",
         "firstName": "Lando",
         "lookupKey": "norris_lando",
-        "points": 25.0,
+        "points": 26.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Max Verstappen",
         "firstName": "Max",
         "lookupKey": "verstappen_max",
-        "points": 18.0,
+        "points": 24.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "George Russell",
         "firstName": "George",
         "lookupKey": "russell_george",
-        "points": 15.0,
+        "points": 20.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "Andrea Kimi Antonelli",
         "firstName": "Andrea Kimi",
         "lookupKey": "antonelli_andrea kimi",
-        "points": 12.0,
+        "points": 14.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Alexander Albon",
@@ -260,7 +284,28 @@
         "points": 10.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
+      },
+      {
+        "name": "Oscar Piastri",
+        "firstName": "Oscar",
+        "lookupKey": "piastri_oscar",
+        "points": 9.0,
+        "team": "McLaren",
+        "color": "#FF8000",
+        "rank": 6,
+        "rankDisplay": "9"
+      },
+      {
+        "name": "Lewis Hamilton",
+        "firstName": "Lewis",
+        "lookupKey": "hamilton_lewis",
+        "points": 9.0,
+        "team": "Ferrari",
+        "color": "#E80020",
+        "rank": 7,
+        "rankDisplay": "10"
       },
       {
         "name": "Lance Stroll",
@@ -269,7 +314,18 @@
         "points": 8.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 6
+        "rank": 8,
+        "rankDisplay": "6"
+      },
+      {
+        "name": "Charles Leclerc",
+        "firstName": "Charles",
+        "lookupKey": "leclerc_charles",
+        "points": 8.0,
+        "team": "Ferrari",
+        "color": "#E80020",
+        "rank": 9,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -278,34 +334,18 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 7
+        "rank": 10,
+        "rankDisplay": "7"
       },
       {
-        "name": "Charles Leclerc",
-        "firstName": "Charles",
-        "lookupKey": "leclerc_charles",
-        "points": 4.0,
-        "team": "Ferrari",
-        "color": "#E80020",
-        "rank": 8
-      },
-      {
-        "name": "Oscar Piastri",
-        "firstName": "Oscar",
-        "lookupKey": "piastri_oscar",
-        "points": 2.0,
-        "team": "McLaren",
-        "color": "#FF8000",
-        "rank": 9
-      },
-      {
-        "name": "Lewis Hamilton",
-        "firstName": "Lewis",
-        "lookupKey": "hamilton_lewis",
-        "points": 1.0,
-        "team": "Ferrari",
-        "color": "#E80020",
-        "rank": 10
+        "name": "Yuki Tsunoda",
+        "firstName": "Yuki",
+        "lookupKey": "tsunoda_yuki",
+        "points": 3.0,
+        "team": "RB F1 Team",
+        "color": "#6692FF",
+        "rank": 11,
+        "rankDisplay": "12"
       },
       {
         "name": "Pierre Gasly",
@@ -314,16 +354,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 11
-      },
-      {
-        "name": "Yuki Tsunoda",
-        "firstName": "Yuki",
-        "lookupKey": "tsunoda_yuki",
-        "points": 0.0,
-        "team": "RB F1 Team",
-        "color": "#6692FF",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "11"
       },
       {
         "name": "Esteban Ocon",
@@ -332,7 +364,8 @@
         "points": 0.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Oliver Bearman",
@@ -341,7 +374,8 @@
         "points": 0.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -350,7 +384,8 @@
         "points": 0.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -359,7 +394,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Fernando Alonso",
@@ -368,7 +404,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Carlos Sainz",
@@ -377,7 +414,8 @@
         "points": 0.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -386,7 +424,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Isack Hadjar",
@@ -395,7 +434,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -435,7 +475,8 @@
         "points": 44.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Max Verstappen",
@@ -444,7 +485,8 @@
         "points": 36.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "George Russell",
@@ -453,7 +495,8 @@
         "points": 35.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "Oscar Piastri",
@@ -462,7 +505,8 @@
         "points": 34.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -471,7 +515,8 @@
         "points": 22.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Alexander Albon",
@@ -480,7 +525,8 @@
         "points": 16.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Esteban Ocon",
@@ -489,7 +535,8 @@
         "points": 10.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Lance Stroll",
@@ -498,7 +545,8 @@
         "points": 10.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Lewis Hamilton",
@@ -507,7 +555,8 @@
         "points": 9.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Charles Leclerc",
@@ -516,7 +565,8 @@
         "points": 8.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -525,7 +575,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Oliver Bearman",
@@ -534,7 +585,8 @@
         "points": 4.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Yuki Tsunoda",
@@ -543,7 +595,8 @@
         "points": 3.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Carlos Sainz",
@@ -552,7 +605,8 @@
         "points": 1.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Pierre Gasly",
@@ -561,7 +615,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Isack Hadjar",
@@ -570,7 +625,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Liam Lawson",
@@ -579,7 +635,8 @@
         "points": 0.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Jack Doohan",
@@ -588,7 +645,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -597,7 +655,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Fernando Alonso",
@@ -606,7 +665,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -646,7 +706,8 @@
         "points": 62.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Max Verstappen",
@@ -655,7 +716,8 @@
         "points": 61.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Oscar Piastri",
@@ -664,7 +726,8 @@
         "points": 49.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -673,7 +736,8 @@
         "points": 45.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -682,7 +746,8 @@
         "points": 30.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Charles Leclerc",
@@ -691,7 +756,8 @@
         "points": 20.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Alexander Albon",
@@ -700,7 +766,8 @@
         "points": 18.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Lewis Hamilton",
@@ -709,7 +776,8 @@
         "points": 15.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -718,7 +786,8 @@
         "points": 10.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Lance Stroll",
@@ -727,7 +796,8 @@
         "points": 10.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -736,7 +806,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Oliver Bearman",
@@ -745,7 +816,8 @@
         "points": 5.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Isack Hadjar",
@@ -754,7 +826,8 @@
         "points": 4.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Yuki Tsunoda",
@@ -763,7 +836,8 @@
         "points": 3.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Carlos Sainz",
@@ -772,7 +846,8 @@
         "points": 1.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Pierre Gasly",
@@ -781,7 +856,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Fernando Alonso",
@@ -790,7 +866,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Liam Lawson",
@@ -799,7 +876,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -808,7 +886,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -817,7 +896,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -857,7 +937,8 @@
         "points": 77.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Oscar Piastri",
@@ -866,7 +947,8 @@
         "points": 74.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -875,7 +957,8 @@
         "points": 69.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -884,7 +967,8 @@
         "points": 63.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -893,7 +977,8 @@
         "points": 32.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -902,7 +987,8 @@
         "points": 30.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Lewis Hamilton",
@@ -911,7 +997,8 @@
         "points": 25.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -920,7 +1007,8 @@
         "points": 18.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -929,7 +1017,8 @@
         "points": 14.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Lance Stroll",
@@ -938,7 +1027,8 @@
         "points": 10.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Pierre Gasly",
@@ -947,7 +1037,8 @@
         "points": 6.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -956,7 +1047,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Oliver Bearman",
@@ -965,7 +1057,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Yuki Tsunoda",
@@ -974,7 +1067,8 @@
         "points": 5.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Isack Hadjar",
@@ -983,7 +1077,8 @@
         "points": 4.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Carlos Sainz",
@@ -992,7 +1087,8 @@
         "points": 1.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Fernando Alonso",
@@ -1001,7 +1097,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Liam Lawson",
@@ -1010,7 +1107,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -1019,7 +1117,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -1028,7 +1127,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -1068,7 +1168,8 @@
         "points": 99.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -1077,7 +1178,8 @@
         "points": 89.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -1086,7 +1188,8 @@
         "points": 87.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -1095,7 +1198,8 @@
         "points": 73.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -1104,7 +1208,8 @@
         "points": 47.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -1113,7 +1218,8 @@
         "points": 38.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Lewis Hamilton",
@@ -1122,7 +1228,8 @@
         "points": 31.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -1131,7 +1238,8 @@
         "points": 20.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -1140,7 +1248,8 @@
         "points": 14.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Lance Stroll",
@@ -1149,7 +1258,8 @@
         "points": 10.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Pierre Gasly",
@@ -1158,7 +1268,8 @@
         "points": 6.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -1167,7 +1278,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Oliver Bearman",
@@ -1176,7 +1288,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Isack Hadjar",
@@ -1185,7 +1298,8 @@
         "points": 5.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Carlos Sainz",
@@ -1194,7 +1308,8 @@
         "points": 5.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Yuki Tsunoda",
@@ -1203,7 +1318,8 @@
         "points": 5.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Fernando Alonso",
@@ -1212,7 +1328,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Liam Lawson",
@@ -1221,7 +1338,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -1230,7 +1348,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -1239,7 +1358,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -1276,19 +1396,21 @@
         "name": "Oscar Piastri",
         "firstName": "Oscar",
         "lookupKey": "piastri_oscar",
-        "points": 99.0,
+        "points": 106.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
         "firstName": "Lando",
         "lookupKey": "norris_lando",
-        "points": 89.0,
+        "points": 97.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -1297,16 +1419,18 @@
         "points": 87.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
         "firstName": "George",
         "lookupKey": "russell_george",
-        "points": 73.0,
+        "points": 78.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -1315,25 +1439,28 @@
         "points": 47.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Andrea Kimi Antonelli",
         "firstName": "Andrea Kimi",
         "lookupKey": "antonelli_andrea kimi",
-        "points": 38.0,
+        "points": 40.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Lewis Hamilton",
         "firstName": "Lewis",
         "lookupKey": "hamilton_lewis",
-        "points": 31.0,
+        "points": 37.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -1342,7 +1469,8 @@
         "points": 20.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -1351,25 +1479,38 @@
         "points": 14.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Lance Stroll",
         "firstName": "Lance",
         "lookupKey": "stroll_lance",
-        "points": 10.0,
+        "points": 14.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
+      },
+      {
+        "name": "Yuki Tsunoda",
+        "firstName": "Yuki",
+        "lookupKey": "tsunoda_yuki",
+        "points": 8.0,
+        "team": "Red Bull",
+        "color": "#3671C6",
+        "rank": 11,
+        "rankDisplay": "16"
       },
       {
         "name": "Pierre Gasly",
         "firstName": "Pierre",
         "lookupKey": "gasly_pierre",
-        "points": 6.0,
+        "points": 7.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 11
+        "rank": 12,
+        "rankDisplay": "11"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -1378,7 +1519,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 12
+        "rank": 13,
+        "rankDisplay": "12"
       },
       {
         "name": "Oliver Bearman",
@@ -1387,7 +1529,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 13
+        "rank": 14,
+        "rankDisplay": "13"
       },
       {
         "name": "Isack Hadjar",
@@ -1396,7 +1539,8 @@
         "points": 5.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 14
+        "rank": 15,
+        "rankDisplay": "14"
       },
       {
         "name": "Carlos Sainz",
@@ -1405,16 +1549,8 @@
         "points": 5.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 15
-      },
-      {
-        "name": "Yuki Tsunoda",
-        "firstName": "Yuki",
-        "lookupKey": "tsunoda_yuki",
-        "points": 5.0,
-        "team": "Red Bull",
-        "color": "#3671C6",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "15"
       },
       {
         "name": "Fernando Alonso",
@@ -1423,7 +1559,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Liam Lawson",
@@ -1432,7 +1569,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -1441,7 +1579,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -1450,7 +1589,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -1490,7 +1630,8 @@
         "points": 131.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -1499,7 +1640,8 @@
         "points": 115.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -1508,7 +1650,8 @@
         "points": 99.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -1517,7 +1660,8 @@
         "points": 93.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -1526,7 +1670,8 @@
         "points": 53.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -1535,7 +1680,8 @@
         "points": 48.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Lewis Hamilton",
@@ -1544,7 +1690,8 @@
         "points": 41.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -1553,7 +1700,8 @@
         "points": 30.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -1562,7 +1710,8 @@
         "points": 14.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Lance Stroll",
@@ -1571,7 +1720,8 @@
         "points": 14.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Yuki Tsunoda",
@@ -1580,7 +1730,8 @@
         "points": 9.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Pierre Gasly",
@@ -1589,7 +1740,8 @@
         "points": 7.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Carlos Sainz",
@@ -1598,7 +1750,8 @@
         "points": 7.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -1607,7 +1760,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Oliver Bearman",
@@ -1616,7 +1770,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Isack Hadjar",
@@ -1625,7 +1780,8 @@
         "points": 5.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Fernando Alonso",
@@ -1634,7 +1790,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Liam Lawson",
@@ -1643,7 +1800,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -1652,7 +1810,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -1661,7 +1820,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       }
     ],
     "raceResults": {
@@ -1701,7 +1861,8 @@
         "points": 146.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -1710,7 +1871,8 @@
         "points": 133.0,
         "team": "McLaren",
         "color": "#FF8000",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -1719,7 +1881,8 @@
         "points": 124.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -1728,7 +1891,8 @@
         "points": 99.0,
         "team": "Mercedes",
         "color": "#27F4D2",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -1737,7 +1901,8 @@
         "points": 61.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -1746,7 +1911,8 @@
         "points": 53.0,
         "team": "Ferrari",
         "color": "#E80020",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -1755,7 +1921,8 @@
         "points": 48.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -1764,7 +1931,8 @@
         "points": 40.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -1773,7 +1941,8 @@
         "points": 14.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Lance Stroll",
@@ -1782,7 +1951,8 @@
         "points": 14.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Carlos Sainz",
@@ -1791,7 +1961,8 @@
         "points": 11.0,
         "team": "Williams",
         "color": "#64C4FF",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Yuki Tsunoda",
@@ -1800,7 +1971,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#3671C6",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Pierre Gasly",
@@ -1809,7 +1981,8 @@
         "points": 7.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Isack Hadjar",
@@ -1818,7 +1991,8 @@
         "points": 7.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -1827,7 +2001,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Oliver Bearman",
@@ -1836,7 +2011,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#B6BABD",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Fernando Alonso",
@@ -1845,7 +2021,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Liam Lawson",
@@ -1854,7 +2031,8 @@
         "points": 0.0,
         "team": "RB F1 Team",
         "color": "#6692FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -1863,7 +2041,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -1872,7 +2051,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#52E252",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Franco Colapinto",
@@ -1881,7 +2061,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#0093CC",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -1921,7 +2102,8 @@
         "points": 161.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -1930,7 +2112,8 @@
         "points": 158.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -1939,7 +2122,8 @@
         "points": 136.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -1948,7 +2132,8 @@
         "points": 99.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -1957,7 +2142,8 @@
         "points": 79.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -1966,7 +2152,8 @@
         "points": 63.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -1975,7 +2162,8 @@
         "points": 48.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -1984,7 +2172,8 @@
         "points": 42.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -1993,7 +2182,8 @@
         "points": 20.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Isack Hadjar",
@@ -2002,7 +2192,8 @@
         "points": 15.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Lance Stroll",
@@ -2011,7 +2202,8 @@
         "points": 14.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Carlos Sainz",
@@ -2020,7 +2212,8 @@
         "points": 12.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Yuki Tsunoda",
@@ -2029,7 +2222,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Pierre Gasly",
@@ -2038,7 +2232,8 @@
         "points": 7.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -2047,7 +2242,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Oliver Bearman",
@@ -2056,7 +2252,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Liam Lawson",
@@ -2065,7 +2262,8 @@
         "points": 4.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Fernando Alonso",
@@ -2074,7 +2272,8 @@
         "points": 0.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Jack Doohan",
@@ -2083,7 +2282,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -2092,7 +2292,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -2101,7 +2302,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -2141,7 +2343,8 @@
         "points": 186.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -2150,7 +2353,8 @@
         "points": 176.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -2159,7 +2363,8 @@
         "points": 137.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -2168,7 +2373,8 @@
         "points": 111.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -2177,7 +2383,8 @@
         "points": 94.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -2186,7 +2393,8 @@
         "points": 71.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -2195,7 +2403,8 @@
         "points": 48.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -2204,7 +2413,8 @@
         "points": 42.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Isack Hadjar",
@@ -2213,7 +2423,8 @@
         "points": 21.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Esteban Ocon",
@@ -2222,7 +2433,8 @@
         "points": 20.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -2231,7 +2443,8 @@
         "points": 16.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Lance Stroll",
@@ -2240,7 +2453,8 @@
         "points": 14.0,
         "team": "Aston Martin",
         "color": "#006F62",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Carlos Sainz",
@@ -2249,7 +2463,8 @@
         "points": 12.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Pierre Gasly",
@@ -2258,7 +2473,8 @@
         "points": 11.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Yuki Tsunoda",
@@ -2267,7 +2483,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Oliver Bearman",
@@ -2276,7 +2493,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Liam Lawson",
@@ -2285,7 +2503,8 @@
         "points": 4.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Fernando Alonso",
@@ -2294,7 +2513,8 @@
         "points": 2.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -2303,7 +2523,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Jack Doohan",
@@ -2312,7 +2533,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Franco Colapinto",
@@ -2321,7 +2543,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -2360,7 +2583,8 @@
         "points": 198.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -2369,7 +2593,8 @@
         "points": 176.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -2378,7 +2603,8 @@
         "points": 155.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -2387,7 +2613,8 @@
         "points": 136.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -2396,7 +2623,8 @@
         "points": 104.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -2405,7 +2633,8 @@
         "points": 79.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -2414,7 +2643,8 @@
         "points": 63.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -2423,7 +2653,8 @@
         "points": 42.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -2432,7 +2663,8 @@
         "points": 22.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Isack Hadjar",
@@ -2441,7 +2673,8 @@
         "points": 21.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -2450,7 +2683,8 @@
         "points": 20.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Lance Stroll",
@@ -2459,7 +2693,8 @@
         "points": 14.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Carlos Sainz",
@@ -2468,7 +2703,8 @@
         "points": 13.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Pierre Gasly",
@@ -2477,7 +2713,8 @@
         "points": 11.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Yuki Tsunoda",
@@ -2486,7 +2723,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Fernando Alonso",
@@ -2495,7 +2733,8 @@
         "points": 8.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Oliver Bearman",
@@ -2504,7 +2743,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Liam Lawson",
@@ -2513,7 +2753,8 @@
         "points": 4.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -2522,7 +2763,8 @@
         "points": 0.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -2531,7 +2773,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -2540,7 +2783,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -2580,7 +2824,8 @@
         "points": 216.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -2589,7 +2834,8 @@
         "points": 201.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -2598,7 +2844,8 @@
         "points": 155.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -2607,7 +2854,8 @@
         "points": 146.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -2616,7 +2864,8 @@
         "points": 119.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -2625,7 +2874,8 @@
         "points": 91.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -2634,7 +2884,8 @@
         "points": 63.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -2643,7 +2894,8 @@
         "points": 42.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Esteban Ocon",
@@ -2652,7 +2904,8 @@
         "points": 23.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -2661,7 +2914,8 @@
         "points": 22.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Isack Hadjar",
@@ -2670,7 +2924,8 @@
         "points": 21.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Lance Stroll",
@@ -2679,7 +2934,8 @@
         "points": 14.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Fernando Alonso",
@@ -2688,7 +2944,8 @@
         "points": 14.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Carlos Sainz",
@@ -2697,7 +2954,8 @@
         "points": 13.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -2706,7 +2964,8 @@
         "points": 12.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Pierre Gasly",
@@ -2715,7 +2974,8 @@
         "points": 11.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -2724,7 +2984,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Oliver Bearman",
@@ -2733,7 +2994,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -2742,7 +3004,8 @@
         "points": 4.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -2751,7 +3014,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -2760,7 +3024,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -2800,7 +3065,8 @@
         "points": 234.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -2809,7 +3075,8 @@
         "points": 226.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -2818,7 +3085,8 @@
         "points": 165.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -2827,7 +3095,8 @@
         "points": 147.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -2836,7 +3105,8 @@
         "points": 119.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -2845,7 +3115,8 @@
         "points": 103.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -2854,7 +3125,8 @@
         "points": 63.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -2863,7 +3135,8 @@
         "points": 46.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -2872,7 +3145,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Esteban Ocon",
@@ -2881,7 +3155,8 @@
         "points": 23.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Isack Hadjar",
@@ -2890,7 +3165,8 @@
         "points": 21.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Lance Stroll",
@@ -2899,7 +3175,8 @@
         "points": 20.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Pierre Gasly",
@@ -2908,7 +3185,8 @@
         "points": 19.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Fernando Alonso",
@@ -2917,7 +3195,8 @@
         "points": 16.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Carlos Sainz",
@@ -2926,7 +3205,8 @@
         "points": 13.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Liam Lawson",
@@ -2935,7 +3215,8 @@
         "points": 12.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -2944,7 +3225,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Oliver Bearman",
@@ -2953,7 +3235,8 @@
         "points": 6.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -2962,7 +3245,8 @@
         "points": 4.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -2971,7 +3255,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -2980,7 +3265,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -3017,28 +3303,31 @@
         "name": "Oscar Piastri",
         "firstName": "Oscar",
         "lookupKey": "piastri_oscar",
-        "points": 234.0,
+        "points": 241.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
         "firstName": "Lando",
         "lookupKey": "norris_lando",
-        "points": 226.0,
+        "points": 232.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
         "firstName": "Max",
         "lookupKey": "verstappen_max",
-        "points": 165.0,
+        "points": 173.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -3047,16 +3336,18 @@
         "points": 147.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
         "firstName": "Charles",
         "lookupKey": "leclerc_charles",
-        "points": 119.0,
+        "points": 124.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -3065,7 +3356,8 @@
         "points": 103.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -3074,7 +3366,8 @@
         "points": 63.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -3083,7 +3376,8 @@
         "points": 46.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -3092,25 +3386,28 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Esteban Ocon",
         "firstName": "Esteban",
         "lookupKey": "ocon_esteban",
-        "points": 23.0,
+        "points": 27.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Isack Hadjar",
         "firstName": "Isack",
         "lookupKey": "hadjar_isack",
-        "points": 21.0,
+        "points": 22.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Lance Stroll",
@@ -3119,7 +3416,8 @@
         "points": 20.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Pierre Gasly",
@@ -3128,7 +3426,8 @@
         "points": 19.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Fernando Alonso",
@@ -3137,16 +3436,18 @@
         "points": 16.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Carlos Sainz",
         "firstName": "Carlos",
         "lookupKey": "sainz_carlos",
-        "points": 13.0,
+        "points": 16.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Liam Lawson",
@@ -3155,7 +3456,8 @@
         "points": 12.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -3164,16 +3466,18 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Oliver Bearman",
         "firstName": "Oliver",
         "lookupKey": "bearman_oliver",
-        "points": 6.0,
+        "points": 8.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -3182,7 +3486,8 @@
         "points": 4.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -3191,7 +3496,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -3200,7 +3506,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -3240,7 +3547,8 @@
         "points": 266.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -3249,7 +3557,8 @@
         "points": 250.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -3258,7 +3567,8 @@
         "points": 185.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -3267,7 +3577,8 @@
         "points": 157.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -3276,7 +3587,8 @@
         "points": 139.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -3285,7 +3597,8 @@
         "points": 109.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -3294,7 +3607,8 @@
         "points": 63.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -3303,7 +3617,8 @@
         "points": 54.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -3312,7 +3627,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Esteban Ocon",
@@ -3321,7 +3637,8 @@
         "points": 27.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Isack Hadjar",
@@ -3330,7 +3647,8 @@
         "points": 22.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Pierre Gasly",
@@ -3339,7 +3657,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Lance Stroll",
@@ -3348,7 +3667,8 @@
         "points": 20.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -3357,7 +3677,8 @@
         "points": 16.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Fernando Alonso",
@@ -3366,7 +3687,8 @@
         "points": 16.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Carlos Sainz",
@@ -3375,7 +3697,8 @@
         "points": 16.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -3384,7 +3707,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Oliver Bearman",
@@ -3393,7 +3717,8 @@
         "points": 8.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -3402,7 +3727,8 @@
         "points": 6.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -3411,7 +3737,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -3420,7 +3747,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -3460,7 +3788,8 @@
         "points": 284.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -3469,7 +3798,8 @@
         "points": 275.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -3478,7 +3808,8 @@
         "points": 187.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -3487,7 +3818,8 @@
         "points": 172.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -3496,7 +3828,8 @@
         "points": 151.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -3505,7 +3838,8 @@
         "points": 109.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -3514,7 +3848,8 @@
         "points": 64.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -3523,7 +3858,8 @@
         "points": 54.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -3532,7 +3868,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Esteban Ocon",
@@ -3541,7 +3878,8 @@
         "points": 27.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Fernando Alonso",
@@ -3550,7 +3888,8 @@
         "points": 26.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Lance Stroll",
@@ -3559,7 +3898,8 @@
         "points": 26.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Isack Hadjar",
@@ -3568,7 +3908,8 @@
         "points": 22.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Pierre Gasly",
@@ -3577,7 +3918,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -3586,7 +3928,8 @@
         "points": 20.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Carlos Sainz",
@@ -3595,7 +3938,8 @@
         "points": 16.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -3604,7 +3948,8 @@
         "points": 14.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Yuki Tsunoda",
@@ -3613,7 +3958,8 @@
         "points": 10.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Oliver Bearman",
@@ -3622,7 +3968,8 @@
         "points": 8.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -3631,7 +3978,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -3640,7 +3988,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -3680,7 +4029,8 @@
         "points": 309.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -3689,7 +4039,8 @@
         "points": 275.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -3698,7 +4049,8 @@
         "points": 205.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -3707,7 +4059,8 @@
         "points": 184.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -3716,7 +4069,8 @@
         "points": 151.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -3725,7 +4079,8 @@
         "points": 109.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -3734,7 +4089,8 @@
         "points": 64.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -3743,7 +4099,8 @@
         "points": 64.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -3752,7 +4109,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Isack Hadjar",
@@ -3761,7 +4119,8 @@
         "points": 37.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Lance Stroll",
@@ -3770,7 +4129,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Fernando Alonso",
@@ -3779,7 +4139,8 @@
         "points": 30.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Esteban Ocon",
@@ -3788,7 +4149,8 @@
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Pierre Gasly",
@@ -3797,7 +4159,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -3806,7 +4169,8 @@
         "points": 20.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Oliver Bearman",
@@ -3815,7 +4179,8 @@
         "points": 16.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Carlos Sainz",
@@ -3824,7 +4189,8 @@
         "points": 16.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -3833,7 +4199,8 @@
         "points": 14.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Yuki Tsunoda",
@@ -3842,7 +4209,8 @@
         "points": 12.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -3851,7 +4219,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -3860,7 +4229,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -3900,7 +4270,8 @@
         "points": 324.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -3909,7 +4280,8 @@
         "points": 293.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -3918,7 +4290,8 @@
         "points": 230.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -3927,7 +4300,8 @@
         "points": 194.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -3936,7 +4310,8 @@
         "points": 163.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -3945,7 +4320,8 @@
         "points": 117.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Alexander Albon",
@@ -3954,7 +4330,8 @@
         "points": 70.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -3963,7 +4340,8 @@
         "points": 66.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Isack Hadjar",
@@ -3972,7 +4350,8 @@
         "points": 38.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -3981,7 +4360,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Lance Stroll",
@@ -3990,7 +4370,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Fernando Alonso",
@@ -3999,7 +4380,8 @@
         "points": 30.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Esteban Ocon",
@@ -4008,7 +4390,8 @@
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Pierre Gasly",
@@ -4017,7 +4400,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -4026,7 +4410,8 @@
         "points": 20.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -4035,7 +4420,8 @@
         "points": 18.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Oliver Bearman",
@@ -4044,7 +4430,8 @@
         "points": 16.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Carlos Sainz",
@@ -4053,7 +4440,8 @@
         "points": 16.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Yuki Tsunoda",
@@ -4062,7 +4450,8 @@
         "points": 12.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -4071,7 +4460,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -4080,7 +4470,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -4120,7 +4511,8 @@
         "points": 324.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -4129,7 +4521,8 @@
         "points": 299.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -4138,7 +4531,8 @@
         "points": 255.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -4147,7 +4541,8 @@
         "points": 212.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -4156,7 +4551,8 @@
         "points": 165.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -4165,7 +4561,8 @@
         "points": 121.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -4174,7 +4571,8 @@
         "points": 78.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -4183,7 +4581,8 @@
         "points": 70.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Isack Hadjar",
@@ -4192,7 +4591,8 @@
         "points": 39.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -4201,7 +4601,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Lance Stroll",
@@ -4210,7 +4611,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Carlos Sainz",
@@ -4219,7 +4621,8 @@
         "points": 31.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Liam Lawson",
@@ -4228,7 +4631,8 @@
         "points": 30.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Fernando Alonso",
@@ -4237,7 +4641,8 @@
         "points": 30.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Esteban Ocon",
@@ -4246,7 +4651,8 @@
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Pierre Gasly",
@@ -4255,7 +4661,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -4264,7 +4671,8 @@
         "points": 20.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -4273,7 +4681,8 @@
         "points": 18.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Oliver Bearman",
@@ -4282,7 +4691,8 @@
         "points": 16.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -4291,7 +4701,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -4300,7 +4711,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -4340,7 +4752,8 @@
         "points": 336.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -4349,7 +4762,8 @@
         "points": 314.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -4358,7 +4772,8 @@
         "points": 273.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -4367,7 +4782,8 @@
         "points": 237.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -4376,7 +4792,8 @@
         "points": 173.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -4385,7 +4802,8 @@
         "points": 125.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -4394,7 +4812,8 @@
         "points": 88.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -4403,7 +4822,8 @@
         "points": 70.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Isack Hadjar",
@@ -4412,7 +4832,8 @@
         "points": 39.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -4421,7 +4842,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Fernando Alonso",
@@ -4430,7 +4852,8 @@
         "points": 36.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Carlos Sainz",
@@ -4439,7 +4862,8 @@
         "points": 32.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Lance Stroll",
@@ -4448,7 +4872,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -4457,7 +4882,8 @@
         "points": 30.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Esteban Ocon",
@@ -4466,7 +4892,8 @@
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Pierre Gasly",
@@ -4475,7 +4902,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -4484,7 +4912,8 @@
         "points": 20.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -4493,7 +4922,8 @@
         "points": 18.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Oliver Bearman",
@@ -4502,7 +4932,8 @@
         "points": 18.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -4511,7 +4942,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -4520,7 +4952,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -4560,7 +4993,8 @@
         "points": 336.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -4569,61 +5003,68 @@
         "points": 314.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
         "firstName": "Max",
         "lookupKey": "verstappen_max",
-        "points": 273.0,
+        "points": 281.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
         "firstName": "George",
         "lookupKey": "russell_george",
-        "points": 237.0,
+        "points": 244.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
         "firstName": "Charles",
         "lookupKey": "leclerc_charles",
-        "points": 173.0,
+        "points": 177.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
         "firstName": "Lewis",
         "lookupKey": "hamilton_lewis",
-        "points": 125.0,
+        "points": 130.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
         "firstName": "Andrea Kimi",
         "lookupKey": "antonelli_andrea kimi",
-        "points": 88.0,
+        "points": 89.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
         "firstName": "Alexander",
         "lookupKey": "albon_alexander",
-        "points": 70.0,
+        "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Isack Hadjar",
@@ -4632,7 +5073,18 @@
         "points": 39.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
+      },
+      {
+        "name": "Carlos Sainz",
+        "firstName": "Carlos",
+        "lookupKey": "sainz_carlos",
+        "points": 38.0,
+        "team": "Williams",
+        "color": "#1868DB",
+        "rank": 10,
+        "rankDisplay": "12"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -4641,7 +5093,8 @@
         "points": 37.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 10
+        "rank": 11,
+        "rankDisplay": "10"
       },
       {
         "name": "Fernando Alonso",
@@ -4650,16 +5103,8 @@
         "points": 36.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 11
-      },
-      {
-        "name": "Carlos Sainz",
-        "firstName": "Carlos",
-        "lookupKey": "sainz_carlos",
-        "points": 32.0,
-        "team": "Williams",
-        "color": "#1868DB",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "11"
       },
       {
         "name": "Lance Stroll",
@@ -4668,7 +5113,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -4677,7 +5123,8 @@
         "points": 30.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Esteban Ocon",
@@ -4686,7 +5133,18 @@
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
+      },
+      {
+        "name": "Yuki Tsunoda",
+        "firstName": "Yuki",
+        "lookupKey": "tsunoda_yuki",
+        "points": 22.0,
+        "team": "Red Bull",
+        "color": "#4781D7",
+        "rank": 16,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
@@ -4695,16 +5153,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 16
-      },
-      {
-        "name": "Yuki Tsunoda",
-        "firstName": "Yuki",
-        "lookupKey": "tsunoda_yuki",
-        "points": 20.0,
-        "team": "Red Bull",
-        "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "16"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -4713,7 +5163,8 @@
         "points": 18.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Oliver Bearman",
@@ -4722,7 +5173,8 @@
         "points": 18.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -4731,7 +5183,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -4740,7 +5193,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -4780,7 +5234,8 @@
         "points": 346.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Lando Norris",
@@ -4789,7 +5244,8 @@
         "points": 332.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -4798,7 +5254,8 @@
         "points": 306.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -4807,7 +5264,8 @@
         "points": 252.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -4816,7 +5274,8 @@
         "points": 192.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -4825,7 +5284,8 @@
         "points": 142.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -4834,7 +5294,8 @@
         "points": 89.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -4843,7 +5304,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -4852,7 +5314,8 @@
         "points": 41.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Isack Hadjar",
@@ -4861,7 +5324,8 @@
         "points": 39.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Carlos Sainz",
@@ -4870,7 +5334,8 @@
         "points": 38.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Fernando Alonso",
@@ -4879,7 +5344,8 @@
         "points": 37.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Lance Stroll",
@@ -4888,7 +5354,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -4897,7 +5364,8 @@
         "points": 30.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Esteban Ocon",
@@ -4906,7 +5374,8 @@
         "points": 28.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Yuki Tsunoda",
@@ -4915,7 +5384,8 @@
         "points": 28.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Pierre Gasly",
@@ -4924,7 +5394,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Oliver Bearman",
@@ -4933,7 +5404,8 @@
         "points": 20.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -4942,7 +5414,8 @@
         "points": 18.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -4951,7 +5424,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -4960,7 +5434,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -5000,7 +5475,8 @@
         "points": 357.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Oscar Piastri",
@@ -5009,7 +5485,8 @@
         "points": 356.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -5018,7 +5495,8 @@
         "points": 321.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -5027,7 +5505,8 @@
         "points": 258.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -5036,7 +5515,8 @@
         "points": 210.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -5045,7 +5525,8 @@
         "points": 146.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -5054,7 +5535,8 @@
         "points": 97.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -5063,7 +5545,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -5072,7 +5555,8 @@
         "points": 41.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Isack Hadjar",
@@ -5081,7 +5565,8 @@
         "points": 39.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Carlos Sainz",
@@ -5090,7 +5575,8 @@
         "points": 38.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Fernando Alonso",
@@ -5099,7 +5585,8 @@
         "points": 37.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Oliver Bearman",
@@ -5108,7 +5595,8 @@
         "points": 32.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Lance Stroll",
@@ -5117,7 +5605,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -5126,7 +5615,8 @@
         "points": 30.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Esteban Ocon",
@@ -5135,7 +5625,8 @@
         "points": 30.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -5144,7 +5635,8 @@
         "points": 28.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
@@ -5153,7 +5645,8 @@
         "points": 20.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -5162,7 +5655,8 @@
         "points": 19.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -5171,7 +5665,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -5180,7 +5675,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -5217,10 +5713,11 @@
         "name": "Lando Norris",
         "firstName": "Lando",
         "lookupKey": "norris_lando",
-        "points": 357.0,
+        "points": 365.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Oscar Piastri",
@@ -5229,52 +5726,58 @@
         "points": 356.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
         "firstName": "Max",
         "lookupKey": "verstappen_max",
-        "points": 321.0,
+        "points": 326.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
         "firstName": "George",
         "lookupKey": "russell_george",
-        "points": 258.0,
+        "points": 264.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
         "firstName": "Charles",
         "lookupKey": "leclerc_charles",
-        "points": 210.0,
+        "points": 214.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
         "firstName": "Lewis",
         "lookupKey": "hamilton_lewis",
-        "points": 146.0,
+        "points": 148.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
         "firstName": "Andrea Kimi",
         "lookupKey": "antonelli_andrea kimi",
-        "points": 97.0,
+        "points": 104.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -5283,7 +5786,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -5292,7 +5796,18 @@
         "points": 41.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
+      },
+      {
+        "name": "Fernando Alonso",
+        "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
+        "points": 40.0,
+        "team": "Aston Martin",
+        "color": "#229971",
+        "rank": 10,
+        "rankDisplay": "12"
       },
       {
         "name": "Isack Hadjar",
@@ -5301,7 +5816,8 @@
         "points": 39.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 11,
+        "rankDisplay": "10"
       },
       {
         "name": "Carlos Sainz",
@@ -5310,16 +5826,8 @@
         "points": 38.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 11
-      },
-      {
-        "name": "Fernando Alonso",
-        "firstName": "Fernando",
-        "lookupKey": "alonso_fernando",
-        "points": 37.0,
-        "team": "Aston Martin",
-        "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "11"
       },
       {
         "name": "Oliver Bearman",
@@ -5328,7 +5836,8 @@
         "points": 32.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Lance Stroll",
@@ -5337,7 +5846,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Liam Lawson",
@@ -5346,7 +5856,8 @@
         "points": 30.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Esteban Ocon",
@@ -5355,7 +5866,8 @@
         "points": 30.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -5364,16 +5876,18 @@
         "points": 28.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
         "firstName": "Pierre",
         "lookupKey": "gasly_pierre",
-        "points": 20.0,
+        "points": 21.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -5382,7 +5896,8 @@
         "points": 19.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -5391,7 +5906,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -5400,7 +5916,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -5440,7 +5957,8 @@
         "points": 390.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Oscar Piastri",
@@ -5449,7 +5967,8 @@
         "points": 366.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -5458,7 +5977,8 @@
         "points": 341.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -5467,7 +5987,8 @@
         "points": 276.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -5476,7 +5997,8 @@
         "points": 214.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -5485,7 +6007,8 @@
         "points": 148.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -5494,7 +6017,8 @@
         "points": 122.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -5503,7 +6027,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -5512,7 +6037,8 @@
         "points": 43.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Isack Hadjar",
@@ -5521,7 +6047,8 @@
         "points": 43.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Oliver Bearman",
@@ -5530,7 +6057,8 @@
         "points": 40.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Fernando Alonso",
@@ -5539,7 +6067,8 @@
         "points": 40.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Carlos Sainz",
@@ -5548,7 +6077,8 @@
         "points": 38.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -5557,7 +6087,8 @@
         "points": 36.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Lance Stroll",
@@ -5566,7 +6097,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Esteban Ocon",
@@ -5575,7 +6107,8 @@
         "points": 30.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -5584,7 +6117,8 @@
         "points": 28.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
@@ -5593,7 +6127,8 @@
         "points": 22.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -5602,7 +6137,8 @@
         "points": 19.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -5611,7 +6147,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -5620,7 +6157,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -5660,7 +6198,8 @@
         "points": 390.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Oscar Piastri",
@@ -5669,7 +6208,8 @@
         "points": 366.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
@@ -5678,7 +6218,8 @@
         "points": 366.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -5687,7 +6228,8 @@
         "points": 294.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -5696,7 +6238,8 @@
         "points": 226.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -5705,7 +6248,8 @@
         "points": 152.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -5714,7 +6258,8 @@
         "points": 137.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -5723,7 +6268,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Isack Hadjar",
@@ -5732,7 +6278,8 @@
         "points": 51.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -5741,7 +6288,8 @@
         "points": 49.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Carlos Sainz",
@@ -5750,7 +6298,8 @@
         "points": 48.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Oliver Bearman",
@@ -5759,7 +6308,8 @@
         "points": 41.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Fernando Alonso",
@@ -5768,7 +6318,8 @@
         "points": 40.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -5777,7 +6328,8 @@
         "points": 36.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Esteban Ocon",
@@ -5786,7 +6338,8 @@
         "points": 32.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Lance Stroll",
@@ -5795,7 +6348,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -5804,7 +6358,8 @@
         "points": 28.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
@@ -5813,7 +6368,8 @@
         "points": 22.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -5822,7 +6378,8 @@
         "points": 19.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -5831,7 +6388,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -5840,7 +6398,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -5877,37 +6436,41 @@
         "name": "Lando Norris",
         "firstName": "Lando",
         "lookupKey": "norris_lando",
-        "points": 390.0,
+        "points": 396.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Oscar Piastri",
         "firstName": "Oscar",
         "lookupKey": "piastri_oscar",
-        "points": 366.0,
+        "points": 374.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Max Verstappen",
         "firstName": "Max",
         "lookupKey": "verstappen_max",
-        "points": 366.0,
+        "points": 371.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
         "firstName": "George",
         "lookupKey": "russell_george",
-        "points": 294.0,
+        "points": 301.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -5916,7 +6479,8 @@
         "points": 226.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -5925,16 +6489,18 @@
         "points": 152.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
         "firstName": "Andrea Kimi",
         "lookupKey": "antonelli_andrea kimi",
-        "points": 137.0,
+        "points": 140.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -5943,7 +6509,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Isack Hadjar",
@@ -5952,7 +6519,8 @@
         "points": 51.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -5961,16 +6529,28 @@
         "points": 49.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Carlos Sainz",
         "firstName": "Carlos",
         "lookupKey": "sainz_carlos",
-        "points": 48.0,
+        "points": 49.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
+      },
+      {
+        "name": "Fernando Alonso",
+        "firstName": "Fernando",
+        "lookupKey": "alonso_fernando",
+        "points": 42.0,
+        "team": "Aston Martin",
+        "color": "#229971",
+        "rank": 12,
+        "rankDisplay": "13"
       },
       {
         "name": "Oliver Bearman",
@@ -5979,16 +6559,8 @@
         "points": 41.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 12
-      },
-      {
-        "name": "Fernando Alonso",
-        "firstName": "Fernando",
-        "lookupKey": "alonso_fernando",
-        "points": 40.0,
-        "team": "Aston Martin",
-        "color": "#229971",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "12"
       },
       {
         "name": "Liam Lawson",
@@ -5997,7 +6569,8 @@
         "points": 36.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Esteban Ocon",
@@ -6006,7 +6579,8 @@
         "points": 32.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Lance Stroll",
@@ -6015,16 +6589,18 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
         "firstName": "Yuki",
         "lookupKey": "tsunoda_yuki",
-        "points": 28.0,
+        "points": 32.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
@@ -6033,7 +6609,8 @@
         "points": 22.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -6042,7 +6619,8 @@
         "points": 19.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -6051,7 +6629,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -6060,7 +6639,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -6100,7 +6680,8 @@
         "points": 408.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Max Verstappen",
@@ -6109,7 +6690,8 @@
         "points": 396.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Oscar Piastri",
@@ -6118,7 +6700,8 @@
         "points": 392.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -6127,7 +6710,8 @@
         "points": 309.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -6136,7 +6720,8 @@
         "points": 230.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -6145,7 +6730,8 @@
         "points": 152.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -6154,7 +6740,8 @@
         "points": 150.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -6163,7 +6750,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Carlos Sainz",
@@ -6172,7 +6760,8 @@
         "points": 64.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Isack Hadjar",
@@ -6181,7 +6770,8 @@
         "points": 51.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -6190,7 +6780,8 @@
         "points": 49.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Fernando Alonso",
@@ -6199,7 +6790,8 @@
         "points": 48.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Oliver Bearman",
@@ -6208,7 +6800,8 @@
         "points": 41.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -6217,7 +6810,8 @@
         "points": 38.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Yuki Tsunoda",
@@ -6226,7 +6820,8 @@
         "points": 33.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Esteban Ocon",
@@ -6235,7 +6830,8 @@
         "points": 32.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Lance Stroll",
@@ -6244,7 +6840,8 @@
         "points": 32.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
@@ -6253,7 +6850,8 @@
         "points": 22.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -6262,7 +6860,8 @@
         "points": 19.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -6271,7 +6870,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -6280,7 +6880,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
@@ -6320,7 +6921,8 @@
         "points": 423.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 1
+        "rank": 1,
+        "rankDisplay": "1"
       },
       {
         "name": "Max Verstappen",
@@ -6329,7 +6931,8 @@
         "points": 421.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 2
+        "rank": 2,
+        "rankDisplay": "2"
       },
       {
         "name": "Oscar Piastri",
@@ -6338,7 +6941,8 @@
         "points": 410.0,
         "team": "McLaren",
         "color": "#F47600",
-        "rank": 3
+        "rank": 3,
+        "rankDisplay": "3"
       },
       {
         "name": "George Russell",
@@ -6347,7 +6951,8 @@
         "points": 319.0,
         "team": "Mercedes",
         "color": "#00D7B6",
-        "rank": 4
+        "rank": 4,
+        "rankDisplay": "4"
       },
       {
         "name": "Charles Leclerc",
@@ -6356,7 +6961,8 @@
         "points": 242.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 5
+        "rank": 5,
+        "rankDisplay": "5"
       },
       {
         "name": "Lewis Hamilton",
@@ -6365,7 +6971,8 @@
         "points": 156.0,
         "team": "Ferrari",
         "color": "#ED1131",
-        "rank": 6
+        "rank": 6,
+        "rankDisplay": "6"
       },
       {
         "name": "Andrea Kimi Antonelli",
@@ -6374,7 +6981,8 @@
         "points": 150.0,
         "team": "Mercedes",
         "color": "#00D2BE",
-        "rank": 7
+        "rank": 7,
+        "rankDisplay": "7"
       },
       {
         "name": "Alexander Albon",
@@ -6383,7 +6991,8 @@
         "points": 73.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 8
+        "rank": 8,
+        "rankDisplay": "8"
       },
       {
         "name": "Carlos Sainz",
@@ -6392,7 +7001,8 @@
         "points": 64.0,
         "team": "Williams",
         "color": "#1868DB",
-        "rank": 9
+        "rank": 9,
+        "rankDisplay": "9"
       },
       {
         "name": "Fernando Alonso",
@@ -6401,7 +7011,8 @@
         "points": 56.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 10
+        "rank": 10,
+        "rankDisplay": "10"
       },
       {
         "name": "Nico H\u00fclkenberg",
@@ -6410,7 +7021,8 @@
         "points": 51.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 11
+        "rank": 11,
+        "rankDisplay": "11"
       },
       {
         "name": "Isack Hadjar",
@@ -6419,7 +7031,8 @@
         "points": 51.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 12
+        "rank": 12,
+        "rankDisplay": "12"
       },
       {
         "name": "Oliver Bearman",
@@ -6428,7 +7041,8 @@
         "points": 41.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 13
+        "rank": 13,
+        "rankDisplay": "13"
       },
       {
         "name": "Liam Lawson",
@@ -6437,7 +7051,8 @@
         "points": 38.0,
         "team": "RB F1 Team",
         "color": "#6C98FF",
-        "rank": 14
+        "rank": 14,
+        "rankDisplay": "14"
       },
       {
         "name": "Esteban Ocon",
@@ -6446,7 +7061,8 @@
         "points": 38.0,
         "team": "Haas F1 Team",
         "color": "#9C9FA2",
-        "rank": 15
+        "rank": 15,
+        "rankDisplay": "15"
       },
       {
         "name": "Lance Stroll",
@@ -6455,7 +7071,8 @@
         "points": 33.0,
         "team": "Aston Martin",
         "color": "#229971",
-        "rank": 16
+        "rank": 16,
+        "rankDisplay": "16"
       },
       {
         "name": "Yuki Tsunoda",
@@ -6464,7 +7081,8 @@
         "points": 33.0,
         "team": "Red Bull",
         "color": "#4781D7",
-        "rank": 17
+        "rank": 17,
+        "rankDisplay": "17"
       },
       {
         "name": "Pierre Gasly",
@@ -6473,7 +7091,8 @@
         "points": 22.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 18
+        "rank": 18,
+        "rankDisplay": "18"
       },
       {
         "name": "Gabriel Bortoleto",
@@ -6482,7 +7101,8 @@
         "points": 19.0,
         "team": "Sauber",
         "color": "#01C00E",
-        "rank": 19
+        "rank": 19,
+        "rankDisplay": "19"
       },
       {
         "name": "Franco Colapinto",
@@ -6491,7 +7111,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#00A1E8",
-        "rank": 20
+        "rank": 20,
+        "rankDisplay": "20"
       },
       {
         "name": "Jack Doohan",
@@ -6500,7 +7121,8 @@
         "points": 0.0,
         "team": "Alpine F1 Team",
         "color": "#C0C0C0",
-        "rank": 21
+        "rank": 21,
+        "rankDisplay": "21"
       }
     ],
     "raceResults": {
