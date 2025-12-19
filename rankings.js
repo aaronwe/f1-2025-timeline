@@ -517,7 +517,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if (!context || !context.length) return ''; // Safety check
                                 const idx = context[0].dataIndex;
                                 const step = history[idx];
-                                return `${step.eventName} | ${step.session}\n${step.date}`;
+                                return `${step.eventName} | ${step.session}\n${step.date} | ${step.location}`;
                             },
                             label: function (context) {
                                 // 1. Identify "Active" Driver (Hovered)
