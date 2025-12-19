@@ -4,7 +4,7 @@ An interactive dashboard for exploring Formula 1 World Championship history. Thi
 
 It currently supports **1991–Present**, handling scoring quirks, disqualifications, and team changes with (what I believe to be) high accuracy.
 
-> **[Live Demo](https://aaronwe.github.io/f1-2025-timeline/)**
+> **[Live Demo](https://aaronwe.github.io/f1-standings-timeline/)**
 
 ## ✨ Features
 
@@ -34,8 +34,8 @@ It currently supports **1991–Present**, handling scoring quirks, disqualificat
 Clone the repository and install the Python dependencies:
 
 ```bash
-git clone https://github.com/aaronwe/f1-2025-timeline.git
-cd f1-2025-timeline
+git clone https://github.com/aaronwe/f1-standings-timeline.git
+cd f1-standings-timeline
 
 python3 -m venv venv
 source venv/bin/activate
